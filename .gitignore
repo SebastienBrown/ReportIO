@@ -1,0 +1,28 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Environment Variables
+.env
+
+# VSCode settings (optional, if using VSCode)
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Jupyter Notebooks (optional, if not needed in repo)
+*.ipynb_checkpoints
+
+# Log files
+*.log
+
+# Cache directories
+.cache/
