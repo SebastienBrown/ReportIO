@@ -1,44 +1,200 @@
 [
   {
     "kind": "customsearch#result",
-    "title": "Latest AI Breakthroughs and News: May-June 2025 | News",
-    "htmlTitle": "<b>Latest AI Breakthroughs</b> and News: May-June 2025 | News",
-    "link": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-    "displayLink": "www.crescendo.ai",
-    "snippet": "Jun 21, 2025 ... Summary: Australian researchers have developed a brain-computer interface (BCI) that uses AI to translate brain signals into words. The system ...",
-    "htmlSnippet": "Jun 21, 2025 <b>...</b> Summary: Australian <b>researchers</b> have developed a brain-computer interface (BCI) that uses <b>AI</b> to translate brain signals into words. The system&nbsp;...",
-    "formattedUrl": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-    "htmlFormattedUrl": "https://www.crescendo.<b>ai</b>/news/<b>latest</b>-<b>ai</b>-news-and-updates",
+    "title": "My experience on starting with fine tuning LLMs with custom data : r ...",
+    "htmlTitle": "My experience on starting with <b>fine tuning</b> LLMs with custom data : r ...",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/14vnfh2/my_experience_on_starting_with_fine_tuning_llms/",
+    "displayLink": "www.reddit.com",
+    "snippet": "Jul 10, 2023 ... There are also internal chatbots to be used to train new people joining the company and several other use cases. So, I was thinking to share my ...",
+    "htmlSnippet": "Jul 10, 2023 <b>...</b> There are also internal chatbots to be used to train <b>new</b> people joining the company and several other use cases. So, I was thinking to share my&nbsp;...",
+    "formattedUrl": "https://www.reddit.com/.../my_experience_on_starting_with_fine_tuning_ll...",
+    "htmlFormattedUrl": "https://www.reddit.com/.../my_experience_on_starting_with_<b>fine_tuning</b>_ll...",
     "pagemap": {
       "metatags": [
         {
-          "twitter:title": "Latest AI Breakthroughs and News: May-June 2025 | News",
+          "og:image": "https://share.redd.it/preview/post/14vnfh2",
+          "theme-color": "#000000",
+          "og:image:width": "1200",
           "og:type": "website",
+          "og:image:alt": "An image containing a preview of the post",
           "twitter:card": "summary_large_image",
-          "viewport": "width=device-width, initial-scale=1",
-          "twitter:description": "Wondering what’s happening in the AI world? Here are the latest AI breakthroughs and news that are shaping the world around us!",
-          "og:title": "Latest AI Breakthroughs and News: May-June 2025 | News",
-          "og:description": "Wondering what’s happening in the AI world? Here are the latest AI breakthroughs and news that are shaping the world around us!"
+          "twitter:title": "r/LocalLLaMA on Reddit: My experience on starting with fine tuning LLMs with custom data",
+          "og:site_name": "Reddit",
+          "og:title": "r/LocalLLaMA on Reddit: My experience on starting with fine tuning LLMs with custom data",
+          "og:image:height": "630",
+          "msapplication-navbutton-color": "#000000",
+          "og:description": "Posted by u/Ion_GPT - 954 votes and 259 comments",
+          "twitter:image": "https://share.redd.it/preview/post/14vnfh2",
+          "apple-mobile-web-app-status-bar-style": "black",
+          "twitter:site": "@reddit",
+          "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+          "apple-mobile-web-app-capable": "yes",
+          "og:ttl": "600",
+          "og:url": "https://www.reddit.com/r/LocalLLaMA/comments/14vnfh2/my_experience_on_starting_with_fine_tuning_llms/"
         }
       ]
     }
   },
   {
     "kind": "customsearch#result",
-    "title": "2 AI breakthroughs unlock new potential for health and science",
-    "htmlTitle": "2 <b>AI breakthroughs</b> unlock <b>new</b> potential for health and science",
-    "link": "https://news.microsoft.com/source/features/ai/2-ai-breakthroughs-unlock-new-potential-for-health-and-science/",
-    "displayLink": "news.microsoft.com",
-    "snippet": "Jan 17, 2025 ... Generative AI foundation models can exponentially speed up scientific discovery of new materials and help doctors access and analyze radiology results faster.",
-    "htmlSnippet": "Jan 17, 2025 <b>...</b> Generative <b>AI</b> foundation models can exponentially speed up scientific discovery of <b>new</b> materials and help doctors access and analyze radiology results faster.",
-    "formattedUrl": "https://news.microsoft.com/.../ai/2-ai-breakthroughs-unlock-new-potential-f...",
-    "htmlFormattedUrl": "https://news.microsoft.com/.../<b>ai</b>/2-<b>ai</b>-<b>breakthroughs</b>-unlock-new-potential-f...",
+    "title": "What is Fine-Tuning? | IBM",
+    "htmlTitle": "What is <b>Fine</b>-<b>Tuning</b>? | IBM",
+    "link": "https://www.ibm.com/think/topics/fine-tuning",
+    "displayLink": "www.ibm.com",
+    "snippet": "Mar 15, 2024 ... Fine-tuning in machine learning is the process of adapting a pre-trained model for specific tasks or use cases.",
+    "htmlSnippet": "Mar 15, 2024 <b>...</b> <b>Fine</b>-<b>tuning</b> in <b>machine learning</b> is the <b>process of adapting a pre-trained model for specific tasks or use cases</b>.",
+    "formattedUrl": "https://www.ibm.com/think/topics/fine-tuning",
+    "htmlFormattedUrl": "https://www.ibm.com/think/topics/<b>fine-tuning</b>",
     "pagemap": {
       "cse_thumbnail": [
         {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvEg7l_M_gb73Zbjd7_DHA4CszABgJZnLrwb0xFI-OPdXTqe7iv3P_Bjw&s",
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojEAP1uQbvi_6awjjhHctX5_jeIdymiYirJAIrR_ocRtjFPnWtI_v5mPm&s",
           "width": "275",
-          "height": "184"
+          "height": "183"
+        }
+      ],
+      "metatags": [
+        {
+          "template": "article",
+          "og:image": "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/4d/f0/d6d77e2d-c6e9-431c-b441-94b416b7577c.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
+          "ibm.com.search.appid": "thinkhub",
+          "ibm.search.facet.field_hierarchy_01": "taxonomy : Topics / AI and ML / Machine learning / Model training / Fine tuning",
+          "og:type": "website",
+          "ibm.search.facet.field_keyword_09": "https://prod-cloud-publish.aem.ibm.net/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/4d/f0/d6d77e2d-c6e9-431c-b441-94b416b7577c.component.crop-thumbnail-16-by-9-retina.ts=0.jpg/content/adobe-cms/us/en/think/topics/fine-tuning/jcr:content/root/leadspace_container/leadspace_article",
+          "ibm.search.facet.field_hierarchy_03": "taxonomy : Content Format / Article",
+          "countrycode": "us",
+          "ibm.search.facet.field_hierarchy_04": "taxonomy : Content Type / Explainer",
+          "og:title": "What is Fine-Tuning? | IBM",
+          "ibm.search.facet.field_text_01": "15 March 2024",
+          "dcterms.date": "2024-03-15T00:00:00.000",
+          "og:description": "Fine-tuning in machine learning is the process of adapting a pre-trained model for specific tasks or use cases through further training on a smaller dataset.",
+          "searchtitle": "What is Fine-Tuning?",
+          "ibm.search.facet.field_text_03": "Explainer",
+          "languagecode": "en",
+          "ibm.com.search.scopes": "thinkhub",
+          "viewport": "width=device-width, initial-scale=1",
+          "og:locale": "en-US",
+          "ibm.search.facet.field_keyword_01": "Fine tuning",
+          "og:url": "https://www.ibm.com/think/topics/fine-tuning",
+          "focusarea": "Cloud - Public Cloud Platform - All"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/4d/f0/d6d77e2d-c6e9-431c-b441-94b416b7577c.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Should a new grad spend time on learning RAG or Fine-tuning?",
+    "htmlTitle": "Should a <b>new</b> grad spend time on <b>learning</b> RAG or <b>Fine</b>-<b>tuning</b>?",
+    "link": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
+    "displayLink": "www.linkedin.com",
+    "snippet": "Nov 6, 2024 ... On the other hand, if you're interested in becoming a Gen-AI application developer, you'll need to dive deep into concepts like RAG (Retrieval- ...",
+    "htmlSnippet": "Nov 6, 2024 <b>...</b> On the other hand, if you&#39;re interested in becoming a Gen-AI application developer, you&#39;ll need to dive <b>deep</b> into concepts like RAG (Retrieval-&nbsp;...",
+    "formattedUrl": "https://www.linkedin.com/.../should-new-grad-spend-time-learning-rag-fine...",
+    "htmlFormattedUrl": "https://www.linkedin.com/.../should-new-grad-spend-time-<b>learning</b>-rag-<b>fine</b>...",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8VC5zRd0_dJ1JqTuSoA3ss6QZ05fKtNlCnGpeYcj4MEYwaEBUHZBExeZ&s",
+          "width": "300",
+          "height": "168"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://media.licdn.com/dms/image/v2/D5612AQF9utYH0GA09Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730902019240?e=2147483647&v=beta&t=kaHlG2FHxMln9zNoAm6HCVg90Prq0ieE5G0ISgh2Hfw",
+          "twitter:card": "summary_large_image",
+          "clientsideingraphs": "1",
+          "al:android:package": "com.linkedin.android",
+          "twitter:label1": "Written by",
+          "twitter:label2": "Reading time",
+          "bingbot": "nocache",
+          "locale": "en_US",
+          "al:ios:url": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
+          "og:description": "Raj's response to a thread on Reddit - putting it out on LinkedIn for wider reach. Hoping that some new grad somewhere may have the same question ;-) Recently I came across a thread on Reddit - the post was put out by a new grad looking for advice on whether they should spend time on learning Retrie",
+          "al:ios:app_store_id": "288429040",
+          "twitter:image": "https://media.licdn.com/dms/image/v2/D5612AQF9utYH0GA09Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730902019240?e=2147483647&v=beta&t=kaHlG2FHxMln9zNoAm6HCVg90Prq0ieE5G0ISgh2Hfw",
+          "twitter:data1": "Rajeev Sakhuja",
+          "twitter:data2": "4 min read",
+          "twitter:site": "@LinkedInEditors",
+          "og:type": "article",
+          "twitter:title": "Should a new grad spend time on learning RAG or Fine-tuning?",
+          "al:ios:app_name": "LinkedIn",
+          "og:title": "Should a new grad spend time on learning RAG or Fine-tuning?",
+          "pagekey": "p_flagship2_pulse_read",
+          "al:android:url": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "twitter:description": "Raj's response to a thread on Reddit - putting it out on LinkedIn for wider reach. Hoping that some new grad somewhere may have the same question ;-) Recently I came across a thread on Reddit - the post was put out by a new grad looking for advice on whether they should spend time on learning Retrie",
+          "og:url": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
+          "al:android:app_name": "LinkedIn"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://media.licdn.com/dms/image/v2/D5612AQF9utYH0GA09Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730902019240?e=2147483647&v=beta&t=kaHlG2FHxMln9zNoAm6HCVg90Prq0ieE5G0ISgh2Hfw"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Understanding Fine Tuning in Deep Learning: A Guide",
+    "htmlTitle": "Understanding <b>Fine Tuning</b> in <b>Deep Learning</b>: A <b>Guide</b>",
+    "link": "https://www.multimodal.dev/post/understanding-fine-tuning-in-deep-learning",
+    "displayLink": "www.multimodal.dev",
+    "snippet": "Sep 27, 2023 ... Fine-tuning consists of leveraging a model trained on a larger dataset called a pre-trained model and making precise adjustments during the ...",
+    "htmlSnippet": "Sep 27, 2023 <b>...</b> <b>Fine</b>-<b>tuning</b> consists of leveraging a model trained on a larger dataset called a pre-trained model and making precise adjustments during the&nbsp;...",
+    "formattedUrl": "https://www.multimodal.dev/.../understanding-fine-tuning-in-deep-learning",
+    "htmlFormattedUrl": "https://www.multimodal.dev/.../understanding-<b>fine-tuning</b>-in-deep-<b>learning</b>",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSFNyVTOEM5cRKI3odzjOkU-Uyr5QmrB3BudPDSFIlYgtQe4CyM8gxIk&s",
+          "width": "275",
+          "height": "183"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://cdn.prod.website-files.com/636e9a9a8d334e3450b08cc9/662b7759c47f6fe2ed643edd_Untitled%20(35).webp",
+          "twitter:title": "Understanding Fine Tuning in Deep Learning: A Guide",
+          "og:type": "website",
+          "twitter:card": "summary_large_image",
+          "viewport": "width=device-width, initial-scale=1",
+          "twitter:description": "Fine-tuning in deep learning can give your business a competitive advantage. Discover its benefits, challenges, and real-world applications.",
+          "og:title": "Understanding Fine Tuning in Deep Learning: A Guide",
+          "og:url": "https://www.multimodal.dev/understanding-fine-tuning-in-deep-learning",
+          "og:description": "Fine-tuning in deep learning can give your business a competitive advantage. Discover its benefits, challenges, and real-world applications.",
+          "twitter:image": "https://cdn.prod.website-files.com/636e9a9a8d334e3450b08cc9/662b7759c47f6fe2ed643edd_Untitled%20(35).webp"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://cdn.prod.website-files.com/636e9a9a8d334e3450b08cc9/662b7759c47f6fe2ed643edd_Untitled%20(35).webp"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Announcing new fine-tuning models and techniques in Azure AI ...",
+    "htmlTitle": "Announcing <b>new fine</b>-<b>tuning</b> models and <b>techniques</b> in Azure AI ...",
+    "link": "https://azure.microsoft.com/en-us/blog/announcing-new-fine-tuning-models-and-techniques-in-azure-ai-foundry/",
+    "displayLink": "azure.microsoft.com",
+    "snippet": "May 12, 2025 ... ... fine-tune and inference using your own GPU quota. Available in both Azure AI Foundry and as Azure Machine Learning components, you have ...",
+    "htmlSnippet": "May 12, 2025 <b>...</b> ... <b>fine</b>-<b>tune</b> and inference using your own GPU quota. Available in both Azure AI Foundry and as Azure <b>Machine Learning</b> components, you have&nbsp;...",
+    "formattedUrl": "https://azure.microsoft.com/.../announcing-new-fine-tuning-models-and-tec...",
+    "htmlFormattedUrl": "https://azure.microsoft.com/.../announcing-new-<b>fine-tuning</b>-models-and-<b>tec</b>...",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4hkY5D8-u9VFd2e7OJm-pe9DhKkkJG_hxPfrZoD0MG8tz8yKsznSddG4&s",
+          "width": "300",
+          "height": "168"
         }
       ],
       "organization": [
@@ -50,391 +206,291 @@
       ],
       "metatags": [
         {
-          "og:image": "https://news.microsoft.com/source/wp-content/uploads/2025/01/Experimental-validation-modified.png",
-          "og:type": "article",
-          "og:image:width": "1796",
+          "og:image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/05/use_Azure_1055915_Blog_250509.png",
+          "article:published_time": "2025-05-12T23:00:00+00:00",
+          "og:image:width": "1260",
           "twitter:card": "summary_large_image",
-          "twitter:title": "2 AI breakthroughs unlock new potential for health and science",
-          "og:site_name": "Source",
-          "apple-mobile-web-app-title": "Source -",
-          "og:title": "2 AI breakthroughs unlock new potential for health and science",
-          "og:image:height": "1202",
-          "twitter:label1": "Est. reading time",
-          "twitter:label2": "Written by",
-          "og:image:type": "image/png",
-          "msapplication-tileimage": "https://msthesource.thesourcemediaassets.com/2022/10/cropped-Microsoft_logo.svg_-300x300-1.png",
-          "og:description": "Two new breakthroughs in research hold the promise of reshaping the discovery of new materials and improving medical care.",
-          "twitter:image": "https://msthesource.thesourcemediaassets.com/2025/01/Experimental-validation-modified.png",
-          "twitter:data1": "4 minutes",
-          "twitter:data2": "Paul Nyhan",
-          "article:modified_time": "2025-01-17T16:54:24+00:00",
-          "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
-          "apple-mobile-web-app-capable": "yes",
-          "twitter:description": "Two new breakthroughs in research hold the promise of reshaping the discovery of new materials and improving medical care.",
-          "mobile-web-app-capable": "yes",
-          "og:locale": "en_US",
-          "og:url": "https://news.microsoft.com/source/features/ai/2-ai-breakthroughs-unlock-new-potential-for-health-and-science/"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://news.microsoft.com/source/wp-content/uploads/2025/01/Experimental-validation-modified.png"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Projects - Google DeepMind",
-    "htmlTitle": "Projects - Google DeepMind",
-    "link": "https://deepmind.google/research/projects/",
-    "displayLink": "deepmind.google",
-    "snippet": "Our latest AI breakthroughs and updates from the lab. Explore research ... breakthrough research in machine learning and responsible AI. AlphaCode. AI ...",
-    "htmlSnippet": "Our <b>latest AI breakthroughs</b> and updates from the lab. Explore <b>research</b> ... <b>breakthrough research</b> in machine learning and responsible <b>AI</b>. AlphaCode. <b>AI</b>&nbsp;...",
-    "formattedUrl": "https://deepmind.google/research/projects/",
-    "htmlFormattedUrl": "https://deepmind.google/<b>research</b>/projects/",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA_NX2fxN7IqtO-tQEopWS1wgW-H47nlecxzQAJmWd9dJsmkAvIna87DA&s",
-          "width": "310",
-          "height": "163"
-        }
-      ],
-      "metatags": [
-        {
-          "og:image": "https://lh3.googleusercontent.com/VEIJiplOab4catyNZs6QjZxwjbqVmrh2fIZF8Gj7Xd7TQRq1q4bqDmbeSuVzHPzDhC8vKYI5nZLft79VWP5Oi7j_ARAzyFVxMdJIMKxDD5VfRpGm=w1200-h630-n-nu",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "twitter:title": "Projects",
-          "og:site_name": "Google DeepMind",
-          "twitter:url": "https://deepmind.google/research/projects/",
-          "og:title": "Projects",
-          "og:description": "Explore some of the biggest innovations in AI, many of which underpin the modern AI industry.",
-          "twitter:image:src": "https://lh3.googleusercontent.com/VEIJiplOab4catyNZs6QjZxwjbqVmrh2fIZF8Gj7Xd7TQRq1q4bqDmbeSuVzHPzDhC8vKYI5nZLft79VWP5Oi7j_ARAzyFVxMdJIMKxDD5VfRpGm=w1600-h900-n-nu",
-          "twitter:site": "@GoogleDeepMind",
-          "viewport": "initial-scale=1, minimum-scale=1, width=device-width",
-          "twitter:description": "Explore some of the biggest innovations in AI, many of which underpin the modern AI industry.",
-          "og:url": "https://deepmind.google/research/projects/"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://lh3.googleusercontent.com/VEIJiplOab4catyNZs6QjZxwjbqVmrh2fIZF8Gj7Xd7TQRq1q4bqDmbeSuVzHPzDhC8vKYI5nZLft79VWP5Oi7j_ARAzyFVxMdJIMKxDD5VfRpGm=w1200-h630-n-nu"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "National Robotics Week — Latest Physical AI Research ...",
-    "htmlTitle": "National Robotics Week — <b>Latest</b> Physical <b>AI Research</b> ...",
-    "link": "https://blogs.nvidia.com/blog/national-robotics-week-2025/",
-    "displayLink": "blogs.nvidia.com",
-    "snippet": "Apr 12, 2025 ... Watch on-demand sessions from the NVIDIA GTC global AI conference to catch up on recent breakthroughs in robotics, showcased by leading experts ...",
-    "htmlSnippet": "Apr 12, 2025 <b>...</b> Watch on-demand sessions from the NVIDIA GTC global <b>AI</b> conference to catch up on recent <b>breakthroughs</b> in robotics, showcased by leading experts&nbsp;...",
-    "formattedUrl": "https://blogs.nvidia.com/blog/national-robotics-week-2025/",
-    "htmlFormattedUrl": "https://blogs.nvidia.com/blog/national-robotics-week-2025/",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2tHhT8feEucEazm5-p7U7_2oGlDiJSQlA2IWuqmv4V93qgvcVFs_TKYY&s",
-          "width": "300",
-          "height": "168"
-        }
-      ],
-      "metatags": [
-        {
-          "og:image": "https://blogs.nvidia.com/wp-content/uploads/2025/04/ebb703fb-1272-4fa3-bcf2-fbcc2f50ff67-1680x945.png",
-          "og:type": "article",
-          "article:published_time": "2025-04-12T16:00:05+00:00",
-          "og:image:width": "1680",
-          "twitter:card": "summary_large_image",
-          "og:site_name": "NVIDIA Blog",
-          "author": "NVIDIA Writers",
-          "og:title": "National Robotics Week — Latest Physical AI Research, Breakthroughs and Resources",
-          "og:image:height": "945",
+          "og:site_name": "Microsoft Azure Blog",
+          "awa‐asst": "40339",
           "twitter:label1": "Written by",
           "twitter:label2": "Est. reading time",
           "og:image:type": "image/png",
-          "og:description": "This National Robotics Week, NVIDIA is highlighting the pioneering technologies that are shaping the future of intelligent machines.",
-          "twitter:creator": "@NVIDIA",
-          "article:publisher": "https://www.facebook.com/NVIDIA/",
-          "twitter:data1": "NVIDIA Writers",
-          "twitter:data2": "9 minutes",
-          "twitter:site": "@NVIDIA",
-          "article:modified_time": "2025-04-13T04:06:46+00:00",
-          "viewport": "user-scalable=no, width=device-width, height=device-height, initial-scale=1",
-          "interest": "Robotics",
+          "msapplication-tileimage": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2024/06/microsoft_logo-300x300.webp",
+          "awa-xproduct": "Azure AI,Azure AI Foundry,Azure OpenAI",
+          "og:description": "Learn how new Azure breakthroughs can significantly enhance AI reasoning abilities and precision in adapting to new domains.",
+          "twitter:creator": "@azure",
+          "article:publisher": "https://www.facebook.com/microsoftazure",
+          "twitter:data1": "Alicia Frame",
+          "twitter:data2": "5 minutes",
+          "twitter:site": "@azure",
+          "article:modified_time": "2025-05-12T23:43:35+00:00",
+          "awa-publisheddate": "20250512",
+          "awa-xaudience": "Business decision makers,Developers,IT decision makers,IT implementors",
+          "awa-xtype": "Announcements",
+          "og:type": "article",
+          "awa-market": "en-us",
+          "awa-pgauth": "Alicia Frame",
+          "author": "Alicia Frame",
+          "og:title": "Announcing new fine-tuning models and techniques in Azure AI Foundry | Microsoft Azure Blog",
+          "awa-pagetype": "Post",
+          "og:image:height": "708",
+          "awa-env": "Production",
+          "awa-xcategory": "AI + machine learning,Mobile",
+          "viewport": "width=device-width, initial-scale=1",
           "og:locale": "en_US",
-          "og:url": "https://blogs.nvidia.com/blog/national-robotics-week-2025/"
+          "og:url": "https://azure.microsoft.com/en-us/blog/announcing-new-fine-tuning-models-and-techniques-in-azure-ai-foundry/"
         }
       ],
       "cse_image": [
         {
-          "src": "https://blogs.nvidia.com/wp-content/uploads/2025/04/ebb703fb-1272-4fa3-bcf2-fbcc2f50ff67-1680x945.png"
+          "src": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/05/use_Azure_1055915_Blog_250509.png"
         }
       ]
     }
   },
   {
     "kind": "customsearch#result",
-    "title": "Accelerating scientific breakthroughs with an AI co-scientist",
-    "htmlTitle": "Accelerating scientific <b>breakthroughs</b> with an <b>AI</b> co-scientist",
-    "link": "https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/",
-    "displayLink": "research.google",
-    "snippet": "Feb 19, 2025 ... We introduce AI co-scientist, a multi-agent AI system built with Gemini 2.0 as a virtual scientific collaborator to help scientists generate ...",
-    "htmlSnippet": "Feb 19, 2025 <b>...</b> We introduce <b>AI</b> co-scientist, a multi-agent <b>AI</b> system built with Gemini 2.0 as a virtual scientific collaborator to help scientists generate&nbsp;...",
-    "formattedUrl": "https://research.google/.../accelerating-scientific-breakthroughs-with-an-ai-c...",
-    "htmlFormattedUrl": "https://<b>research</b>.google/.../accelerating-scientific-<b>breakthroughs</b>-with-an-<b>ai</b>-c...",
+    "title": "Fine-tuning (deep learning) - Wikipedia",
+    "htmlTitle": "<b>Fine</b>-<b>tuning</b> (<b>deep learning</b>) - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)",
+    "displayLink": "en.wikipedia.org",
+    "snippet": "In deep learning, fine-tuning is an approach to transfer learning in which the parameters of a pre-trained neural network model are trained on new data.",
+    "htmlSnippet": "In <b>deep learning</b>, <b>fine</b>-<b>tuning</b> is an approach to transfer learning in which the parameters of a pre-trained neural network model are trained on <b>new</b> data.",
+    "formattedUrl": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)",
+    "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Fine-tuning</b>_(deep_<b>learning</b>)",
+    "pagemap": {
+      "metatags": [
+        {
+          "referrer": "origin",
+          "theme-color": "#eaecf0",
+          "og:type": "website",
+          "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+          "og:title": "Fine-tuning (deep learning) - Wikipedia",
+          "format-detection": "telephone=no"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Fine-tune models with Azure AI Foundry",
+    "htmlTitle": "<b>Fine</b>-<b>tune</b> models with Azure AI Foundry",
+    "link": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/fine-tuning-overview",
+    "displayLink": "learn.microsoft.com",
+    "snippet": "Jun 23, 2025 ... We offer three training techniques to optimize your models: ... Reinforcement Fine-Tuning (RFT): Uses reinforcement learning to ...",
+    "htmlSnippet": "Jun 23, 2025 <b>...</b> We offer three training <b>techniques</b> to optimize your models: ... Reinforcement <b>Fine</b>-<b>Tuning</b> (RFT): Uses <b>reinforcement learning</b> to&nbsp;...",
+    "formattedUrl": "https://learn.microsoft.com/en-us/azure/ai-foundry/.../fine-tuning-overview",
+    "htmlFormattedUrl": "https://learn.microsoft.com/en-us/azure/ai-foundry/.../<b>fine-tuning</b>-overview",
     "pagemap": {
       "cse_thumbnail": [
         {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMbW47h2_Vh_wY9zsjl8JSTfayK_0mxblZDUCwoi0IeqSKbmbhAhxnd-I&s",
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTamiYiZkfXbLeih3vADC8SZH3wbbrq_92KFEfjeYjdTxr8-Z0AtOhIt4cS&s",
           "width": "310",
           "height": "163"
         }
       ],
-      "metatags": [
+      "organization": [
         {
-          "og:image": "https://storage.googleapis.com/gweb-research2023-media/images/Open_Graph.width-800.format-jpeg.jpg",
-          "og:type": "Website",
-          "viewport": "width=device-width, initial-scale=1 viewport-fit=cover",
-          "og:title": "Accelerating scientific breakthroughs with an AI co-scientist",
-          "og:url": "https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/",
-          "og:image:secure_url": "https://storage.googleapis.com/gweb-research2023-media/images/Open_Graph.width-800.format-jpeg.jpg"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://storage.googleapis.com/gweb-research2023-media/images/Open_Graph.width-800.format-jpeg.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Artificial Intelligence News -- ScienceDaily",
-    "htmlTitle": "<b>Artificial Intelligence</b> News -- ScienceDaily",
-    "link": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-    "displayLink": "www.sciencedaily.com",
-    "snippet": "Is artificial intelligence (AI) capable of suggesting appropriate behavior in emotionally charged situations? · Researchers have discovered a new class of ...",
-    "htmlSnippet": "Is <b>artificial intelligence</b> (<b>AI</b>) capable of suggesting appropriate behavior in emotionally charged situations? &middot; <b>Researchers</b> have discovered a <b>new</b> class of&nbsp;...",
-    "formattedUrl": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-    "htmlFormattedUrl": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmKnN1CIsIrKL9lFdYuRe41qNe4mlODo9Qhl-OsS4RSmxfLEOV45gT5U1V&s",
-          "width": "200",
-          "height": "200"
+          "url": "Learn"
         }
       ],
       "metatags": [
         {
-          "last-modified": "Fri, 04 Jul 2025 04:38:23 GMT",
-          "og:image": "https://www.sciencedaily.com/images/scidaily-icon.png",
-          "expires": "Fri, 04 Jul 2025 04:58:23 GMT",
-          "og:type": "article",
-          "og:site_name": "ScienceDaily",
-          "viewport": "width=device-width, initial-scale=1",
-          "og:title": "Artificial Intelligence News",
-          "topic": "artificial_intelligence",
-          "section": "computers_math",
-          "og:url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-          "og:description": "Artificial Intelligence News. Everything on AI including futuristic robots with artificial intelligence, computer models of human intelligence and more."
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://www.sciencedaily.com/images/scidaily-icon.png"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "How Google AI is advancing science",
-    "htmlTitle": "How Google <b>AI</b> is advancing science",
-    "link": "https://blog.google/technology/ai/google-ai-big-scientific-breakthroughs-2024/",
-    "displayLink": "blog.google",
-    "snippet": "Nov 18, 2024 ... In 2024, Google Research partnered with the U.S. Forest Service to develop FireSat, an AI model and new global satellite constellation designed ...",
-    "htmlSnippet": "Nov 18, 2024 <b>...</b> In 2024, Google <b>Research</b> partnered with the U.S. Forest Service to develop FireSat, an <b>AI</b> model and <b>new</b> global satellite constellation designed&nbsp;...",
-    "formattedUrl": "https://blog.google/.../ai/google-ai-big-scientific-breakthroughs-2024/",
-    "htmlFormattedUrl": "https://blog.google/.../<b>ai</b>/google-<b>ai</b>-big-scientific-<b>breakthroughs</b>-2024/",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVCv_6rC79govu9YmbSexsFAhjTOf8m4Z2L5iyOhop4UQCn86wIc1Ens4&s",
-          "width": "300",
-          "height": "168"
-        }
-      ],
-      "metatags": [
-        {
-          "og:image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AISF_9Things_SocialShare.width-1300.jpg",
-          "og:type": "article",
-          "article:published_time": "2024-11-18",
+          "schema": "Conceptual",
+          "og:image": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
           "twitter:card": "summary_large_image",
-          "twitter:title": "9 ways AI is advancing science",
-          "og:site_name": "Google",
-          "twitter:url": "https://blog.google/technology/ai/google-ai-big-scientific-breakthroughs-2024/",
-          "og:title": "9 ways AI is advancing science",
-          "gtm-tag": "GTM-TRV24V",
-          "optimize_experiments": "[]",
-          "og:description": "A recap of the some of the biggest scientific breakthroughs over the past two years.",
-          "article:publisher": "https://www.facebook.com/Google/",
-          "twitter:image:src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AISF_9Things_SocialShare.width-1300.jpg",
-          "article-author": "Keyword Team",
-          "twitter:site": "@google",
-          "viewport": "width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0",
-          "twitter:description": "A recap of the some of the biggest scientific breakthroughs over the past two years.",
-          "og:url": "https://blog.google/technology/ai/google-ai-big-scientific-breakthroughs-2024/"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AISF_9Things_SocialShare.width-1300.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "We're taking our latest AI research breakthroughs and putting them ...",
-    "htmlTitle": "We&#39;re taking our <b>latest AI research breakthroughs</b> and putting them ...",
-    "link": "https://www.linkedin.com/posts/satyanadella_introducing-azure-ai-foundry-labs-a-hub-activity-7298071158258614273-TIiL",
-    "displayLink": "www.linkedin.com",
-    "snippet": "Feb 19, 2025 ... We're taking our latest AI research breakthroughs and putting them in the hands of devs everywhere, with Azure AI Foundry Labs.",
-    "htmlSnippet": "Feb 19, 2025 <b>...</b> We&#39;re taking our <b>latest AI research breakthroughs</b> and putting them in the hands of devs everywhere, with Azure AI Foundry Labs.",
-    "formattedUrl": "https://www.linkedin.com/.../satyanadella_introducing-azure-ai-foundry-lab...",
-    "htmlFormattedUrl": "https://www.linkedin.com/.../satyanadella_introducing-azure-<b>ai</b>-foundry-lab...",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrEncCclunP5LL6ATlXHL-Eff4ti0xB7ThGZszO816UAmL4iGZsNA3muU-&s",
-          "width": "300",
-          "height": "168"
-        }
-      ],
-      "metatags": [
-        {
-          "og:image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQETlEk3RRJhHQ/articleshare-shrink_800/articleshare-shrink_800/0/1739981627915?e=2147483647&v=beta&t=W2uDQ2mKTXzcrj16XTb9xyvXst5Q8gwwQOzTJH9egdA",
-          "twitter:title": "We’re taking our latest AI research breakthroughs and putting them in the hands of devs everywhere, with Azure AI Foundry Labs. | Satya Nadella",
-          "twitter:card": "summary_large_image",
-          "og:type": "article",
-          "al:ios:app_name": "LinkedIn",
-          "twitter:url": "https://www.linkedin.com/posts/satyanadella_introducing-azure-ai-foundry-labs-a-hub-activity-7298071158258614273-TIiL",
-          "og:title": "We’re taking our latest AI research breakthroughs and putting them in the hands of devs everywhere, with Azure AI Foundry Labs. | Satya Nadella",
-          "al:android:package": "com.linkedin.android",
-          "pagekey": "p_public_post",
-          "locale": "en_US",
-          "al:ios:url": "https://www.linkedin.com/posts/satyanadella_introducing-azure-ai-foundry-labs-a-hub-activity-7298071158258614273-TIiL",
-          "og:description": "We’re taking our latest AI research breakthroughs and putting them in the hands of devs everywhere, with Azure AI Foundry Labs. | 139 comments on LinkedIn",
-          "al:ios:app_store_id": "288429040",
-          "twitter:image": "https://media.licdn.com/dms/image/sync/v2/D4E27AQETlEk3RRJhHQ/articleshare-shrink_800/articleshare-shrink_800/0/1739981627915?e=2147483647&v=beta&t=W2uDQ2mKTXzcrj16XTb9xyvXst5Q8gwwQOzTJH9egdA",
-          "al:android:url": "https://www.linkedin.com/posts/satyanadella_introducing-azure-ai-foundry-labs-a-hub-activity-7298071158258614273-TIiL",
-          "lnkd:url": "https://www.linkedin.com/feed/update/urn:li:activity:7298071158258614273",
-          "twitter:site": "@linkedin",
+          "ms.collection": "ce-skilling-ai-copilot, ce-skilling-fresh-tier0",
+          "page_type": "conceptual",
+          "ms.topic": "concept-article",
+          "ms.author": "sgilley",
+          "ms.custom": "build-2024",
+          "asset_id": "ai-foundry/concepts/fine-tuning-overview",
+          "locale": "en-us",
+          "document_id": "a5a59718-f5bc-6168-26be-bbd1d1cd7e26",
+          "og:description": "This article explains what fine-tuning is and under what circumstances you should consider doing it.",
+          "feedback_product_url": "https://feedback.azure.com/d365community/forum/79b1327d-d925-ec11-b6e6-000d3a4f06a4",
+          "recommendations": "true",
+          "ms.date": "2025-05-14T00:00:00Z",
+          "ms.service": "azure-ai-foundry",
+          "depot_name": "Learn.azure-ai",
+          "adobe-target": "true",
+          "word_count": "1383",
+          "twitter:site": "@MicrosoftLearn",
+          "updated_at": "2025-07-02T05:32:00Z",
+          "ms.reviewer": "keli19",
+          "scope": "Azure",
+          "original_content_git_url": "https://github.com/MicrosoftDocs/azure-ai-docs-pr/blob/live/articles/ai-foundry/concepts/fine-tuning-overview.md",
+          "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/133/azure",
+          "og:type": "website",
+          "og:image:alt": "Microsoft Learn",
+          "ms.update-cycle": "90-days",
+          "git_commit_id": "bf3467ea221ae4bff9dca7d98bbec584c22b4429",
+          "manager": "scottpolly",
+          "ms.suite": "office",
+          "author": "sdgilley",
+          "og:title": "Fine-tune models with Azure AI Foundry - Azure AI Foundry",
+          "color-scheme": "light dark",
+          "feedback_system": "Standard",
+          "recommendation_types": "Training",
+          "site_name": "Docs",
+          "learn_banner_products": "azure",
           "viewport": "width=device-width, initial-scale=1.0",
-          "twitter:description": "We’re taking our latest AI research breakthroughs and putting them in the hands of devs everywhere, with Azure AI Foundry Labs. | 139 comments on LinkedIn",
-          "og:url": "https://www.linkedin.com/posts/satyanadella_introducing-azure-ai-foundry-labs-a-hub-activity-7298071158258614273-TIiL",
-          "al:android:app_name": "LinkedIn"
+          "breadcrumb_path": "../../breadcrumb/azure-ai/toc.json",
+          "document_version_independent_id": "bfa4d3be-f31d-49f6-9eed-f9b0181e658c",
+          "platform_id": "7f7f356b-e4c5-26b8-2e5a-dedbc1847efc",
+          "permissioned-type": "public",
+          "og:url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/fine-tuning-overview",
+          "feedback_help_link_type": "get-help-at-qna",
+          "uhfheaderid": "azure",
+          "toc_rel": "../toc.json",
+          "gitcommit": "https://github.com/MicrosoftDocs/azure-ai-docs-pr/blob/bf3467ea221ae4bff9dca7d98bbec584c22b4429/articles/ai-foundry/concepts/fine-tuning-overview.md"
         }
       ],
       "cse_image": [
         {
-          "src": "https://media.licdn.com/dms/image/sync/v2/D4E27AQETlEk3RRJhHQ/articleshare-shrink_800/articleshare-shrink_800/0/1739981627915?e=2147483647&v=beta&t=W2uDQ2mKTXzcrj16XTb9xyvXst5Q8gwwQOzTJH9egdA"
+          "src": "https://learn.microsoft.com/en-us/media/open-graph-image.png"
         }
       ]
     }
   },
   {
     "kind": "customsearch#result",
-    "title": "DeepSeek's Latest Breakthrough Is Redefining AI Race",
-    "htmlTitle": "DeepSeek&#39;s <b>Latest Breakthrough</b> Is Redefining <b>AI</b> Race",
-    "link": "https://www.csis.org/analysis/deepseeks-latest-breakthrough-redefining-ai-race",
-    "displayLink": "www.csis.org",
-    "snippet": "Feb 3, 2025 ... On January 20, contrary to what export controls promised, Chinese researchers at DeepSeek released a high-performance large language model ...",
-    "htmlSnippet": "Feb 3, 2025 <b>...</b> On January 20, contrary to what export controls promised, Chinese <b>researchers</b> at DeepSeek released a high-performance large language model&nbsp;...",
-    "formattedUrl": "https://www.csis.org/.../deepseeks-latest-breakthrough-redefining-ai-race",
-    "htmlFormattedUrl": "https://www.csis.org/.../deepseeks-<b>latest</b>-breakthrough-redefining-<b>ai</b>-race",
+    "title": "Fine-Tuning LLMs is a Huge Waste of Time | by Devansh | Jun, 2025 ...",
+    "htmlTitle": "<b>Fine</b>-<b>Tuning</b> LLMs is a Huge Waste of Time | by Devansh | Jun, 2025 ...",
+    "link": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282",
+    "displayLink": "machine-learning-made-simple.medium.com",
+    "snippet": "Jun 10, 2025 ... ... techniques inject new information without damaging the underlying ... Small Snippets about Tech, AI and Machine Learning over here · AI ...",
+    "htmlSnippet": "Jun 10, 2025 <b>...</b> ... <b>techniques</b> inject <b>new</b> information without damaging the underlying ... Small Snippets about Tech, AI and <b>Machine Learning</b> over here &middot; AI&nbsp;...",
+    "formattedUrl": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-h...",
+    "htmlFormattedUrl": "https://<b>machine</b>-<b>learning</b>-made-simple.medium.com/<b>fine-tuning</b>-llms-is-a-h...",
     "pagemap": {
       "cse_thumbnail": [
         {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9JqSGXWY9mq_7dzsBZBzf82JsVQgl4FcSuwFPOcNW5MgfI_A_dyLbQiE&s",
-          "width": "290",
-          "height": "174"
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOw8qovdqbYB-fq8xemdN-Dgr7wsVL8e1LsR4MRNaBZGVvFlvrBkedeQ&s",
+          "width": "432",
+          "height": "116"
         }
       ],
       "metatags": [
         {
-          "citation_publication_date": "Mon, 02/03/2025 - 12:00",
-          "og:image": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2025-02/GettyImages-2195796861_cropped.jpg?VersionId=z9y2mPnHSR017fbpNiml08nDYtbRHyjK",
-          "citation_title": "DeepSeek’s Latest Breakthrough Is Redefining AI Race",
+          "apple-itunes-app": "app-id=828256236, app-argument=/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+          "og:image": "https://miro.medium.com/v2/resize:fit:947/1*iP70ESIxmsFN7RCCEl283Q.png",
+          "twitter:app:url:iphone": "medium://p/bd0b98fcc282",
+          "theme-color": "#000000",
+          "article:published_time": "2025-06-10T07:08:01.798Z",
           "twitter:card": "summary_large_image",
-          "twitter:title": "DeepSeek’s Latest Breakthrough Is Redefining AI Race | CSIS",
-          "handheldfriendly": "true",
-          "og:title": "DeepSeek’s Latest Breakthrough Is Redefining AI Race",
-          "citation_author": "Yasir Atalan",
-          "og:description": "DeepSeek’s R1 breakthrough isn’t a one-off Sputnik moment. Instead, it signals a new era in the AI race—one defined by continuous innovation, a narrowing tech gap, and the transformative power of open-source collaboration in reshaping global competitiveness.",
-          "twitter:image": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2025-02/GettyImages-2195796861_cropped.jpg?VersionId=z9y2mPnHSR017fbpNiml08nDYtbRHyjK",
-          "twitter:site": "@CSIS",
-          "viewport": "width=device-width, initial-scale=1.0",
-          "twitter:description": "DeepSeek’s R1 breakthrough isn’t a one-off Sputnik moment. Instead, it signals a new era in the AI race—one defined by continuous innovation, a narrowing tech gap, and the transformative power of open-source collaboration in reshaping global competitiveness.",
-          "mobileoptimized": "width"
+          "og:site_name": "Medium",
+          "al:android:package": "com.medium.reader",
+          "twitter:label1": "Reading time",
+          "twitter:app:id:iphone": "828256236",
+          "title": "Fine-Tuning LLMs is a Huge Waste of Time | by Devansh | Jun, 2025 | Medium",
+          "al:ios:url": "medium://p/bd0b98fcc282",
+          "og:description": "People think they can use Fine-Tune for Knowledge Injection. People are Wrong",
+          "twitter:creator": "@Machine01776819",
+          "al:ios:app_store_id": "828256236",
+          "twitter:data1": "8 min read",
+          "twitter:site": "@Medium",
+          "og:type": "article",
+          "twitter:title": "Fine-Tuning LLMs is a Huge Waste of Time",
+          "al:ios:app_name": "Medium",
+          "author": "Devansh",
+          "og:title": "Fine-Tuning LLMs is a Huge Waste of Time",
+          "al:web:url": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282",
+          "article:author": "https://machine-learning-made-simple.medium.com",
+          "twitter:image:src": "https://miro.medium.com/v2/resize:fit:947/1*iP70ESIxmsFN7RCCEl283Q.png",
+          "al:android:url": "medium://p/bd0b98fcc282",
+          "referrer": "unsafe-url",
+          "fb:app_id": "542599432471018",
+          "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+          "twitter:description": "People think they can use Fine-Tune for Knowledge Injection. People are Wrong",
+          "og:url": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282",
+          "twitter:app:name:iphone": "Medium",
+          "al:android:app_name": "Medium"
         }
       ],
       "cse_image": [
         {
-          "src": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/styles/500_x_300/s3/2025-02/GettyImages-2195796861_cropped.jpg?VersionId=AIG8IOvTyRB.b08_XwFjLuSHhXN488Yu&h=266da715&itok=uZvB5Atn"
+          "src": "https://miro.medium.com/v2/resize:fit:947/1*iP70ESIxmsFN7RCCEl283Q.png"
         }
       ]
     }
   },
   {
     "kind": "customsearch#result",
-    "title": "Scientific Discoveries in Alzheimer's, Cancer, AI, Astronomy ...",
-    "htmlTitle": "Scientific <b>Discoveries</b> in Alzheimer&#39;s, Cancer, <b>AI</b>, Astronomy ...",
-    "link": "https://news.columbia.edu/news/scientific-discoveries-alzheimers-cancer-ai-astronomy-engineering-and-more",
-    "displayLink": "news.columbia.edu",
-    "snippet": "Jun 5, 2025 ... Using a new artificial intelligence method, researchers at Columbia University Vagelos College of Physicians and Surgeons can accurately predict ...",
-    "htmlSnippet": "Jun 5, 2025 <b>...</b> Using a <b>new artificial intelligence</b> method, <b>researchers</b> at Columbia University Vagelos College of Physicians and Surgeons can accurately predict&nbsp;...",
-    "formattedUrl": "https://news.columbia.edu/.../scientific-discoveries-alzheimers-cancer-ai-astr...",
-    "htmlFormattedUrl": "https://news.columbia.edu/.../scientific-discoveries-alzheimers-cancer-<b>ai</b>-astr...",
+    "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to ...",
+    "htmlTitle": "The Ultimate <b>Guide</b> to <b>Fine</b>-<b>Tuning</b> LLMs from Basics to ...",
+    "link": "https://arxiv.org/html/2408.13296v1",
+    "displayLink": "arxiv.org",
+    "snippet": "Aug 23, 2024 ... Managing dependencies and versions of deep learning frameworks and libraries to avoid conflicts and leverage the latest features. Report ...",
+    "htmlSnippet": "Aug 23, 2024 <b>...</b> Managing dependencies and versions of <b>deep learning</b> frameworks and libraries to avoid conflicts and leverage the <b>latest</b> features. Report&nbsp;...",
+    "formattedUrl": "https://arxiv.org/html/2408.13296v1",
+    "htmlFormattedUrl": "https://arxiv.org/html/2408.13296v1",
+    "pagemap": {
+      "metatags": [
+        {
+          "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Fine-Tuning the Model: What, Why, and How | by Amanatullah ...",
+    "htmlTitle": "<b>Fine</b>-<b>Tuning</b> the Model: What, Why, and How | by Amanatullah ...",
+    "link": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+    "displayLink": "medium.com",
+    "snippet": "Sep 21, 2023 ... What is Fine-Tuning? ... Fine-tuning in deep learning is a form of transfer learning. It involves taking a pre-trained model, which has been ...",
+    "htmlSnippet": "Sep 21, 2023 <b>...</b> What is <b>Fine</b>-<b>Tuning</b>? ... <b>Fine</b>-<b>tuning</b> in <b>deep learning</b> is a form of transfer learning. It involves taking a pre-trained model, which has been&nbsp;...",
+    "formattedUrl": "https://medium.com/.../fine-tuning-the-model-what-why-and-how-e7fa52b...",
+    "htmlFormattedUrl": "https://medium.com/.../<b>fine-tuning</b>-the-model-what-why-and-how-e7fa52b...",
     "pagemap": {
       "cse_thumbnail": [
         {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa5yOg5NOA7rWnPkK7lpZtme29SsgdKQmz-aaPawEZcpiH05T-LPxtDezN&s",
-          "width": "300",
-          "height": "168"
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5KSIfXXP-3lgaxOquG7mwN2AyOAWRCJOO-VaOy1UzKH8X9SFkGSuBk0&s",
+          "width": "225",
+          "height": "225"
         }
       ],
       "metatags": [
         {
-          "og:image": "https://news.columbia.edu/sites/default/files/content/2025/research-roundup-columbia.jpeg",
-          "og:type": "Article",
+          "apple-itunes-app": "app-id=828256236, app-argument=/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+          "og:image": "https://miro.medium.com/v2/resize:fit:1200/1*F16TD8g6uCNiBrQLkQRGAw.png",
+          "twitter:app:url:iphone": "medium://p/e7fa52bc8ddf",
+          "theme-color": "#000000",
+          "article:published_time": "2023-09-21T13:23:05.769Z",
           "twitter:card": "summary_large_image",
-          "twitter:title": "Scientific Discoveries in Alzheimer’s, Cancer, AI, Astronomy, Engineering, and More",
-          "og:site_name": "Columbia News",
-          "twitter:site:id": "248795646",
-          "handheldfriendly": "true",
-          "twitter:url": "https://news.columbia.edu/news/scientific-discoveries-alzheimers-cancer-ai-astronomy-engineering-and-more",
-          "og:title": "Scientific Discoveries in Alzheimer’s, Cancer, AI, Astronomy, Engineering, and More",
-          "og:description": "11 Columbia-led research breakthroughs you should know in 2025.",
-          "twitter:creator": "@columbia",
-          "twitter:image": "https://news.columbia.edu/sites/default/files/content/2025/research-roundup-columbia.jpeg",
-          "twitter:site": "@columbia",
-          "twitter:creator:id": "248795646",
-          "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
-          "twitter:description": "11 Columbia-led research breakthroughs you should know in 2025.",
-          "mobileoptimized": "width",
-          "og:url": "https://news.columbia.edu/news/scientific-discoveries-alzheimers-cancer-ai-astronomy-engineering-and-more"
+          "og:site_name": "Medium",
+          "al:android:package": "com.medium.reader",
+          "twitter:label1": "Reading time",
+          "twitter:app:id:iphone": "828256236",
+          "title": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+          "al:ios:url": "medium://p/e7fa52bc8ddf",
+          "og:description": "As technology continues to advance, machine learning models have become increasingly powerful in solving a wide range of tasks. Fine-tuning…",
+          "twitter:creator": "@MdAman40737435",
+          "al:ios:app_store_id": "828256236",
+          "twitter:data1": "5 min read",
+          "twitter:site": "@Medium",
+          "og:type": "article",
+          "twitter:title": "Fine-Tuning the Model: What, Why, and How",
+          "al:ios:app_name": "Medium",
+          "author": "Amanatullah",
+          "og:title": "Fine-Tuning the Model: What, Why, and How",
+          "al:web:url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+          "article:author": "https://medium.com/@amanatulla1606",
+          "twitter:image:src": "https://miro.medium.com/v2/resize:fit:1200/1*F16TD8g6uCNiBrQLkQRGAw.png",
+          "al:android:url": "medium://p/e7fa52bc8ddf",
+          "referrer": "unsafe-url",
+          "fb:app_id": "542599432471018",
+          "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+          "twitter:description": "As technology continues to advance, machine learning models have become increasingly powerful in solving a wide range of tasks. Fine-tuning…",
+          "og:url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+          "twitter:app:name:iphone": "Medium",
+          "al:android:app_name": "Medium"
         }
       ],
       "cse_image": [
         {
-          "src": "https://news.columbia.edu/sites/default/files/content/2025/research-roundup-columbia.jpeg"
+          "src": "https://miro.medium.com/v2/resize:fit:1200/1*F16TD8g6uCNiBrQLkQRGAw.png"
         }
       ]
     }

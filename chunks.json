@@ -1,0 +1,90 @@
+[
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "Authors Dave Bergmann Senior Writer, AI Models What is fine-tuning? Fine-tuning could be considered a subset of the broader technique oftransfer learning: the practice of leveraging knowledge an existing model has already learned as the starting point for learning new tasks.",
+    "chunk_id": 0,
+    "start_pos": 0,
+    "end_pos": 275,
+    "similarity": 0.6435723304748535
+  },
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "The intuition behind fine-tuning is that, essentially, its easier and cheaper to hone the capabilities of a pre-trained base model that has already acquired broad learnings relevant to the task at hand than it is to train a new model from scratch for that specific purpose.",
+    "chunk_id": 1,
+    "start_pos": 273,
+    "end_pos": 547,
+    "similarity": 0.6299341917037964
+  },
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "This is especially true for deep learning models with millions or even billions of parameters, like the large language models (LLMs) that have risen to prominence in the field ofnatural language processing (NLP)or the complexconvolutional neural networks (CNNs)and vision transformers (ViTs) used forcomputer visiontasks like image classification, object detection orimage segmentation.",
+    "chunk_id": 2,
+    "start_pos": 659,
+    "end_pos": 1046,
+    "similarity": 0.3966207504272461
+  },
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "By leveraging prior model training through transfer learning, fine-tuning can reduce the amount of expensive computing power and labeled data needed to obtain large models tailored to niche use cases and business needs.",
+    "chunk_id": 3,
+    "start_pos": 878,
+    "end_pos": 1098,
+    "similarity": 0.5518397092819214
+  },
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "For example, fine-tuning can be used to simply adjust the conversational tone of a pre-trained LLM or the illustration style of a pre-trained image generation model; it could also be used to supplement learnings from a models original training dataset with proprietary data or specialized, domain-specific knowledge. Fine-tuning thus plays an important role in the real-world application ofmachine learning models, helping democratize access to and customization of sophisticated models.",
+    "chunk_id": 4,
+    "start_pos": 1194,
+    "end_pos": 1682,
+    "similarity": 0.6534408330917358
+  },
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "Fine-tuning vs. training While fine-tuning is ostensibly a technique used in model training, its a process distinct from what is conventionally called training. For the sake of disambiguation, data scientists typically refer to the latter aspre-trainingin this context. (Pre-)Training At the onset of training (or, in this context,pre-training), the model has not yet learned anything.",
+    "chunk_id": 5,
+    "start_pos": 1354,
+    "end_pos": 1740,
+    "similarity": 0.6106435656547546
+  },
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "Training begins with a random initialization ofmodel parametersthe varying weights and biases applied to the mathematical operations occurring at each node in theneural network.",
+    "chunk_id": 6,
+    "start_pos": 1531,
+    "end_pos": 1709,
+    "similarity": 0.3242354393005371
+  },
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "Training occurs iteratively in two phases: in aforward pass, the model makes predictions for a batch of sample inputs from the training dataset, and aloss functionmeasures the difference (orloss) between the models predictions for each input and the correct answers (orground truth); duringbackpropagation, an optimization algorithmtypicallygradient descentis used to adjust model weights across the network to reduce loss. These adjustments to model weights are how the model learns.",
+    "chunk_id": 7,
+    "start_pos": 1954,
+    "end_pos": 2439,
+    "similarity": 0.3659311532974243
+  },
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "The process is repeated across multiple training epochs until the model is deemed to be sufficiently trained. Conventionalsupervised learning, which is typically used to pre-train models for computer vision tasks like image classification, object detection orimage segmentation, uses labeled data: labels (orannotations) provide both the range of possible answers and the ground truth output for each sample.",
+    "chunk_id": 8,
+    "start_pos": 2063,
+    "end_pos": 2472,
+    "similarity": 0.3527889549732208
+  },
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "LLMs are typically pre-trained throughself-supervised learning (SSL), in which models learn throughpretext tasksthat are designed to derive ground truth from the inherent structure of unlabeled data. These pretext tasks impart knowledge useful fordownstream tasks. They typically take one of two approaches: Self-prediction: masking some part of the original input and tasking the model with reconstructing it. This is the dominant mode of training for LLMs.",
+    "chunk_id": 9,
+    "start_pos": 2262,
+    "end_pos": 2721,
+    "similarity": 0.3619515001773834
+  },
+  {
+    "source_url": "https://www.ibm.com/think/topics/fine-tuning",
+    "content": "Contrastive learning: training models to learn similar embeddings for related inputs and different embeddings for unrelated inputs. This is used prominently in computer vision models designed forfew-shotorzero-shot learning, like Contrasting Language-Image Pretraining (CLIP). SSL thus allows for the use of massively large datasets in training without the burden of having to annotate millions or billions of data points.",
+    "chunk_id": 10,
+    "start_pos": 2393,
+    "end_pos": 2816,
+    "similarity": 0.3634738326072693
+  }
+]

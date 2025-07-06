@@ -3,7 +3,7 @@ import json
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 # Replace these with your actual API key and Custom Search Engine (CSE) ID
 API_KEY = os.getenv("GOOGLE_API_KEY")
@@ -17,6 +17,9 @@ def google_search(query, api_key, cse_id, num_results=10):
         "q": query,
         "num": num_results
     }
+
+    print("API KEY IS ",API_KEY)
+    print("CSE ID IS ",CSE_ID)
     
     response = requests.get(url, params=params)
     if response.status_code != 200:
@@ -43,7 +46,7 @@ def google_search(query, api_key, cse_id, num_results=10):
 
 # Example usage
 if __name__ == "__main__":
-    query = "Latest AI research breakthroughs"
+    query = "what is the latest on fine-tuning techniques for machine learning"
     results = google_search(query, API_KEY, CSE_ID)
 
     # Save to JSON file
