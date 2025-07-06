@@ -1,0 +1,50 @@
+{
+  "query": "machine learning techniques",
+  "results": [
+    {
+      "content": "As technology continues to advance, machine learning models have become increasingly powerful in solving a wide range of tasks. Fine-tuning a model is one such technique that allows us to adapt pre-trained neural network models for specific tasks or datasets. In this blog post, we will delve into what fine-tuning is, why it is used, and how it can be done effectively. What is Fine-Tuning? Fine-tuning in deep learning is a form of transfer learning.",
+      "source_url": "",
+      "chunk_id": 0,
+      "start_pos": 0,
+      "end_pos": 452,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.4850836992263794
+    },
+    {
+      "content": "By following a systematic approach and understanding the nuances of fine-tuning, we can unlock the full potential of pre-trained models and tackle a wide range of real-world problems. Now that you have a comprehensive understanding of what fine-tuning is, why it is used, and how it can be done, you can start exploring this technique in your own machine learning projects.",
+      "source_url": "",
+      "chunk_id": 11,
+      "start_pos": 1685,
+      "end_pos": 2059,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.44045889377593994
+    },
+    {
+      "content": "The idea is to leverage the valuable features and representations learned by the model from the vast dataset it was initially trained on and adapt them to tackle a more specific task. Why Use Fine-Tuning? Fine-tuning offers several distinct advantages that have made it a popular technique in the field of machine learning: Efficiency Training a deep learning model from scratch can be extremely time-consuming and computationally expensive.",
+      "source_url": "",
+      "chunk_id": 2,
+      "start_pos": 401,
+      "end_pos": 843,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.4335486590862274
+    },
+    {
+      "content": "Fine-tuning is not a one-size-fits-all approach, and you may need to iterate and fine-tune your fine-tuning strategy to achieve optimal results. In conclusion, fine-tuning pre-trained models allows us to leverage the knowledge and representations learned from extensive data while tailoring them to solve our specific machine learning tasks efficiently. It offers benefits such as time and resource efficiency, improved performance, and data efficiency.",
+      "source_url": "",
+      "chunk_id": 10,
+      "start_pos": 1502,
+      "end_pos": 1956,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.4161182641983032
+    },
+    {
+      "content": "During training, its advisable to use a smaller learning rate than what was used in the initial pre-training phase. This helps prevent drastic changes to the already learned representations while allowing the model to adapt to the new data. 5. Fine-Tuning Strategies Every task and dataset is unique, and it may require further experimentation with hyperparameters, loss functions, and other training strategies.",
+      "source_url": "",
+      "chunk_id": 9,
+      "start_pos": 1358,
+      "end_pos": 1771,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.4078977108001709
+    }
+  ]
+}

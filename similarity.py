@@ -17,12 +17,6 @@ import os
 
 load_dotenv()
 
-@dataclass
-class SearchResult:
-    url: str
-    title: str
-    snippet: str
-    similarity_score: float = 0.0
 
 # Azure OpenAI Configuration from .env
 AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
@@ -57,8 +51,7 @@ def get_openai_embedding(text):
     return embedding.reshape(1, -1)  
 
 
-
-def calculate_similarity(query: str, json_path):
+def rank_websites(query: str, results):
         """
         Calculate similarity between query and search result snippets from JSON input using Azure OpenAI embeddings.
         
@@ -69,18 +62,18 @@ def calculate_similarity(query: str, json_path):
         Returns:
             List of SearchResult objects sorted by similarity score
         """
-        with open(json_path, "r", encoding="utf-8") as f:
-            json_results = json.load(f)
+       # with open(json_path, "r", encoding="utf-8") as f:
+            #json_results = json.load(f)
 
-        if not json_results:
-            return []
+        #if not json_results:
+            #return []
 
         # Get query embedding
         query_embedding = get_openai_embedding(query)
 
         # Get embeddings for all snippets
         snippet_embeddings = []
-        for item in json_results:
+        for item in results:
             snippet = item.get("snippet", "")
             snippet_embedding = get_openai_embedding(snippet)
             snippet_embeddings.append(snippet_embedding[0])  # Remove extra dimension if needed
@@ -92,11 +85,11 @@ def calculate_similarity(query: str, json_path):
         similarities = cosine_similarity(query_embedding, snippet_embeddings)[0]
         
         # Update results with similarity scores
-        for i, item in enumerate(json_results):
-            item["similarity_score"] = similarities[i]
+        for i, item in enumerate(results):
+            item["similarity_score"] = float(similarities[i])
 
         # Sort results by similarity
-        sorted_results = sorted(json_results, key=lambda x: x["similarity_score"], reverse=True)
+        sorted_results = sorted(results, key=lambda x: x["similarity_score"], reverse=True)
 
         # Print top 5
         print("Calculated similarity scores for all results:")
@@ -104,9 +97,10 @@ def calculate_similarity(query: str, json_path):
             print(f"{i+1}. {result.get('title', '')} (Score: {result['similarity_score']:.4f})")
             print(f"   URL: {result.get('link', '')}")
             print(f"   Snippet: {result.get('snippet', '')[:100]}...\n")
+        
 
         return sorted_results
 
         
-calculate_similarity("Latest AI research breakthroughs","search_results.json")
+#calculate_similarity("what is the latest on fine-tuning techniques for machine learning","search_results.json")
 

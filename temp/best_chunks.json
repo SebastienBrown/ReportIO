@@ -1,0 +1,50 @@
+{
+  "query": "what is the latest on fine-tuning techniques for machine learning",
+  "results": [
+    {
+      "content": "Remember to choose the right pre-trained model, make the necessary adjustments to the architecture, freeze or unfreeze layers strategically, train with a smaller learning rate, and experiment with different fine-tuning strategies. With practice and experience, you will be able to fine-tune models effectively and achieve impressive results in your machine learning endeavors. Do you have any specific questions about fine-tuning models or any experiences to share? Let us know in the comments below!",
+      "source_url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+      "chunk_id": 12,
+      "start_pos": 1915,
+      "end_pos": 2416,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.6981946229934692
+    },
+    {
+      "content": "As technology continues to advance, machine learning models have become increasingly powerful in solving a wide range of tasks. Fine-tuning a model is one such technique that allows us to adapt pre-trained neural network models for specific tasks or datasets. In this blog post, we will delve into what fine-tuning is, why it is used, and how it can be done effectively. What is Fine-Tuning? Fine-tuning in deep learning is a form of transfer learning.",
+      "source_url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+      "chunk_id": 0,
+      "start_pos": 0,
+      "end_pos": 452,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.6796268820762634
+    },
+    {
+      "content": "Fine-tuning is not a one-size-fits-all approach, and you may need to iterate and fine-tune your fine-tuning strategy to achieve optimal results. In conclusion, fine-tuning pre-trained models allows us to leverage the knowledge and representations learned from extensive data while tailoring them to solve our specific machine learning tasks efficiently. It offers benefits such as time and resource efficiency, improved performance, and data efficiency.",
+      "source_url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+      "chunk_id": 10,
+      "start_pos": 1502,
+      "end_pos": 1956,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.657228410243988
+    },
+    {
+      "content": "It involves taking a pre-trained model, which has been trained on a large dataset for a general task such as image recognition or natural language understanding, and making minor adjustments to its internal parameters. The goal is to optimize the models performance on a new, related task without starting the training process from scratch. Typically, the overall architecture of the pre-trained model remains mostly intact during the fine-tuning process.",
+      "source_url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+      "chunk_id": 1,
+      "start_pos": 218,
+      "end_pos": 674,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.6458000540733337
+    },
+    {
+      "content": "By following a systematic approach and understanding the nuances of fine-tuning, we can unlock the full potential of pre-trained models and tackle a wide range of real-world problems. Now that you have a comprehensive understanding of what fine-tuning is, why it is used, and how it can be done, you can start exploring this technique in your own machine learning projects.",
+      "source_url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+      "chunk_id": 11,
+      "start_pos": 1685,
+      "end_pos": 2059,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.614328145980835
+    }
+  ]
+}

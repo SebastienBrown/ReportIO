@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Ping Test</title>
+</head>
+<body>
+    <h1>Ping Flask Backend</h1>
+    <button id="pingButton">Ping Backend</button>
+
+    <p id="responseArea"></p>
+
+    <script>
+        document.getElementById('pingButton').addEventListener('click', () => {
+            fetch('http://127.0.0.1:5000/response?message=Hello', {
+                method: 'GET'
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('responseArea').innerText = `Response: ${data.reply}`;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('responseArea').innerText = 'Error contacting backend';
+            });
+        });
+    </script>
+</body>
+</html>

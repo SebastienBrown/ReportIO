@@ -12,10 +12,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-nltk.download('punkt')
-nltk.download('punkt_tab')
-#exit()
-
     
 # Azure OpenAI Configuration from .env
 AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")

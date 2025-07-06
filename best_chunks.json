@@ -1,0 +1,50 @@
+{
+  "query": "what is the latest on fine-tuning techniques for machine learning",
+  "results": [
+    {
+      "content": "This can be beneficial if the lower layers of the pre-trained model have already learned general features that are useful for your task. On the other hand, unfreezing allows the corresponding layers to adapt to the new data during fine-tuning. 4. Training Once you have adjusted the architecture and decided which layers to freeze or unfreeze, its time to train the modified model on your task-specific dataset.",
+      "source_url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+      "chunk_id": 8,
+      "start_pos": 1243,
+      "end_pos": 1655,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.6982389092445374
+    },
+    {
+      "content": "Enterprise AIJune 18, 2025 AI Agents vs. RAG vs. Agentic AI, Explained for the C-Suite Agents vs RAG vs agentic AI: whats the difference, and why should the C-suite care? This guide simplifies the tech so you can make smarter decisions. Book a 30-minute demo Explore how our agentic AI can automate your workflows and boost profitability.",
+      "source_url": "https://www.multimodal.dev/post/understanding-fine-tuning-in-deep-learning",
+      "chunk_id": 30,
+      "start_pos": 5079,
+      "end_pos": 5418,
+      "document_id": "Understanding Fine Tuning in Deep Learning: A Guide",
+      "similarity_score": 0.6796268820762634
+    },
+    {
+      "content": "Deep learning is a subset of machine learning (ML), which offersvaluable insights and automation capabilitiesacross various industries. However, adapting these advanced models to meet specific business needs isnt straightforward. One way to handle this problem is to use a technique calledfine-tuning. It boosts the models performance in specialized tasks for certain business needs. What is Fine-Tuning?",
+      "source_url": "https://www.multimodal.dev/post/understanding-fine-tuning-in-deep-learning",
+      "chunk_id": 1,
+      "start_pos": 135,
+      "end_pos": 540,
+      "document_id": "Understanding Fine Tuning in Deep Learning: A Guide",
+      "similarity_score": 0.6755428910255432
+    },
+    {
+      "content": "Fine-Tuning Techniques There is a whole range ofdifferent techniques used in fine-tuning, but we will focus on five in particular: transfer learning, feature extraction, regularization techniques, top-layer tuning, and learning rate adjustments. Transfer Learning Transfer learning is a technique in which a model developed for one task isreused as a starting point for another task.This approach benefits businesses by saving time and resources by not having to develop the model from scratch.",
+      "source_url": "https://www.multimodal.dev/post/understanding-fine-tuning-in-deep-learning",
+      "chunk_id": 14,
+      "start_pos": 2605,
+      "end_pos": 3100,
+      "document_id": "Understanding Fine Tuning in Deep Learning: A Guide",
+      "similarity_score": 0.6658197045326233
+    },
+    {
+      "content": "By following a systematic approach and understanding the nuances of fine-tuning, we can unlock the full potential of pre-trained models and tackle a wide range of real-world problems. Now that you have a comprehensive understanding of what fine-tuning is, why it is used, and how it can be done, you can start exploring this technique in your own machine learning projects.",
+      "source_url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+      "chunk_id": 11,
+      "start_pos": 1685,
+      "end_pos": 2059,
+      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+      "similarity_score": 0.657228410243988
+    }
+  ]
+}

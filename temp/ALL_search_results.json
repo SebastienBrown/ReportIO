@@ -1,0 +1,498 @@
+[
+  {
+    "kind": "customsearch#result",
+    "title": "My experience on starting with fine tuning LLMs with custom data : r ...",
+    "htmlTitle": "My experience on starting with <b>fine tuning</b> LLMs with custom data : r ...",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/14vnfh2/my_experience_on_starting_with_fine_tuning_llms/",
+    "displayLink": "www.reddit.com",
+    "snippet": "Jul 10, 2023 ... There are also internal chatbots to be used to train new people joining the company and several other use cases. So, I was thinking to share my ...",
+    "htmlSnippet": "Jul 10, 2023 <b>...</b> There are also internal chatbots to be used to train <b>new</b> people joining the company and several other use cases. So, I was thinking to share my&nbsp;...",
+    "formattedUrl": "https://www.reddit.com/.../my_experience_on_starting_with_fine_tuning_ll...",
+    "htmlFormattedUrl": "https://www.reddit.com/.../my_experience_on_starting_with_<b>fine_tuning</b>_ll...",
+    "pagemap": {
+      "metatags": [
+        {
+          "og:image": "https://share.redd.it/preview/post/14vnfh2",
+          "theme-color": "#000000",
+          "og:image:width": "1200",
+          "og:type": "website",
+          "og:image:alt": "An image containing a preview of the post",
+          "twitter:card": "summary_large_image",
+          "twitter:title": "r/LocalLLaMA on Reddit: My experience on starting with fine tuning LLMs with custom data",
+          "og:site_name": "Reddit",
+          "og:title": "r/LocalLLaMA on Reddit: My experience on starting with fine tuning LLMs with custom data",
+          "og:image:height": "630",
+          "msapplication-navbutton-color": "#000000",
+          "og:description": "Posted by u/Ion_GPT - 954 votes and 259 comments",
+          "twitter:image": "https://share.redd.it/preview/post/14vnfh2",
+          "apple-mobile-web-app-status-bar-style": "black",
+          "twitter:site": "@reddit",
+          "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
+          "apple-mobile-web-app-capable": "yes",
+          "og:ttl": "600",
+          "og:url": "https://www.reddit.com/r/LocalLLaMA/comments/14vnfh2/my_experience_on_starting_with_fine_tuning_llms/"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "What is Fine-Tuning? | IBM",
+    "htmlTitle": "What is <b>Fine</b>-<b>Tuning</b>? | IBM",
+    "link": "https://www.ibm.com/think/topics/fine-tuning",
+    "displayLink": "www.ibm.com",
+    "snippet": "Mar 15, 2024 ... Fine-tuning in machine learning is the process of adapting a pre-trained model for specific tasks or use cases.",
+    "htmlSnippet": "Mar 15, 2024 <b>...</b> <b>Fine</b>-<b>tuning</b> in <b>machine learning</b> is the <b>process of adapting a pre-trained model for specific tasks or use cases</b>.",
+    "formattedUrl": "https://www.ibm.com/think/topics/fine-tuning",
+    "htmlFormattedUrl": "https://www.ibm.com/think/topics/<b>fine-tuning</b>",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojEAP1uQbvi_6awjjhHctX5_jeIdymiYirJAIrR_ocRtjFPnWtI_v5mPm&s",
+          "width": "275",
+          "height": "183"
+        }
+      ],
+      "metatags": [
+        {
+          "template": "article",
+          "og:image": "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/4d/f0/d6d77e2d-c6e9-431c-b441-94b416b7577c.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
+          "ibm.com.search.appid": "thinkhub",
+          "ibm.search.facet.field_hierarchy_01": "taxonomy : Topics / AI and ML / Machine learning / Model training / Fine tuning",
+          "og:type": "website",
+          "ibm.search.facet.field_keyword_09": "https://prod-cloud-publish.aem.ibm.net/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/4d/f0/d6d77e2d-c6e9-431c-b441-94b416b7577c.component.crop-thumbnail-16-by-9-retina.ts=0.jpg/content/adobe-cms/us/en/think/topics/fine-tuning/jcr:content/root/leadspace_container/leadspace_article",
+          "ibm.search.facet.field_hierarchy_03": "taxonomy : Content Format / Article",
+          "countrycode": "us",
+          "ibm.search.facet.field_hierarchy_04": "taxonomy : Content Type / Explainer",
+          "og:title": "What is Fine-Tuning? | IBM",
+          "ibm.search.facet.field_text_01": "15 March 2024",
+          "dcterms.date": "2024-03-15T00:00:00.000",
+          "og:description": "Fine-tuning in machine learning is the process of adapting a pre-trained model for specific tasks or use cases through further training on a smaller dataset.",
+          "searchtitle": "What is Fine-Tuning?",
+          "ibm.search.facet.field_text_03": "Explainer",
+          "languagecode": "en",
+          "ibm.com.search.scopes": "thinkhub",
+          "viewport": "width=device-width, initial-scale=1",
+          "og:locale": "en-US",
+          "ibm.search.facet.field_keyword_01": "Fine tuning",
+          "og:url": "https://www.ibm.com/think/topics/fine-tuning",
+          "focusarea": "Cloud - Public Cloud Platform - All"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/4d/f0/d6d77e2d-c6e9-431c-b441-94b416b7577c.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Should a new grad spend time on learning RAG or Fine-tuning?",
+    "htmlTitle": "Should a <b>new</b> grad spend time on <b>learning</b> RAG or <b>Fine</b>-<b>tuning</b>?",
+    "link": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
+    "displayLink": "www.linkedin.com",
+    "snippet": "Nov 6, 2024 ... On the other hand, if you're interested in becoming a Gen-AI application developer, you'll need to dive deep into concepts like RAG (Retrieval- ...",
+    "htmlSnippet": "Nov 6, 2024 <b>...</b> On the other hand, if you&#39;re interested in becoming a Gen-AI application developer, you&#39;ll need to dive <b>deep</b> into concepts like RAG (Retrieval-&nbsp;...",
+    "formattedUrl": "https://www.linkedin.com/.../should-new-grad-spend-time-learning-rag-fine...",
+    "htmlFormattedUrl": "https://www.linkedin.com/.../should-new-grad-spend-time-<b>learning</b>-rag-<b>fine</b>...",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8VC5zRd0_dJ1JqTuSoA3ss6QZ05fKtNlCnGpeYcj4MEYwaEBUHZBExeZ&s",
+          "width": "300",
+          "height": "168"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://media.licdn.com/dms/image/v2/D5612AQF9utYH0GA09Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730902019240?e=2147483647&v=beta&t=kaHlG2FHxMln9zNoAm6HCVg90Prq0ieE5G0ISgh2Hfw",
+          "twitter:card": "summary_large_image",
+          "clientsideingraphs": "1",
+          "al:android:package": "com.linkedin.android",
+          "twitter:label1": "Written by",
+          "twitter:label2": "Reading time",
+          "bingbot": "nocache",
+          "locale": "en_US",
+          "al:ios:url": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
+          "og:description": "Raj's response to a thread on Reddit - putting it out on LinkedIn for wider reach. Hoping that some new grad somewhere may have the same question ;-) Recently I came across a thread on Reddit - the post was put out by a new grad looking for advice on whether they should spend time on learning Retrie",
+          "al:ios:app_store_id": "288429040",
+          "twitter:image": "https://media.licdn.com/dms/image/v2/D5612AQF9utYH0GA09Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730902019240?e=2147483647&v=beta&t=kaHlG2FHxMln9zNoAm6HCVg90Prq0ieE5G0ISgh2Hfw",
+          "twitter:data1": "Rajeev Sakhuja",
+          "twitter:data2": "4 min read",
+          "twitter:site": "@LinkedInEditors",
+          "og:type": "article",
+          "twitter:title": "Should a new grad spend time on learning RAG or Fine-tuning?",
+          "al:ios:app_name": "LinkedIn",
+          "og:title": "Should a new grad spend time on learning RAG or Fine-tuning?",
+          "pagekey": "p_flagship2_pulse_read",
+          "al:android:url": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "twitter:description": "Raj's response to a thread on Reddit - putting it out on LinkedIn for wider reach. Hoping that some new grad somewhere may have the same question ;-) Recently I came across a thread on Reddit - the post was put out by a new grad looking for advice on whether they should spend time on learning Retrie",
+          "og:url": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
+          "al:android:app_name": "LinkedIn"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://media.licdn.com/dms/image/v2/D5612AQF9utYH0GA09Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730902019240?e=2147483647&v=beta&t=kaHlG2FHxMln9zNoAm6HCVg90Prq0ieE5G0ISgh2Hfw"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Understanding Fine Tuning in Deep Learning: A Guide",
+    "htmlTitle": "Understanding <b>Fine Tuning</b> in <b>Deep Learning</b>: A <b>Guide</b>",
+    "link": "https://www.multimodal.dev/post/understanding-fine-tuning-in-deep-learning",
+    "displayLink": "www.multimodal.dev",
+    "snippet": "Sep 27, 2023 ... Fine-tuning consists of leveraging a model trained on a larger dataset called a pre-trained model and making precise adjustments during the ...",
+    "htmlSnippet": "Sep 27, 2023 <b>...</b> <b>Fine</b>-<b>tuning</b> consists of leveraging a model trained on a larger dataset called a pre-trained model and making precise adjustments during the&nbsp;...",
+    "formattedUrl": "https://www.multimodal.dev/.../understanding-fine-tuning-in-deep-learning",
+    "htmlFormattedUrl": "https://www.multimodal.dev/.../understanding-<b>fine-tuning</b>-in-deep-<b>learning</b>",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSFNyVTOEM5cRKI3odzjOkU-Uyr5QmrB3BudPDSFIlYgtQe4CyM8gxIk&s",
+          "width": "275",
+          "height": "183"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://cdn.prod.website-files.com/636e9a9a8d334e3450b08cc9/662b7759c47f6fe2ed643edd_Untitled%20(35).webp",
+          "twitter:title": "Understanding Fine Tuning in Deep Learning: A Guide",
+          "og:type": "website",
+          "twitter:card": "summary_large_image",
+          "viewport": "width=device-width, initial-scale=1",
+          "twitter:description": "Fine-tuning in deep learning can give your business a competitive advantage. Discover its benefits, challenges, and real-world applications.",
+          "og:title": "Understanding Fine Tuning in Deep Learning: A Guide",
+          "og:url": "https://www.multimodal.dev/understanding-fine-tuning-in-deep-learning",
+          "og:description": "Fine-tuning in deep learning can give your business a competitive advantage. Discover its benefits, challenges, and real-world applications.",
+          "twitter:image": "https://cdn.prod.website-files.com/636e9a9a8d334e3450b08cc9/662b7759c47f6fe2ed643edd_Untitled%20(35).webp"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://cdn.prod.website-files.com/636e9a9a8d334e3450b08cc9/662b7759c47f6fe2ed643edd_Untitled%20(35).webp"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Announcing new fine-tuning models and techniques in Azure AI ...",
+    "htmlTitle": "Announcing <b>new fine</b>-<b>tuning</b> models and <b>techniques</b> in Azure AI ...",
+    "link": "https://azure.microsoft.com/en-us/blog/announcing-new-fine-tuning-models-and-techniques-in-azure-ai-foundry/",
+    "displayLink": "azure.microsoft.com",
+    "snippet": "May 12, 2025 ... ... fine-tune and inference using your own GPU quota. Available in both Azure AI Foundry and as Azure Machine Learning components, you have ...",
+    "htmlSnippet": "May 12, 2025 <b>...</b> ... <b>fine</b>-<b>tune</b> and inference using your own GPU quota. Available in both Azure AI Foundry and as Azure <b>Machine Learning</b> components, you have&nbsp;...",
+    "formattedUrl": "https://azure.microsoft.com/.../announcing-new-fine-tuning-models-and-tec...",
+    "htmlFormattedUrl": "https://azure.microsoft.com/.../announcing-new-<b>fine-tuning</b>-models-and-<b>tec</b>...",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4hkY5D8-u9VFd2e7OJm-pe9DhKkkJG_hxPfrZoD0MG8tz8yKsznSddG4&s",
+          "width": "300",
+          "height": "168"
+        }
+      ],
+      "organization": [
+        {
+          "name": "Microsoft",
+          "logo": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
+          "url": "Microsoft"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/05/use_Azure_1055915_Blog_250509.png",
+          "article:published_time": "2025-05-12T23:00:00+00:00",
+          "og:image:width": "1260",
+          "twitter:card": "summary_large_image",
+          "og:site_name": "Microsoft Azure Blog",
+          "awa‐asst": "40339",
+          "twitter:label1": "Written by",
+          "twitter:label2": "Est. reading time",
+          "og:image:type": "image/png",
+          "msapplication-tileimage": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2024/06/microsoft_logo-300x300.webp",
+          "awa-xproduct": "Azure AI,Azure AI Foundry,Azure OpenAI",
+          "og:description": "Learn how new Azure breakthroughs can significantly enhance AI reasoning abilities and precision in adapting to new domains.",
+          "twitter:creator": "@azure",
+          "article:publisher": "https://www.facebook.com/microsoftazure",
+          "twitter:data1": "Alicia Frame",
+          "twitter:data2": "5 minutes",
+          "twitter:site": "@azure",
+          "article:modified_time": "2025-05-12T23:43:35+00:00",
+          "awa-publisheddate": "20250512",
+          "awa-xaudience": "Business decision makers,Developers,IT decision makers,IT implementors",
+          "awa-xtype": "Announcements",
+          "og:type": "article",
+          "awa-market": "en-us",
+          "awa-pgauth": "Alicia Frame",
+          "author": "Alicia Frame",
+          "og:title": "Announcing new fine-tuning models and techniques in Azure AI Foundry | Microsoft Azure Blog",
+          "awa-pagetype": "Post",
+          "og:image:height": "708",
+          "awa-env": "Production",
+          "awa-xcategory": "AI + machine learning,Mobile",
+          "viewport": "width=device-width, initial-scale=1",
+          "og:locale": "en_US",
+          "og:url": "https://azure.microsoft.com/en-us/blog/announcing-new-fine-tuning-models-and-techniques-in-azure-ai-foundry/"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/05/use_Azure_1055915_Blog_250509.png"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Fine-tuning (deep learning) - Wikipedia",
+    "htmlTitle": "<b>Fine</b>-<b>tuning</b> (<b>deep learning</b>) - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)",
+    "displayLink": "en.wikipedia.org",
+    "snippet": "In deep learning, fine-tuning is an approach to transfer learning in which the parameters of a pre-trained neural network model are trained on new data.",
+    "htmlSnippet": "In <b>deep learning</b>, <b>fine</b>-<b>tuning</b> is an approach to transfer learning in which the parameters of a pre-trained neural network model are trained on <b>new</b> data.",
+    "formattedUrl": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)",
+    "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Fine-tuning</b>_(deep_<b>learning</b>)",
+    "pagemap": {
+      "metatags": [
+        {
+          "referrer": "origin",
+          "theme-color": "#eaecf0",
+          "og:type": "website",
+          "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
+          "og:title": "Fine-tuning (deep learning) - Wikipedia",
+          "format-detection": "telephone=no"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Fine-tune models with Azure AI Foundry",
+    "htmlTitle": "<b>Fine</b>-<b>tune</b> models with Azure AI Foundry",
+    "link": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/fine-tuning-overview",
+    "displayLink": "learn.microsoft.com",
+    "snippet": "Jun 23, 2025 ... We offer three training techniques to optimize your models: ... Reinforcement Fine-Tuning (RFT): Uses reinforcement learning to ...",
+    "htmlSnippet": "Jun 23, 2025 <b>...</b> We offer three training <b>techniques</b> to optimize your models: ... Reinforcement <b>Fine</b>-<b>Tuning</b> (RFT): Uses <b>reinforcement learning</b> to&nbsp;...",
+    "formattedUrl": "https://learn.microsoft.com/en-us/azure/ai-foundry/.../fine-tuning-overview",
+    "htmlFormattedUrl": "https://learn.microsoft.com/en-us/azure/ai-foundry/.../<b>fine-tuning</b>-overview",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTamiYiZkfXbLeih3vADC8SZH3wbbrq_92KFEfjeYjdTxr8-Z0AtOhIt4cS&s",
+          "width": "310",
+          "height": "163"
+        }
+      ],
+      "organization": [
+        {
+          "url": "Learn"
+        }
+      ],
+      "metatags": [
+        {
+          "schema": "Conceptual",
+          "og:image": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
+          "twitter:card": "summary_large_image",
+          "ms.collection": "ce-skilling-ai-copilot, ce-skilling-fresh-tier0",
+          "page_type": "conceptual",
+          "ms.topic": "concept-article",
+          "ms.author": "sgilley",
+          "ms.custom": "build-2024",
+          "asset_id": "ai-foundry/concepts/fine-tuning-overview",
+          "locale": "en-us",
+          "document_id": "a5a59718-f5bc-6168-26be-bbd1d1cd7e26",
+          "og:description": "This article explains what fine-tuning is and under what circumstances you should consider doing it.",
+          "feedback_product_url": "https://feedback.azure.com/d365community/forum/79b1327d-d925-ec11-b6e6-000d3a4f06a4",
+          "recommendations": "true",
+          "ms.date": "2025-05-14T00:00:00Z",
+          "ms.service": "azure-ai-foundry",
+          "depot_name": "Learn.azure-ai",
+          "adobe-target": "true",
+          "word_count": "1383",
+          "twitter:site": "@MicrosoftLearn",
+          "updated_at": "2025-07-02T05:32:00Z",
+          "ms.reviewer": "keli19",
+          "scope": "Azure",
+          "original_content_git_url": "https://github.com/MicrosoftDocs/azure-ai-docs-pr/blob/live/articles/ai-foundry/concepts/fine-tuning-overview.md",
+          "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/133/azure",
+          "og:type": "website",
+          "og:image:alt": "Microsoft Learn",
+          "ms.update-cycle": "90-days",
+          "git_commit_id": "bf3467ea221ae4bff9dca7d98bbec584c22b4429",
+          "manager": "scottpolly",
+          "ms.suite": "office",
+          "author": "sdgilley",
+          "og:title": "Fine-tune models with Azure AI Foundry - Azure AI Foundry",
+          "color-scheme": "light dark",
+          "feedback_system": "Standard",
+          "recommendation_types": "Training",
+          "site_name": "Docs",
+          "learn_banner_products": "azure",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "breadcrumb_path": "../../breadcrumb/azure-ai/toc.json",
+          "document_version_independent_id": "bfa4d3be-f31d-49f6-9eed-f9b0181e658c",
+          "platform_id": "7f7f356b-e4c5-26b8-2e5a-dedbc1847efc",
+          "permissioned-type": "public",
+          "og:url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/fine-tuning-overview",
+          "feedback_help_link_type": "get-help-at-qna",
+          "uhfheaderid": "azure",
+          "toc_rel": "../toc.json",
+          "gitcommit": "https://github.com/MicrosoftDocs/azure-ai-docs-pr/blob/bf3467ea221ae4bff9dca7d98bbec584c22b4429/articles/ai-foundry/concepts/fine-tuning-overview.md"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://learn.microsoft.com/en-us/media/open-graph-image.png"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Fine-Tuning LLMs is a Huge Waste of Time | by Devansh | Jun, 2025 ...",
+    "htmlTitle": "<b>Fine</b>-<b>Tuning</b> LLMs is a Huge Waste of Time | by Devansh | Jun, 2025 ...",
+    "link": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282",
+    "displayLink": "machine-learning-made-simple.medium.com",
+    "snippet": "Jun 10, 2025 ... ... techniques inject new information without damaging the underlying ... Small Snippets about Tech, AI and Machine Learning over here · AI ...",
+    "htmlSnippet": "Jun 10, 2025 <b>...</b> ... <b>techniques</b> inject <b>new</b> information without damaging the underlying ... Small Snippets about Tech, AI and <b>Machine Learning</b> over here &middot; AI&nbsp;...",
+    "formattedUrl": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-h...",
+    "htmlFormattedUrl": "https://<b>machine</b>-<b>learning</b>-made-simple.medium.com/<b>fine-tuning</b>-llms-is-a-h...",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOw8qovdqbYB-fq8xemdN-Dgr7wsVL8e1LsR4MRNaBZGVvFlvrBkedeQ&s",
+          "width": "432",
+          "height": "116"
+        }
+      ],
+      "metatags": [
+        {
+          "apple-itunes-app": "app-id=828256236, app-argument=/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+          "og:image": "https://miro.medium.com/v2/resize:fit:947/1*iP70ESIxmsFN7RCCEl283Q.png",
+          "twitter:app:url:iphone": "medium://p/bd0b98fcc282",
+          "theme-color": "#000000",
+          "article:published_time": "2025-06-10T07:08:01.798Z",
+          "twitter:card": "summary_large_image",
+          "og:site_name": "Medium",
+          "al:android:package": "com.medium.reader",
+          "twitter:label1": "Reading time",
+          "twitter:app:id:iphone": "828256236",
+          "title": "Fine-Tuning LLMs is a Huge Waste of Time | by Devansh | Jun, 2025 | Medium",
+          "al:ios:url": "medium://p/bd0b98fcc282",
+          "og:description": "People think they can use Fine-Tune for Knowledge Injection. People are Wrong",
+          "twitter:creator": "@Machine01776819",
+          "al:ios:app_store_id": "828256236",
+          "twitter:data1": "8 min read",
+          "twitter:site": "@Medium",
+          "og:type": "article",
+          "twitter:title": "Fine-Tuning LLMs is a Huge Waste of Time",
+          "al:ios:app_name": "Medium",
+          "author": "Devansh",
+          "og:title": "Fine-Tuning LLMs is a Huge Waste of Time",
+          "al:web:url": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282",
+          "article:author": "https://machine-learning-made-simple.medium.com",
+          "twitter:image:src": "https://miro.medium.com/v2/resize:fit:947/1*iP70ESIxmsFN7RCCEl283Q.png",
+          "al:android:url": "medium://p/bd0b98fcc282",
+          "referrer": "unsafe-url",
+          "fb:app_id": "542599432471018",
+          "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+          "twitter:description": "People think they can use Fine-Tune for Knowledge Injection. People are Wrong",
+          "og:url": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282",
+          "twitter:app:name:iphone": "Medium",
+          "al:android:app_name": "Medium"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://miro.medium.com/v2/resize:fit:947/1*iP70ESIxmsFN7RCCEl283Q.png"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to ...",
+    "htmlTitle": "The Ultimate <b>Guide</b> to <b>Fine</b>-<b>Tuning</b> LLMs from Basics to ...",
+    "link": "https://arxiv.org/html/2408.13296v1",
+    "displayLink": "arxiv.org",
+    "snippet": "Aug 23, 2024 ... Managing dependencies and versions of deep learning frameworks and libraries to avoid conflicts and leverage the latest features. Report ...",
+    "htmlSnippet": "Aug 23, 2024 <b>...</b> Managing dependencies and versions of <b>deep learning</b> frameworks and libraries to avoid conflicts and leverage the <b>latest</b> features. Report&nbsp;...",
+    "formattedUrl": "https://arxiv.org/html/2408.13296v1",
+    "htmlFormattedUrl": "https://arxiv.org/html/2408.13296v1",
+    "pagemap": {
+      "metatags": [
+        {
+          "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Fine-Tuning the Model: What, Why, and How | by Amanatullah ...",
+    "htmlTitle": "<b>Fine</b>-<b>Tuning</b> the Model: What, Why, and How | by Amanatullah ...",
+    "link": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+    "displayLink": "medium.com",
+    "snippet": "Sep 21, 2023 ... What is Fine-Tuning? ... Fine-tuning in deep learning is a form of transfer learning. It involves taking a pre-trained model, which has been ...",
+    "htmlSnippet": "Sep 21, 2023 <b>...</b> What is <b>Fine</b>-<b>Tuning</b>? ... <b>Fine</b>-<b>tuning</b> in <b>deep learning</b> is a form of transfer learning. It involves taking a pre-trained model, which has been&nbsp;...",
+    "formattedUrl": "https://medium.com/.../fine-tuning-the-model-what-why-and-how-e7fa52b...",
+    "htmlFormattedUrl": "https://medium.com/.../<b>fine-tuning</b>-the-model-what-why-and-how-e7fa52b...",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5KSIfXXP-3lgaxOquG7mwN2AyOAWRCJOO-VaOy1UzKH8X9SFkGSuBk0&s",
+          "width": "225",
+          "height": "225"
+        }
+      ],
+      "metatags": [
+        {
+          "apple-itunes-app": "app-id=828256236, app-argument=/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
+          "og:image": "https://miro.medium.com/v2/resize:fit:1200/1*F16TD8g6uCNiBrQLkQRGAw.png",
+          "twitter:app:url:iphone": "medium://p/e7fa52bc8ddf",
+          "theme-color": "#000000",
+          "article:published_time": "2023-09-21T13:23:05.769Z",
+          "twitter:card": "summary_large_image",
+          "og:site_name": "Medium",
+          "al:android:package": "com.medium.reader",
+          "twitter:label1": "Reading time",
+          "twitter:app:id:iphone": "828256236",
+          "title": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
+          "al:ios:url": "medium://p/e7fa52bc8ddf",
+          "og:description": "As technology continues to advance, machine learning models have become increasingly powerful in solving a wide range of tasks. Fine-tuning…",
+          "twitter:creator": "@MdAman40737435",
+          "al:ios:app_store_id": "828256236",
+          "twitter:data1": "5 min read",
+          "twitter:site": "@Medium",
+          "og:type": "article",
+          "twitter:title": "Fine-Tuning the Model: What, Why, and How",
+          "al:ios:app_name": "Medium",
+          "author": "Amanatullah",
+          "og:title": "Fine-Tuning the Model: What, Why, and How",
+          "al:web:url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+          "article:author": "https://medium.com/@amanatulla1606",
+          "twitter:image:src": "https://miro.medium.com/v2/resize:fit:1200/1*F16TD8g6uCNiBrQLkQRGAw.png",
+          "al:android:url": "medium://p/e7fa52bc8ddf",
+          "referrer": "unsafe-url",
+          "fb:app_id": "542599432471018",
+          "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
+          "twitter:description": "As technology continues to advance, machine learning models have become increasingly powerful in solving a wide range of tasks. Fine-tuning…",
+          "og:url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
+          "twitter:app:name:iphone": "Medium",
+          "al:android:app_name": "Medium"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://miro.medium.com/v2/resize:fit:1200/1*F16TD8g6uCNiBrQLkQRGAw.png"
+        }
+      ]
+    }
+  }
+]
