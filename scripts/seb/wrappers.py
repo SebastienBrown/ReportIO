@@ -26,6 +26,7 @@ def search_web_articles_seb(query: str, num_results: int = 10) -> list[dict]:
 
 from scripts.seb.scraper import WebScrapingService
 from scripts.content_chunker import chunk_text_tokenwise
+import json
 
 def load_and_chunk_content_seb(urls, max_tokens=500, overlap=50):
     service = WebScrapingService()
@@ -41,8 +42,8 @@ def load_and_chunk_content_seb(urls, max_tokens=500, overlap=50):
 
         except Exception as e:
             print(f"[ERROR] Failed to scrape {url}: {e}")
-    
-
+    #debug_json = [{"chunk_id": i, "length": len(c), "preview": c[:100]} for i, c in enumerate(scraped_chunks)]
+    #print(json.dumps(debug_json, indent=2))
     return scraped_chunks
 
 

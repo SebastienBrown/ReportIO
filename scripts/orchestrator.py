@@ -17,7 +17,7 @@ else:
     from scripts.search_module import search_web_articles
 
 
-USE_SEB_SCRAPER_AND_CHUNKER = True
+USE_SEB_SCRAPER_AND_CHUNKER = False
 
 if USE_SEB_SCRAPER_AND_CHUNKER:
     from scripts.seb.wrappers import load_and_chunk_content_seb as load_and_chunk_content
