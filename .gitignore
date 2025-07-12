@@ -1,0 +1,36 @@
+# --- Python backend ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pyo
+
+# Virtual environments
+venv/
+reportio/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pip wheel cache
+*.whl
+pip-wheel-metadata/
+
+# Log files
+*.log
+
+# Environment variable files (DO NOT PUSH!)
+.env
+.env.*
+
+# Optional: model files (uncomment if needed)
+# *.joblib
+
+# --- React frontend ---
+frontend/node_modules/
+
+
+# --- Editor and OS clutter ---
+.vscode/
+.DS_Store
+Thumbs.db

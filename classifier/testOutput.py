@@ -1,9 +1,11 @@
 import joblib
-from sentence_transformers import SentenceTransformer
-
+#from sentence_transformers import SentenceTransformer
+from scripts.llm.embed import embed_llm
+import os
+BASE_DIR = os.path.dirname(__file__)
 # Load classifier and embedding model
-clf = joblib.load("classifier.joblib")
-embedder = SentenceTransformer('all-MiniLM-L6-v2') 
+clf = joblib.load(os.path.join(BASE_DIR, "classifier.joblib"))
+
 
 # Example inputs
 new_queries = [
@@ -13,7 +15,7 @@ new_queries = [
 ]
 
 # Generate embeddings
-embeddings = embedder.encode(new_queries)
+embeddings = embed_llm.embed_documents(new_queries)
 
 # Predict
 predictions = clf.predict(embeddings)
