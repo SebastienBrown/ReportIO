@@ -28,21 +28,32 @@ def run_orchestration_pipeline(query: str, num_results: int = 10, top_k: int = 5
         #         "confidence": result["confidence"]
         #     }
 
+        #Include classifier from Seb's code
+
+
         logger("[DEBUG] Step 1: Searching web articles...")
         raw_articles = search_web_articles(query, num_results=num_results)
         logger(f"[DEBUG] Step 1 done → Found {len(raw_articles)} articles")
+
+        #include google search API from seb's code
 
         logger("[DEBUG] Step 2: Scoring snippets...")
         top_articles = score_snippets(query, raw_articles, top_k=top_k)
         logger(f"[DEBUG] Step 2 done → Top {len(top_articles)} articles scored")
 
+
+
         logger("[DEBUG] Step 3: Extracting URLs...")
         top_urls = [article["url"] for article in top_articles]
         logger(f"[DEBUG] Step 3 done → URLs: {top_urls}")
 
+        #Include Scraping from Seb's code (dynamic scraping for JS websites)
+
         logger("[DEBUG] Step 4: Chunking content from URLs...")
         chunks = load_and_chunk_content(top_urls)
         logger(f"[DEBUG] Step 4 done → {len(chunks)} chunks loaded")
+
+        #Include chunking from Seb's code (good practice)
 
         logger("[DEBUG] Step 5: Embedding and upserting chunks to Qdrant...")
         init_qdrant_collection()
