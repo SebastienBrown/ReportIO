@@ -28,3 +28,5 @@ def search_web_articles(query: str, num_results: int = 5):
         })
 
     return articles
+
+

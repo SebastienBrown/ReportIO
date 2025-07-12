@@ -1,11 +1,28 @@
 # scripts/orchestrator.py
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from scripts.search_module import search_web_articles
 from scripts.snippet_scorer import score_snippets
-from scripts.content_loader import load_and_chunk_content
 from scripts.vector_store import embed_and_upsert_chunks, search_similar_chunks, init_qdrant_collection
 from scripts.generation import generate_answer_from_context, generate_gpt_answer
 from scripts.query_classifier import classify_query
+
+
+USE_SEB_SEARCH = True
+
+if USE_SEB_SEARCH:
+    from scripts.seb.wrappers import search_web_articles_seb as search_web_articles
+else:
+    from scripts.search_module import search_web_articles
+
+
+USE_SEB_SCRAPER_AND_CHUNKER = True
+
+if USE_SEB_SCRAPER_AND_CHUNKER:
+    from scripts.seb.wrappers import load_and_chunk_content_seb as load_and_chunk_content
+else:
+    from scripts.content_loader import load_and_chunk_content
 
 
 
@@ -35,7 +52,7 @@ def run_orchestration_pipeline(query: str, num_results: int = 10, top_k: int = 5
         raw_articles = search_web_articles(query, num_results=num_results)
         logger(f"[DEBUG] Step 1 done → Found {len(raw_articles)} articles")
 
-        #include google search API from seb's code
+        
 
         logger("[DEBUG] Step 2: Scoring snippets...")
         top_articles = score_snippets(query, raw_articles, top_k=top_k)
@@ -47,7 +64,6 @@ def run_orchestration_pipeline(query: str, num_results: int = 10, top_k: int = 5
         top_urls = [article["url"] for article in top_articles]
         logger(f"[DEBUG] Step 3 done → URLs: {top_urls}")
 
-        #Include Scraping from Seb's code (dynamic scraping for JS websites)
 
         logger("[DEBUG] Step 4: Chunking content from URLs...")
         chunks = load_and_chunk_content(top_urls)
@@ -81,3 +97,10 @@ def run_orchestration_pipeline(query: str, num_results: int = 10, top_k: int = 5
             "status": "error",
             "message": str(e)
         }
+
+
+if __name__ == "__main__":
+    test_query = "latest breakthroughs in clean energy 2025"
+    result = run_orchestration_pipeline(test_query)
+    import json
+    print(json.dumps(result, indent=2))
