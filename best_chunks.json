@@ -1,50 +1,50 @@
 {
-  "query": "Tell me about recent trends in the stock market",
+  "query": "tell me about the macroecnomic implications of trump-era trade tariffs",
   "results": [
     {
-      "content": "How To Handle Changing Stock Market Trends YOU MAY ALSO LIKE: Looking For The Best Stocks To Buy And Watch? Start With This 3-Step Routine See Which Stocks Were Just Added To  And Removed From  IBD Stock Lists How To Buy StocksBuying Checklist When To Sell StocksSelling Checklist",
-      "source_url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
-      "chunk_id": 7,
-      "start_pos": 1474,
-      "end_pos": 1755,
-      "document_id": "Stock Market Today: Stock Market News And Analysis",
-      "similarity_score": 0.551419734954834
+      "content": "Aimed at promoting economic independence and countering trade deficits, these tariffssome reaching as high as 49have catalyzed unintended consequences that ripple through corporate sustainability programs and ESG investment frameworks. In this article, we explore how the Trump-era tariffs are influencing ESG activities, drawing from recent macroeconomic data, global case studies, and investment trends to provide a forward-looking analysis.",
+      "source_url": "https://asuene.com/us/blog/the-impact-of-trump-era-tariffs-on-corporate-esg-activities",
+      "chunk_id": 1,
+      "start_pos": 235,
+      "end_pos": 679,
+      "document_id": "The Impact of Trump-Era Tariffs on Corporate ESG Activities | Blog | ASUENE | The enterprise climate cloud platform | Carbon Calculation Decarbonizated SaaS",
+      "similarity_score": 0.6407684087753296
     },
     {
-      "content": "On...Read More View Prior Stock Market Today Updates Current Recommended Market Exposure Level STOCK MARKET TODAY With regular updates throughout each trading session, the Stock Market Today column highlights the latest stock market news and alerts you to any changes in market trend. Youll also get ongoing analysis of thebest stocks to buy and watch. Why is the stock market up today? Why is the market down? Whats the outlook for stock futures? What are thebest stocks to buyright now?",
-      "source_url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
-      "chunk_id": 3,
-      "start_pos": 961,
-      "end_pos": 1450,
-      "document_id": "Stock Market Today: Stock Market News And Analysis",
-      "similarity_score": 0.536927342414856
-    },
-    {
-      "content": "By tracking the currentrecommended market exposure level, the Stock Market Today helps you stay on top of the latest stock market news while keeping any latest fluctuations in perspective to help you decide what action, if any, to take. Bookmark this page to make sure you stay on top of all the latest action and stock market news, and be sure tocheck The Big Pictureafter each market close for more detailed analysis and stocks to watch.",
-      "source_url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
-      "chunk_id": 6,
-      "start_pos": 1367,
-      "end_pos": 1807,
-      "document_id": "Stock Market Today: Stock Market News And Analysis",
-      "similarity_score": 0.5160108804702759
-    },
-    {
-      "content": "Is it time tosell your stocks? Stock Market Today helps you answer those questions before the market opens, throughout each trading session and after each days stock market close. Its a quick and easy way to stay on top of key stock market news and trends as they happen, and see movements in both large caps and small caps that are affecting your own portfolio.",
-      "source_url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
+      "content": "Unlike narrow, targeted tariffs, the broad tariffs of the magnitude proposed by President Trump have the potential to raise meaningful revenue over the budget window. However, these effects are uncertain and sensitive to key assumptions about the behavior of both US and foreign consumers, businesses, and governments. President Trumps proposals have also sparked a public debate about who bears the ultimate burden, or theincidence, of tariffs.",
+      "source_url": "https://budgetlab.yale.edu/research/fiscal-macroeconomic-and-price-estimates-tariffs-under-both-non-retaliation-and-retaliation",
       "chunk_id": 4,
-      "start_pos": 991,
-      "end_pos": 1354,
-      "document_id": "Stock Market Today: Stock Market News And Analysis",
-      "similarity_score": 0.49891793727874756
+      "start_pos": 599,
+      "end_pos": 1045,
+      "document_id": "Fiscal, Macroeconomic, and Price Estimates of Tariffs Under Both Non-Retaliation and Retaliation Scenarios | The Budget Lab at Yale",
+      "similarity_score": 0.626285195350647
     },
     {
-      "content": "Youll find the latest prices and price changes for the Nasdaq, SP 500 and the Dow Jones Industrial Average, as well as for the Russell 2000. Track Stock Futures For The Dow Jones, SP 500 And Nasdaq Stock Market News And Analysis The analysis youll find in the Stock Market Today is based on over 130 years of market history and a detailed study of every top-performing stock since the 1880s.",
-      "source_url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
-      "chunk_id": 5,
-      "start_pos": 1131,
-      "end_pos": 1523,
-      "document_id": "Stock Market Today: Stock Market News And Analysis",
-      "similarity_score": 0.48185256123542786
+      "content": "This analysis purpose, therefore, is not to re-adjudicate the incidence question1but to instead, from the standpoint of economic evidence, quantify the fiscal and macroeconomic effects of illustrative tariff proposals that capture the elements of various comments from President Trump. The Budget Lab (TBL) modeled 12 proposals that differ in their tariff rates on various countries and whether those countries retaliate against the US with their own counter-tariffs.",
+      "source_url": "https://budgetlab.yale.edu/research/fiscal-macroeconomic-and-price-estimates-tariffs-under-both-non-retaliation-and-retaliation",
+      "chunk_id": 6,
+      "start_pos": 990,
+      "end_pos": 1458,
+      "document_id": "Fiscal, Macroeconomic, and Price Estimates of Tariffs Under Both Non-Retaliation and Retaliation Scenarios | The Budget Lab at Yale",
+      "similarity_score": 0.6254817247390747
+    },
+    {
+      "content": "A full dynamic fiscal score of the different tariff options that incorporates US macroeconomic feedback effects would account for many other short- and long-term factors, and their effects on revenue and spending, including: The reaction of the Federal Reserve.Evidence suggests that tariffs are substantially borne by consumers and businesses in the form of higher prices.7In response to new tariffs, the Federal Reserve may choose to look through (ignore) the one-time price level shock that results and leave the stance of monetary policy otherwise unchanged.",
+      "source_url": "https://budgetlab.yale.edu/research/fiscal-macroeconomic-and-price-estimates-tariffs-under-both-non-retaliation-and-retaliation",
+      "chunk_id": 31,
+      "start_pos": 7327,
+      "end_pos": 7890,
+      "document_id": "Fiscal, Macroeconomic, and Price Estimates of Tariffs Under Both Non-Retaliation and Retaliation Scenarios | The Budget Lab at Yale",
+      "similarity_score": 0.599945068359375
+    },
+    {
+      "content": "The Impact of Trump-Era Tariffs on Corporate ESG Activities NewsUSUpdated: April 8 2025 ArticleSummary Introduction The Trump administrations aggressive tariff strategy, revived again in the 2024 campaign and partially reinstated in early 2025, has not only disrupted global trade flows but also reshaped the landscape of Environmental, Social, and Governance (ESG) strategies for multinational corporations.",
+      "source_url": "https://asuene.com/us/blog/the-impact-of-trump-era-tariffs-on-corporate-esg-activities",
+      "chunk_id": 0,
+      "start_pos": 0,
+      "end_pos": 408,
+      "document_id": "The Impact of Trump-Era Tariffs on Corporate ESG Activities | Blog | ASUENE | The enterprise climate cloud platform | Carbon Calculation Decarbonizated SaaS",
+      "similarity_score": 0.5853165984153748
     }
   ]
 }

@@ -24,13 +24,15 @@ CORS(app)  # Enable CORS for all routes
 
 @app.route('/response', methods=['GET','POST'])
 def response():
+     
     if request.method == 'POST':
         data = request.get_json()
         message = data.get('message', 'No message provided')
     else:
         message = request.args.get('message', 'No message provided')
     
-    query="Tell me about recent trends in the stock market"
+    query=message
+    print("The message received from the frontend is ",query)
 
     #classifierOutput=[0,0]
     classifierOutput=classifier(query)
@@ -46,8 +48,8 @@ def response():
     results = google_search(query, API_KEY, CSE_ID)
 
     # Save to JSON file
-    #with open("search_results.json", "w", encoding="utf-8") as f:
-        #json.dump(results, f, indent=2, ensure_ascii=False)
+    with open("search_results.json", "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
 
     print(f"Saved {len(results)} results to search_results.json")
     
@@ -58,8 +60,8 @@ def response():
     print(sorted_websites)
 
     # Save to JSON file
-   #with open("sorted_search_results.json", "w", encoding="utf-8") as f:
-        #json.dump(sorted_websites, f, indent=2, ensure_ascii=False)
+    with open("sorted_search_results.json", "w", encoding="utf-8") as f:
+        json.dump(sorted_websites, f, indent=2, ensure_ascii=False)
     
     #with open("sorted_search_results.json", "r", encoding="utf-8") as f:
         #sorted_websites = json.load(f)
@@ -83,8 +85,8 @@ def response():
     
     print(scrapedData)
 
-    #with open("scrapedData.json", "w", encoding="utf-8") as f:
-        #json.dump(scrapedData, f, indent=2, ensure_ascii=False)
+    with open("scrapedData.json", "w", encoding="utf-8") as f:
+        json.dump(scrapedData, f, indent=2, ensure_ascii=False)
     
     #with open("scrapedData.json", "r", encoding="utf-8") as f:
         #scrapedData = json.load(f)
@@ -105,6 +107,11 @@ def response():
         )
         print("Search result:", search_result)
     
+        # Check if it succeeded
+    if search_result.get("success"):
+        # Get the full results data (what would have gone into best_chunks.json)
+        results_data = search_result["results_data"]
+    
     # Get stats
     stats = service.get_service_stats()
     print("Service stats:", stats)
@@ -114,12 +121,12 @@ def response():
     #with open("best_chunks.json", "r", encoding="utf-8") as f:
         #bestChunks = json.load(f)
 
-    resultFinal = summarize_and_process("best_chunks.json", query)
+    resultFinal = summarize_and_process(results_data, query)
 
-    print(resultFinal)
+    print("Result Final is ",resultFinal)
 
     return jsonify({
-        #'reply': f'You said: {message}'
+        'reply': f'You said: {resultFinal}'
     })
 
 if __name__ == '__main__':

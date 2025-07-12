@@ -471,6 +471,19 @@ class TextProcessingService:
             results_file = os.path.join(output_dir, "best_chunks.json")
             
             self.processor.save_results(query, results, chunks_file, results_file)
+
+            results_data = {
+            'query': query,
+            'results': [
+                {
+                    **asdict(c),
+                    'similarity_score': float(score),
+                    'embedding': None  # Remove embeddings for serialization
+                } for c, score in results
+            ]
+        }
+            
+            print("RESULTS DATA ARE HEREEEEEE ", results_data)
             
             return {
                 'success': True,
@@ -485,7 +498,8 @@ class TextProcessingService:
                         'content_preview': chunk.content[:200] + "..." if len(chunk.content) > 200 else chunk.content
                     }
                     for chunk, score in results[:3]  # Preview of top 3
-                ]
+                ],
+            'results_data': results_data  # <- full results that would go to `results_file`
             }
         except Exception as e:
             logger.error(f"Error in search_and_save: {e}")

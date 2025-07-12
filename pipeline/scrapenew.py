@@ -520,7 +520,7 @@ class WebScraper:
                 logger.info("Security verification detected, waiting for resolution...")
                 
                 # Wait for verification to complete
-                if self._wait_for_captcha_resolution(max_wait_time=90):
+                if self._wait_for_captcha_resolution(max_wait_time=5):
                     logger.info("Verification completed, proceeding with scraping")
                     
                     # Additional wait for content to fully load after verification

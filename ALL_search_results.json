@@ -1,597 +1,477 @@
 [
   {
     "kind": "customsearch#result",
-    "title": "Weekly Stock Market Update | Edward Jones",
-    "htmlTitle": "Weekly <b>Stock Market</b> Update | Edward Jones",
-    "link": "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/stock-market-weekly-update",
-    "displayLink": "www.edwardjones.com",
-    "snippet": "The One Big Beautiful Bill Act was passed into law on July 4, extending provisions of the 2017 Tax Cuts and Jobs Act and introducing new tax breaks and spending ...",
-    "htmlSnippet": "The One Big Beautiful Bill Act was passed into law on July 4, extending provisions of the 2017 Tax Cuts and Jobs Act and introducing <b>new</b> tax breaks and spending&nbsp;...",
-    "formattedUrl": "https://www.edwardjones.com/.../market.../stock-market.../stock-market-we...",
-    "htmlFormattedUrl": "https://www.edwardjones.com/.../<b>market</b>.../<b>stock</b>-<b>market</b>.../<b>stock</b>-<b>market</b>-we...",
+    "title": "The economic impact of Trump's tariffs on Europe: an initial ...",
+    "htmlTitle": "The economic <b>impact of Trump&#39;s tariffs</b> on Europe: an initial ...",
+    "link": "https://www.bruegel.org/analysis/economic-impact-trumps-tariffs-europe-initial-assessment",
+    "displayLink": "www.bruegel.org",
+    "snippet": "Apr 17, 2025 ... Before the trade war, the average US tariff rate on imports from the EU was 1.47 percent, while on EU imports from the US it was 1.35 percent.",
+    "htmlSnippet": "Apr 17, 2025 <b>...</b> Before the <b>trade</b> war, the average US <b>tariff</b> rate on imports from the EU was 1.47 percent, while on EU imports from the US it was 1.35 percent.",
+    "formattedUrl": "https://www.bruegel.org/.../economic-impact-trumps-tariffs-europe-initial-a...",
+    "htmlFormattedUrl": "https://www.bruegel.org/.../economic-impact-trumps-<b>tariffs</b>-europe-initial-a...",
     "pagemap": {
       "cse_thumbnail": [
         {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_xxZzu20qUcIHPgsamkERVd8YQu9pLqbJvc2iVQyTekMqn3IpnpWvz39w&s",
-          "width": "287",
-          "height": "176"
-        }
-      ],
-      "metatags": [
-        {
-          "og:image": "https://www.edwardjones.com/sites/default/files/acquiadam/2022-07/iStock-1163330465.jpg",
-          "twitter:app:id:googleplay": "https://play.google.com/store/apps/details?id=app.edwardjones.mobile&hl=en",
-          "twitter:card": "summary",
-          "og:site_name": "Edward Jones",
-          "twitter:url": "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/stock-market-weekly-update",
-          "twitter:app:name:googleplay": "Edward Jones - Mobile",
-          "twitter:app:id:iphone": "https://apps.apple.com/us/app/edward-jones-iphone-app/id457043098",
-          "og:description": "A summary of last week's market highlights and economic news.",
-          "og:image:secure_url": "https://www.edwardjones.com/sites/default/files/acquiadam/2022-07/iStock-1163330465.jpg",
-          "twitter:dnt": "on",
-          "twitter:image": "https://www.edwardjones.com/sites/default/files/acquiadam/2022-07/iStock-1163330465.jpg",
-          "content-type-personalization": "Article",
-          "twitter:site": "@EdwardJones",
-          "og:type": "News",
-          "twitter:title": "Weekly market wrap",
-          "twitter:site:id": "@EdwardJones",
-          "og:image:url": "https://www.edwardjones.com/sites/default/files/acquiadam/2022-07/iStock-1163330465.jpg",
-          "handheldfriendly": "true",
-          "author": "Brian Therien",
-          "og:title": "Weekly market wrap",
-          "twitter:app:id:ipad": "https://apps.apple.com/us/app/edward-jones-iphone-app/id457043098",
-          "abstract": "A summary of last week's market highlights and economic news.",
-          "article:tag": "Investment Planning",
-          "referrer": "no-referrer-when-downgrade",
-          "twitter:app:name:ipad": "Edward Jones Mobile",
-          "viewport": "width=device-width, initial-scale=1.0",
-          "twitter:description": "A summary of last week's market highlights and economic news.",
-          "mobileoptimized": "width",
-          "og:url": "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/stock-market-weekly-update",
-          "twitter:app:name:iphone": "Edward Jones Mobile"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://www.edwardjones.com/sites/default/files/acquiadam/2022-07/iStock-1163330465.jpg"
-        }
-      ],
-      "listitem": [
-        {
-          "item": "Home",
-          "name": "Home",
-          "position": "1"
-        },
-        {
-          "item": "Market News and Insights",
-          "name": "Market News and Insights",
-          "position": "2"
-        },
-        {
-          "position": "3"
-        },
-        {
-          "item": "Home",
-          "name": "Home",
-          "position": "1"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Google Trends",
-    "htmlTitle": "Google <b>Trends</b>",
-    "link": "https://trends.google.com/trends/",
-    "displayLink": "trends.google.com",
-    "snippet": "New to Trends? Browse these resources to learn what it can do and how to use ... What is Google Trends? Basics of Google Trends. Understanding the data.",
-    "htmlSnippet": "<b>New</b> to <b>Trends</b>? Browse these resources to learn what it can do and how to use ... <b>What is</b> Google <b>Trends</b>? Basics of Google <b>Trends</b>. Understanding the data.",
-    "formattedUrl": "https://trends.google.com/trends/",
-    "htmlFormattedUrl": "https://<b>trends</b>.google.com/<b>trends</b>/",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3z_jRt6zp_fnomYpyIna-zAKQw_30uAqVFM_XS6aDedpszJwR6_LBAqmh&s",
-          "width": "225",
-          "height": "225"
-        }
-      ],
-      "metatags": [
-        {
-          "application-name": "Trends",
-          "referrer": "origin",
-          "apple-mobile-web-app-status-bar-style": "black",
-          "msapplication-tap-highlight": "no",
-          "viewport": "width=device-width,initial-scale=1",
-          "apple-mobile-web-app-capable": "yes",
-          "apple-mobile-web-app-title": "Trends",
-          "mobile-web-app-capable": "yes"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://storage.googleapis.com/gweb-yis-trends-prod/media/images/GettyImages-152698607_szAfCXo.2e16d0ba.fill-502x502.format-webp.webp"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "U.S. Stock Market Headlines | Breaking Stock Market News | Reuters",
-    "htmlTitle": "U.S. <b>Stock Market</b> Headlines | Breaking <b>Stock Market</b> News | Reuters",
-    "link": "https://www.reuters.com/markets/us/",
-    "displayLink": "www.reuters.com",
-    "snippet": "Find the latest stock market news from every corner of the globe at ... Market Talk: EU should grab US baseline tariff deal 'with both hands'. Market ...",
-    "htmlSnippet": "Find the <b>latest stock market</b> news from every corner of the globe at ... Market <b>Talk</b>: EU should grab US baseline tariff deal &#39;with both hands&#39;. Market&nbsp;...",
-    "formattedUrl": "https://www.reuters.com/markets/us/",
-    "htmlFormattedUrl": "https://www.reuters.com/<b>market</b>s/us/",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFXSacN3_7RIqkjLE8MbUcK-luR__e3bAA3TXY-82ktnsLpTVMDKoosH1&s",
-          "width": "311",
-          "height": "162"
-        }
-      ],
-      "metatags": [
-        {
-          "apple-itunes-app": "app-id=602660809",
-          "og:image": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp?d=299",
-          "og:type": "website",
-          "twitter:title": "U.S. Stock Market Headlines | Breaking Stock Market News | Reuters",
-          "ad:template": "landing",
-          "og:site_name": "Reuters",
-          "dcsext.dartzone": "/4735792/reuters.com/markets/us/home",
-          "ccbot": "nofollow",
-          "og:title": "U.S. Stock Market Headlines | Breaking Stock Market News | Reuters",
-          "fb:pages": "114050161948682",
-          "og:description": "Find the latest stock market news from every corner of the globe at Reuters.com, your online source for breaking international market and finance news",
-          "fb:app_id": "988502044532272",
-          "datemodified": "2025-07-11T21:57:03Z",
-          "viewport": "width=device-width, initial-scale=1",
-          "twitter:description": "Find the latest stock market news from every corner of the globe at Reuters.com, your online source for breaking international market and finance news",
-          "og:url": "https://www.reuters.com/markets/us/"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp?d=299"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Market Trend | Investor's Business Daily",
-    "htmlTitle": "<b>Market Trend</b> | Investor&#39;s Business Daily",
-    "link": "https://research.investors.com/markettrend.aspx",
-    "displayLink": "research.investors.com",
-    "snippet": "The Market Trend section keeps you trading in sync with the stock market by giving you IBD's exclusive market analysis, extra-large market charts, and ...",
-    "htmlSnippet": "The Market <b>Trend</b> section keeps you trading in sync with the <b>stock market</b> by giving you IBD&#39;s exclusive market analysis, extra-large market charts, and&nbsp;...",
-    "formattedUrl": "https://research.investors.com/markettrend.aspx",
-    "htmlFormattedUrl": "https://research.investors.com/<b>market</b>trend.aspx",
-    "pagemap": {
-      "metatags": [
-        {
-          "p:domain_verify": "fdf942e4ea215fafa65b5d9c35f29da9",
-          "og:image": "https://www1.ibdcd.com/images/IBDicon_309171.png",
-          "og:type": "article",
-          "og:site_name": "Investor's Business Daily",
-          "msvalidate.01": "A6A2E31D998968BEDD13CEA49F962D01",
-          "og:title": "Market Trend | Investor's Business Daily",
-          "y_key": "936909c3c1994b0d",
-          "msapplication-tileimage": "/images/favicons/cropped-ibd-icon-270x270.png",
-          "parsely-title": "Market Trend | Investor's Business Daily",
-          "facebook-domain-verification": "5b9671nhl8dz8sybvy5qu0tfztro1k",
-          "fb:app_id": "154916351273272",
-          "parsely-type": "post",
-          "viewport": "width=device-width, initial-scale=1",
-          "parsely-link": "https://research.investors.com/markettrend.aspx",
-          "parsely-image-url": "https://www1.ibdcd.com/images/IBDicon_309171.png",
-          "og:url": "https://research.investors.com/markettrend.aspx",
-          "twitter:account_id": "21328656"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://www1.ibdcd.com/images/IBDicon_309171.png"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "How to Spot Market Trends",
-    "htmlTitle": "How to Spot <b>Market Trends</b>",
-    "link": "https://www.investopedia.com/articles/technical/03/060303.asp",
-    "displayLink": "www.investopedia.com",
-    "snippet": "Secular Trends. A secular trend, one that can last for one to three decades, holds within its parameters many primary trends, and, for the most ...",
-    "htmlSnippet": "Secular <b>Trends</b>. A secular <b>trend</b>, one that can <b>last</b> for one to three decades, holds within its parameters many primary <b>trends</b>, and, for the most&nbsp;...",
-    "formattedUrl": "https://www.investopedia.com/articles/technical/03/060303.asp",
-    "htmlFormattedUrl": "https://www.investopedia.com/articles/technical/03/060303.asp",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ifktne1OE4KKCX2GpITP2MUVyNI-Qijj5OpKf4AvXoh2TNCaiW5fmZI&s",
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWjKbdZN0PLIqyfI56F3x6QWvBHAvnXoKcq-mr8mYzKBR_9m6ZdcgoSefh&s",
           "width": "275",
           "height": "183"
         }
       ],
+      "Article": [
+        {
+          "name": "The economic impact of Trump’s tariffs on Europe: an initial assessment"
+        },
+        {
+          "name": "The EU’s new climate and trade policy will be a good deal for US steel and aluminum"
+        }
+      ],
       "metatags": [
         {
-          "og:image": "https://www.investopedia.com/thmb/2Rd_IjlG_16HiVtFFPYfeRWYj4Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/What-Is-a-Stock-Exchange-56a0937a3df78cafdaa2d9be.jpg",
-          "twitter:card": "summary",
-          "msapplication-square70x70logo": "/static/4.38.0/icons/favicons/mstile-70x70.png",
-          "sailthru.tags": "trading,technical-analysis,technical-analysis-basic-education",
-          "og:site_name": "Investopedia",
-          "revenuegroup": "FINANCIALSERVICES",
-          "msapplication-wide310x150logo": "/static/4.38.0/icons/favicons/mstile-310x150.png",
-          "msapplication-tileimage": "/static/4.38.0/icons/favicons/mstile-144x144.png",
-          "og:description": "The success or failure of your long- and short-term investing depends on recognizing the direction of the market.",
-          "twitter:image": "https://www.investopedia.com/thmb/2Rd_IjlG_16HiVtFFPYfeRWYj4Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/What-Is-a-Stock-Exchange-56a0937a3df78cafdaa2d9be.jpg",
-          "twitter:site": "@Investopedia",
-          "msapplication-square310x310logo": "/static/4.38.0/icons/favicons/mstile-310x310.png",
-          "emailcontenttype": "STRUCTUREDCONTENT",
-          "parsely-section": "Trading",
-          "msapplication-tilecolor": "#F4F4F4",
-          "og:type": "article",
-          "twitter:title": "How to Spot Market Trends",
-          "emailvertical": "INVESTOPEDIA",
-          "og:title": "How to Spot Market Trends",
-          "msapplication-square150x150logo": "/static/4.38.0/icons/favicons/mstile-150x150.png",
-          "article:author": "https://www.facebook.com/Investopedia/",
-          "parsely-tags": "Investopedia,Trading,Technical Analysis,Technical Analysis Basic Education",
+          "msapplication-tilecolor": "#ffffff",
+          "og:image": "https://www.bruegel.org/sites/default/files/styles/og_image/public/2025-04/Niclas%20170425_0.jpg?itok=bfuCMVxW",
+          "og:image:width": "1024",
+          "twitter:card": "summary_large_image",
+          "twitter:title": "The economic impact of Trump’s tariffs on Europe: an initial assessment",
+          "theme-color": "#ffffff",
+          "og:site_name": "Bruegel | The Brussels-based economic think tank",
+          "handheldfriendly": "true",
+          "og:title": "The economic impact of Trump’s tariffs on Europe: an initial assessment",
+          "og:image:height": "683",
+          "msapplication-tileimage": "/themes/custom/bruegel/assets/favicon/ms-icon-144x144.png",
+          "og:description": "It is likely that Trump’s tariffs will be a limited hit to Europe, though some regions and industries could suffer and may need protective measures",
+          "twitter:image": "https://www.bruegel.org/sites/default/files/styles/og_image/public/2025-04/Niclas%20170425_0.jpg?itok=bfuCMVxW",
           "viewport": "width=device-width, initial-scale=1.0",
-          "twitter:description": "The success or failure of your long- and short-term investing depends on recognizing the direction of the market.",
-          "og:url": "https://www.investopedia.com/articles/technical/03/060303.asp",
-          "sailthru.author": "The Investopedia Team"
+          "twitter:description": "It is likely that Trump’s tariffs will be a limited hit to Europe, though some regions and industries could suffer and may need protective measures",
+          "mobileoptimized": "width",
+          "og:url": "https://www.bruegel.org/analysis/economic-impact-trumps-tariffs-europe-initial-assessment"
         }
       ],
       "cse_image": [
         {
-          "src": "https://www.investopedia.com/thmb/2Rd_IjlG_16HiVtFFPYfeRWYj4Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/What-Is-a-Stock-Exchange-56a0937a3df78cafdaa2d9be.jpg"
+          "src": "https://www.bruegel.org/sites/default/files/styles/og_image/public/2025-04/Niclas%20170425_0.jpg?itok=bfuCMVxW"
         }
       ]
     }
   },
   {
     "kind": "customsearch#result",
-    "title": "Stock Market Today: Stock Market News And Analysis",
-    "htmlTitle": "<b>Stock Market</b> Today: <b>Stock Market</b> News And Analysis",
-    "link": "https://www.investors.com/news/stock-market-today-stock-market-news/",
-    "displayLink": "www.investors.com",
-    "snippet": "20 hours ago ... The Stock Market Today column highlights the latest stock market news and alerts you to any changes in market trend. You'll also get ongoing analysis of the ...",
-    "htmlSnippet": "20 hours ago <b>...</b> The <b>Stock Market</b> Today column highlights the <b>latest stock market</b> news and alerts you to any changes in market <b>trend</b>. You&#39;ll also get ongoing analysis of the&nbsp;...",
-    "formattedUrl": "https://www.investors.com/news/stock-market-today-stock-market-news/",
-    "htmlFormattedUrl": "https://www.investors.com/news/<b>stock</b>-<b>market</b>-today-<b>stock</b>-<b>market</b>-news/",
+    "title": "How Trump's 'liberation day' tariffs will transform global trade ...",
+    "htmlTitle": "How <b>Trump&#39;s</b> &#39;liberation day&#39; <b>tariffs</b> will transform global <b>trade</b> ...",
+    "link": "https://www.atlanticcouncil.org/content-series/fastthinking/how-trumps-liberation-day-tariffs-will-transform-global-trade/",
+    "displayLink": "www.atlanticcouncil.org",
+    "snippet": "Apr 2, 2025 ... Our experts share their insights on how US President Donald Trump's sweeping tariffs will impact US trade partnerships and the global ...",
+    "htmlSnippet": "Apr 2, 2025 <b>...</b> Our experts share their insights on how US President Donald <b>Trump&#39;s</b> sweeping <b>tariffs</b> will <b>impact</b> US <b>trade</b> partnerships and the global&nbsp;...",
+    "formattedUrl": "https://www.atlanticcouncil.org/.../how-trumps-liberation-day-tariffs-will-tr...",
+    "htmlFormattedUrl": "https://www.atlanticcouncil.org/.../how-trumps-liberation-day-<b>tariffs</b>-will-tr...",
     "pagemap": {
       "cse_thumbnail": [
         {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJIFPGGAXCR5jZOhuYebalR2HJXEvvrq-cFVAFgjN7WNrwaczZLvjK360t&s",
-          "width": "299",
-          "height": "168"
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKgmhWcWb5G-00Yj8yGgib19Fn3vPuKI0akiGhHg8nFY_0dHtZ4nwPJ1E&s",
+          "width": "277",
+          "height": "182"
         }
       ],
       "metatags": [
         {
-          "og:image": "https://www.investors.com/wp-content/uploads/2020/06/Stock-bearbullchart-02-adobe.jpg",
-          "apple-itunes-app": "app-id=1132274579",
-          "page.content.type": "Article",
-          "article:published_time": "2025-06-06T17:15:51+00:00",
-          "og:image:width": "945",
+          "og:image": "https://www.atlanticcouncil.org/wp-content/uploads/2025/04/trump-reciprocal-tariffs-FT-image-scaled.jpg",
+          "og:type": "article",
+          "article:published_time": "2025-04-03T02:42:09+00:00",
+          "og:image:width": "2560",
           "twitter:card": "summary_large_image",
-          "og:site_name": "Investor's Business Daily",
+          "og:site_name": "Atlantic Council",
+          "author": "dhojnacki",
+          "og:title": "How Trump’s ‘liberation day’ tariffs will transform global trade",
+          "og:image:height": "1677",
           "twitter:label1": "Written by",
           "twitter:label2": "Est. reading time",
-          "parsely-author": "IBD STAFF",
           "og:image:type": "image/jpeg",
-          "msapplication-tileimage": "https://www.investors.com/wp-content/uploads/2023/10/ibd-favicon-20231010.png",
-          "og:description": "Stock Market Today highlights the latest stock market news and analysis.",
-          "twitter:creator": "@IBDinvestors",
-          "parsely-metadata": "{\"post_id\": \"3238331\", \"allesseh_post_id\": \"IBDF-3238331\"}",
-          "article:publisher": "https://www.facebook.com/investorsbusinessdaily/",
-          "twitter:data1": "IBD STAFF",
-          "twitter:data2": "2 minutes",
-          "parsely-type": "post",
-          "twitter:site": "@IBDinvestors",
-          "article:modified_time": "2025-07-11T19:52:18+00:00",
-          "twitter:player:stream": "https://cdn.jwplayer.com/videos/kKCsJkFb-640.mp4",
-          "parsely-link": "https://www.investors.com/news/stock-market-today-stock-market-news/",
-          "parsely-image-url": "https://www.investors.com/wp-content/uploads/2020/06/Stock-bearbullchart-02-adobe-640x360.jpg",
-          "parsely-section": "News",
-          "tag": "All News And Stock Ideas|Industry Trends And Stock News",
-          "og:type": "article",
-          "twitter:title": "Stock Market Today: Stock Market News And Analysis",
-          "author": "IBD STAFF",
-          "og:title": "Stock Market Today: Stock Market News And Analysis",
-          "og:image:height": "533",
-          "parsely-title": "Stock Market Today: Stock Market News And Analysis",
-          "parsely-pub-date": "2025-06-06T17:15:51Z",
-          "parsely-tags": "all news and stock ideas,industry trends and stock news",
-          "uac-config": "{\"breakpoints\":{\"at4units\":0,\"at8units\":320,\"at12units\":1024}}",
+          "msapplication-tileimage": "https://www.atlanticcouncil.org/wp-content/uploads/2019/09/favicon-300x300.png",
+          "og:description": "Our experts share their insights on how US President Donald Trump’s sweeping tariffs will impact US trade partnerships and the global economy.",
+          "twitter:data1": "dhojnacki",
+          "facebook-domain-verification": "brcbtbhpmq1wi5r01io58a9ox64p8b",
+          "twitter:data2": "4 minutes",
+          "article:modified_time": "2025-04-03T03:20:08+00:00",
           "viewport": "width=device-width, initial-scale=1",
-          "twitter:description": "Stock Market Today highlights the latest stock market news and analysis. Updated throughout each session, it also include stock futures.",
           "og:locale": "en_US",
-          "og:url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
-          "google-play-app": "app-id=com.investors.business.daily"
+          "og:url": "https://www.atlanticcouncil.org/content-series/fastthinking/how-trumps-liberation-day-tariffs-will-transform-global-trade/"
         }
       ],
       "cse_image": [
         {
-          "src": "https://www.investors.com/wp-content/uploads/2020/06/Stock-bearbullchart-02-adobe.jpg"
+          "src": "https://www.atlanticcouncil.org/wp-content/uploads/2025/04/trump-reciprocal-tariffs-FT-image-scaled.jpg"
         }
       ]
     }
   },
   {
     "kind": "customsearch#result",
-    "title": "MarketWatch: Stock Market News - Financial News - MarketWatch",
-    "htmlTitle": "MarketWatch: <b>Stock Market</b> News - Financial News - MarketWatch",
-    "link": "https://www.marketwatch.com/",
-    "displayLink": "www.marketwatch.com",
-    "snippet": "MarketWatch provides the latest stock market, financial and business news. Get stock market quotes, personal finance advice, company news and more.",
-    "htmlSnippet": "MarketWatch provides the <b>latest stock market</b>, financial and business news. Get <b>stock market</b> quotes, personal finance advice, company news and more.",
-    "formattedUrl": "https://www.marketwatch.com/",
-    "htmlFormattedUrl": "https://www.<b>market</b>watch.com/",
+    "title": "Fiscal, Macroeconomic, and Price Estimates of Tariffs Under Both ...",
+    "htmlTitle": "Fiscal, <b>Macroeconomic</b>, and Price Estimates of <b>Tariffs</b> Under Both ...",
+    "link": "https://budgetlab.yale.edu/research/fiscal-macroeconomic-and-price-estimates-tariffs-under-both-non-retaliation-and-retaliation",
+    "displayLink": "budgetlab.yale.edu",
+    "snippet": "Oct 16, 2024 ... Like all tax policy, tariffs involve trade-offs, and they have both fiscal and macroeconomic implications. ... President Trump's tariff ...",
+    "htmlSnippet": "Oct 16, 2024 <b>...</b> Like all tax policy, <b>tariffs</b> involve <b>trade</b>-offs, and they have both fiscal and <b>macroeconomic implications</b>. ... President <b>Trump&#39;s tariff</b>&nbsp;...",
+    "formattedUrl": "https://budgetlab.yale.edu/.../fiscal-macroeconomic-and-price-estimates-tari...",
+    "htmlFormattedUrl": "https://budgetlab.yale.edu/.../fiscal-macroeconomic-and-price-estimates-<b>tari</b>...",
     "pagemap": {
       "cse_thumbnail": [
         {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTC-HSD9m17zh3CmOxFqjg__bsUb5Q1_tUVUNKi_hunNQv7z9-D7gi-Fc&s",
-          "width": "310",
-          "height": "163"
-        }
-      ],
-      "metatags": [
-        {
-          "apple-itunes-app": "app-id=336693422",
-          "og:image": "https://mw3.wsj.net/mw5/content/logos/mw_logo_social.png",
-          "theme-color": "#2e2e2f",
-          "twitter:card": "summary_large_image",
-          "og:image:width": "1200",
-          "og:site_name": "MarketWatch",
-          "article.content_group": "marketwatch",
-          "page.site.product": "MW",
-          "twitter:image:height": "630",
-          "language": "EN-US",
-          "locale": "en_US",
-          "og:description": "MarketWatch provides the latest stock market, financial and business news. Get stock market quotes, personal finance advice, company news and more.",
-          "article:publisher": "https://www.facebook.com/marketwatch",
-          "twitter:image": "https://mw3.wsj.net/mw5/content/logos/mw_logo_social.png",
-          "next-head-count": "52",
-          "parsely-type": "post",
-          "twitter:site": "@marketwatch",
-          "twitter:image:width": "1200",
-          "news_keywords": "investing/securities, commodity/financial market news, economic news, retirement planning, personal finance, equity markets, corporate/industrial news, foreign exchange news, fund markets, politics/international relations",
-          "parsely-link": "https://www.marketwatch.com",
-          "parsely-section": "Home Page",
-          "twitter:title": "MarketWatch: Stock Market News - Financial News",
-          "twitter:site:id": "624413",
-          "twitter:domain": "marketwatch.com",
-          "og:title": "MarketWatch: Stock Market News - Financial News",
-          "og:image:height": "630",
-          "parsely-title": "Home Page - MarketWatch",
-          "url": "https://www.marketwatch.com",
-          "referrer": "no-referrer-when-downgrade",
-          "fb:app_id": "283204329838",
-          "parsely-tags": "PageType: Super Section, Industry: Investing/Securities, Subject: Commodity/Financial Market News, Subject: Economic News, Subject: Retirement Planning, Subject: Personal Finance, Subject: Equity Markets, Subject: Corporate/Industrial News, Subject: Foreign Exchange News, Subject: Fund Markets, Subject: Politics/International Relations, Related: latest-news, mw-page",
-          "viewport": "width=device-width, initial-scale=1.0",
-          "twitter:description": "MarketWatch provides the latest stock market, financial and business news. Get stock market quotes, personal finance advice, company news and more.",
-          "user.exp": "google_bot",
-          "user.type": "nonsubscriber",
-          "og:url": "https://www.marketwatch.com",
-          "page.site": "marketwatch"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://mw3.wsj.net/mw5/content/logos/mw_logo_social.png"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Recent balance sheet trends - Federal Reserve Board",
-    "htmlTitle": "Recent balance sheet trends - Federal Reserve Board",
-    "link": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
-    "displayLink": "www.federalreserve.gov",
-    "snippet": "Financial Market Utilities · Consumer Compliance · State Member Banks Supervised ... Here's how you know Expand More .gov icon. Official websites use .gov. A ...",
-    "htmlSnippet": "<b>Financial Market</b> Utilities &middot; Consumer Compliance &middot; State Member Banks Supervised ... Here&#39;s how you <b>know</b> Expand More .gov icon. Official websites use .gov. A&nbsp;...",
-    "formattedUrl": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
-    "htmlFormattedUrl": "https://www.federalreserve.gov/monetarypolicy/bst_<b>recenttrends</b>.htm",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJmZVW5osVWm_7Wd5T-AjuFQAibj9VFZnY8DSiRlY8VX99hnDPt1mbHd0&s",
-          "width": "310",
-          "height": "163"
-        }
-      ],
-      "metatags": [
-        {
-          "og:image": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg",
-          "og:type": "article",
-          "og:image:alt": "Board of Governors of the Federal Reserve System",
-          "twitter:card": "summary",
-          "twitter:title": "Recent balance sheet trends",
-          "twitter:image:alt": "Board of Governors of the Federal Reserve System",
-          "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0 maximum-scale=1.6, user-scalable=1",
-          "twitter:description": "The Federal Reserve Board of Governors in Washington DC.",
-          "og:title": "Recent balance sheet trends",
-          "og:url": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
-          "og:description": "The Federal Reserve Board of Governors in Washington DC.",
-          "twitter:image": "https://www.federalreserve.gov/images/social-media/social-default-image-twitter.jpg"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Ten Things to Know About Consolidation in Health Care Provider ...",
-    "htmlTitle": "Ten Things to <b>Know</b> About Consolidation in Health Care Provider ...",
-    "link": "https://www.kff.org/health-costs/issue-brief/ten-things-to-know-about-consolidation-in-health-care-provider-markets/",
-    "displayLink": "www.kff.org",
-    "snippet": "Apr 19, 2024 ... Physician markets may have become more concentrated in recent years due to the ongoing trends in consolidation described above. 3 ...",
-    "htmlSnippet": "Apr 19, 2024 <b>...</b> Physician <b>markets</b> may have become more concentrated in <b>recent</b> years due to the ongoing <b>trends</b> in consolidation described above. 3&nbsp;...",
-    "formattedUrl": "https://www.kff.org/.../ten-things-to-know-about-consolidation-in-health-ca...",
-    "htmlFormattedUrl": "https://www.kff.org/.../ten-things-to-know-about-consolidation-in-health-ca...",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-lKm3zUPm69Lz-ookgpydePcoqKccWGzo5AuyXE1ZEzWqzNmS7Ll7kB1p&s",
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLW8xmtoxW2pxPddbs6UisZ7AEArxIOJoWaKYeJX1fRvfeyg6fBqW1X6rk&s",
           "width": "300",
           "height": "168"
         }
       ],
       "metatags": [
         {
-          "og:image": "https://www.kff.org/wp-content/uploads/2024/04/240419_Consolidation-in-Health-Care-Provider-Markets_FI.png",
-          "og:type": "article",
-          "og:image:width": "3840",
-          "twitter:card": "summary_large_image",
-          "og:site_name": "KFF",
-          "og:title": "Ten Things to Know About Consolidation in Health Care Provider Markets | KFF",
-          "og:image:height": "2160",
-          "twitter:label1": "Est. reading time",
-          "og:image:type": "image/png",
-          "msapplication-tileimage": "https://www.kff.org/wp-content/uploads/2023/04/3976_KFF_favicon_256x256_revised.png?w=256",
-          "og:description": "As policymakers and regulators pay more attention to consolidation in health care provider markets, this brief examines and summarizes the evidence about consolidation, including recent trends, the impact on prices and quality, and proposals to address consolidation and increase competition.",
-          "twitter:data1": "22 minutes",
-          "article:tag": "Access to Care",
-          "article_author": "Zachary Levinson",
-          "article:modified_time": "2025-05-19T18:21:35+00:00",
-          "viewport": "width=device-width, initial-scale=1",
-          "og:locale": "en_US",
-          "og:url": "https://www.kff.org/health-costs/issue-brief/ten-things-to-know-about-consolidation-in-health-care-provider-markets/"
+          "msapplication-tilecolor": "#da532c",
+          "og:image": "https://budgetlab.yale.edu/sites/default/files/styles/social_media/public/2024-10/Tariffs%20report%20page%20image.jpg?h=c7c84225&itok=dbAq8Rmr",
+          "og:type": "Publication",
+          "og:image:width": "1200",
+          "twitter:card": "photo",
+          "twitter:title": "Fiscal, Macroeconomic, and Price Estimates of Tariffs Under Both Non-Retaliation and Retaliation Scenarios",
+          "theme-color": "#ffffff",
+          "og:site_name": "The Budget Lab at Yale",
+          "og:image:url": "https://budgetlab.yale.edu/sites/default/files/styles/social_media/public/2024-10/Tariffs%20report%20page%20image.jpg?h=c7c84225&itok=dbAq8Rmr",
+          "handheldfriendly": "true",
+          "og:title": "Fiscal, Macroeconomic, and Price Estimates of Tariffs Under Both Non-Retaliation and Retaliation Scenarios",
+          "og:image:height": "675",
+          "twitter:image:height": "675",
+          "favicon-generator": "Drupal responsive_favicons + realfavicongenerator.net",
+          "twitter:image:width": "1200",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "mobileoptimized": "width",
+          "og:url": "https://budgetlab.yale.edu/research/fiscal-macroeconomic-and-price-estimates-tariffs-under-both-non-retaliation-and-retaliation"
         }
       ],
       "cse_image": [
         {
-          "src": "https://www.kff.org/wp-content/uploads/2024/04/240419_Consolidation-in-Health-Care-Provider-Markets_FI.png"
+          "src": "https://budgetlab.yale.edu/sites/default/files/styles/social_media/public/2024-10/Tariffs%20report%20page%20image.jpg?h=c7c84225&itok=dbAq8Rmr"
         }
       ]
     }
   },
   {
     "kind": "customsearch#result",
-    "title": "Stock Market Trends | Morningstar",
-    "htmlTitle": "<b>Stock Market Trends</b> | Morningstar",
-    "link": "https://www.morningstar.com/topics/stock-market-trends",
-    "displayLink": "www.morningstar.com",
-    "snippet": "... New. Products for Investors. All Products and Services · Home. Topics. Stock Market Trends ... show their work, distinguish facts from opinions, and make sure ...",
-    "htmlSnippet": "... <b>New</b>. Products for Investors. All Products and Services &middot; Home. Topics. <b>Stock Market Trends</b> ... <b>show</b> their work, distinguish facts from opinions, and make sure&nbsp;...",
-    "formattedUrl": "https://www.morningstar.com/topics/stock-market-trends",
-    "htmlFormattedUrl": "https://www.morningstar.com/topics/<b>stock</b>-<b>market</b>-<b>trends</b>",
+    "title": "Rising Import Tariffs, Falling Export Growth: When Modern Supply ...",
+    "htmlTitle": "Rising <b>Import Tariffs</b>, Falling Export Growth: When Modern Supply ...",
+    "link": "https://www.nber.org/papers/w26611",
+    "displayLink": "www.nber.org",
+    "snippet": "Jan 3, 2020 ... We examine the impacts of the 2018-2019 US import tariff increases on US export growth through the lens of supply chain linkages.",
+    "htmlSnippet": "Jan 3, 2020 <b>...</b> We examine the <b>impacts</b> of the 2018-2019 US <b>import tariff</b> increases on US export growth through the lens of supply chain linkages.",
+    "formattedUrl": "https://www.nber.org/papers/w26611",
+    "htmlFormattedUrl": "https://www.nber.org/papers/w26611",
     "pagemap": {
       "cse_thumbnail": [
         {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgkhmm4wwBQbh7agsdEYAH98-K5OJKwES37KO5qEGXLUsxhZNGzKDXkcg&s",
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmeViEZyV1YmFEFLhcA6WdgAG3v3RV6tB93ncyxSJ5JPst_p2aWrL7D1k&s",
           "width": "310",
           "height": "163"
         }
       ],
-      "imageobject": [
-        {
-          "contenturl": "https://www.morningstar.com/assets/img/morningstar-600px.bb30655.png",
-          "width": "600px",
-          "url": "https://www.morningstar.com/assets/img/morningstar-600px.bb30655.png"
-        }
-      ],
-      "organization": [
-        {
-          "name": "Morningstar, Inc.",
-          "publishingprinciples": "https://www.morningstar.com/editorial-policy",
-          "slogan": "Empowering Investor Success",
-          "url": "https://www.morningstar.com/",
-          "sameas": "https://www.facebook.com/MorningstarInc"
-        }
-      ],
-      "collectionpage": [
-        {
-          "name": "Stock Market Trends"
-        }
-      ],
       "metatags": [
         {
-          "og:image": "https://images.contentstack.io/v3/assets/blt4eb669caa7dc65b2/blta7dd42ebdd7b93b8/61899b34a3c7df383578294c/morningstar-og.png",
-          "twitter:card": "summary",
-          "og:site_name": "Morningstar, Inc.",
-          "twitter:site": "@MorningstarInc",
-          "viewport": "width=device-width, initial-scale=1",
-          "msvalidate.01": "3B92D15190FFAFB254D37CE182C0D3AE",
-          "version": "1.6.0"
+          "citation_publication_date": "2020/01/06",
+          "og:image": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg",
+          "citation_title": "Rising Import Tariffs, Falling Export Growth: When Modern Supply Chains Meet Old-Style Protectionism",
+          "og:type": "article",
+          "og:site_name": "NBER",
+          "handheldfriendly": "true",
+          "og:title": "Rising Import Tariffs, Falling Export Growth: When Modern Supply Chains Meet Old-Style Protectionism",
+          "dcterms.title": "Rising Import Tariffs, Falling Export Growth: When Modern Supply Chains Meet Old-Style Protectionism",
+          "citation_author": "Kyle Handley",
+          "dcterms.creator": "Kyle Handley, Fariha Kamal, Ryan Monarch",
+          "dcterms.date": "2020/01/06",
+          "citation_technical_report_number": "w26611",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "citation_doi": "10.3386/w26611",
+          "mobileoptimized": "width",
+          "citation_pdf_url": "https://www.nber.org/system/files/working_papers/w26611/w26611.pdf",
+          "citation_technical_report_institution": "National Bureau of Economic Research",
+          "og:url": "https://www.nber.org/papers/w26611"
         }
       ],
       "cse_image": [
         {
-          "src": "https://images.contentstack.io/v3/assets/blt4eb669caa7dc65b2/blta7dd42ebdd7b93b8/61899b34a3c7df383578294c/morningstar-og.png"
+          "src": "https://www.nber.org/sites/default/files/2022-06/NBER-FB-Share-Tile-1200.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Understanding the Global Macroeconomic Impacts of Trump's Tariffs",
+    "htmlTitle": "Understanding the Global <b>Macroeconomic Impacts of Trump&#39;s Tariffs</b>",
+    "link": "https://hbr.org/2025/04/understanding-the-global-macroeconomic-impacts-of-trumps-tariffs",
+    "displayLink": "hbr.org",
+    "snippet": "Apr 10, 2025 ... President Trump followed through on campaign promises to steeply hike tariffs on US trading partners, taking the average effective tariff rate to around 23%.",
+    "htmlSnippet": "Apr 10, 2025 <b>...</b> President <b>Trump</b> followed through on campaign promises to steeply hike <b>tariffs</b> on US <b>trading</b> partners, taking the average effective <b>tariff</b> rate to around 23%.",
+    "formattedUrl": "https://hbr.org/.../understanding-the-global-macroeconomic-impacts-of-tru...",
+    "htmlFormattedUrl": "https://hbr.org/.../understanding-the-global-macroeconomic-impacts-of-tru...",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnHiDr5Zgzmcce9Fu7LB3w1PKKj71DRwyiFkHItTEAGDiLIS5s6OwQRV0a&s",
+          "width": "300",
+          "height": "168"
         }
       ],
-      "listitem": [
+      "metatags": [
         {
-          "name": "Weekly Market Update: Stocks Tread Water"
-        },
+          "msapplication-config": "none",
+          "uid": "28FA1DC59350BA3EDC440C9249BDD7BE",
+          "next-head-count": "15",
+          "og:type": "article",
+          "ox-group": "537063787",
+          "twitter:card": "summary_large_image",
+          "twitter:site": "@harvardbiz",
+          "test": "rollback",
+          "viewport": "width=device-width",
+          "page-type": "ITEM",
+          "article-content-type": "Digital Article",
+          "twitter:creator": "@harvardbiz"
+        }
+      ],
+      "cse_image": [
         {
-          "name": "The 60/40 Portfolio: A 150-Year Markets Stress Test"
-        },
+          "src": "https://hbr.org/resources/images/article_assets/2025/04/Apr25_10_Skizzomat.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Distributional and Macroeconomic Effects of Trump 2.0 | Institute for ...",
+    "htmlTitle": "Distributional and <b>Macroeconomic Effects of Trump</b> 2.0 | Institute for ...",
+    "link": "https://www.ineteconomics.org/perspectives/blog/distributional-and-macroeconomic-effects-of-trump-2-0",
+    "displayLink": "www.ineteconomics.org",
+    "snippet": "May 5, 2025 ... According to the Trump administration, the primary reason for the tariff increases is the large trade deficit of the U.S. economy. The U.S. ...",
+    "htmlSnippet": "May 5, 2025 <b>...</b> According to the <b>Trump</b> administration, the primary reason for the <b>tariff</b> increases is the large <b>trade</b> deficit of the U.S. economy. The U.S.&nbsp;...",
+    "formattedUrl": "https://www.ineteconomics.org/.../distributional-and-macroeconomic-effect...",
+    "htmlFormattedUrl": "https://www.ineteconomics.org/.../distributional-and-macroeconomic-effect...",
+    "pagemap": {
+      "cse_thumbnail": [
         {
-          "name": "Q2 2025 in Review and Q3 2025 Market Outlook"
-        },
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp5r-1i7hU4zt3i_2_zr_q9NfsVmerWDpY1-0AfaGk5TWQmj6J4Nw4AYM&s",
+          "width": "300",
+          "height": "168"
+        }
+      ],
+      "metatags": [
         {
-          "name": "Q3 2025 Stock Market Outlook: After the Rally, What’s Still Undervalued?"
-        },
+          "og:image": "//www.ineteconomics.org/uploads/featured/Trump-2.0-and-inequality-edited.jpg",
+          "og:type": "website",
+          "twitter:card": "summary_large_image",
+          "twitter:title": "Distributional and Macroeconomic Effects of Trump 2.0",
+          "og:site_name": "Institute for New Economic Thinking",
+          "twitter:url": "https://www.ineteconomics.org/perspectives/blog/distributional-and-macroeconomic-effects-of-trump-2-0",
+          "og:title": "Distributional and Macroeconomic Effects of Trump 2.0",
+          "og:description": "The most likely outcome of the second Trump administration is a recession and an exacerbation of inequalities, and a further degradation of the living standards of working and middle-class Americans.",
+          "twitter:creator": "@ineteconomics",
+          "twitter:image": "http://www.ineteconomics.org/uploads/featured/Trump-2.0-and-inequality-edited.jpg",
+          "twitter:site": "@ineteconomics",
+          "viewport": "width=device-width, initial-scale=1",
+          "twitter:description": "The most likely outcome of the second Trump administration is a recession and an exacerbation of inequalities, and a further degradation of the living standards of working and middle-class Americans.",
+          "og:locale": "en_us",
+          "og:url": "https://www.ineteconomics.org/perspectives/blog/distributional-and-macroeconomic-effects-of-trump-2-0"
+        }
+      ],
+      "cse_image": [
         {
-          "name": "4 Key Market Factors to Track in Q3 2025"
-        },
+          "src": "https://www.ineteconomics.org/uploads/featured/Trump-2.0-and-inequality-edited.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Evaluating the fiscal and macroeconomic effects of universal tariffs ...",
+    "htmlTitle": "Evaluating the fiscal and <b>macroeconomic effects</b> of universal <b>tariffs</b> ...",
+    "link": "https://www.piie.com/events/2025/evaluating-fiscal-and-macroeconomic-effects-universal-tariffs-us",
+    "displayLink": "www.piie.com",
+    "snippet": "The Trump administration publicly projects that higher tariffs will be a major and reliable source of revenue for the federal government with transitory or ...",
+    "htmlSnippet": "The <b>Trump</b> administration publicly projects that higher <b>tariffs</b> will be a major and reliable source of revenue for the federal government with transitory or&nbsp;...",
+    "formattedUrl": "https://www.piie.com/.../evaluating-fiscal-and-macroeconomic-effects-univ...",
+    "htmlFormattedUrl": "https://www.piie.com/.../evaluating-fiscal-and-macroeconomic-effects-univ...",
+    "pagemap": {
+      "cse_thumbnail": [
         {
-          "name": "Is the Stock Market Open Today?"
-        },
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZ5EdKbPUr7QFKYrlj78K03ikSueQ0bMuutxM1sX4ff4Zgig8foU-phix&s",
+          "width": "300",
+          "height": "168"
+        }
+      ],
+      "metatags": [
         {
-          "name": "4 Key Insights From the 2025 Morningstar Investment Conference"
-        },
+          "og:image": "https://www.piie.com/sites/default/files/2025-04/2025-04-30-tariff-debate-webpage.jpeg",
+          "article:section": "Events",
+          "article:published_time": "2025-04-17T10:11:26-04:00",
+          "twitter:card": "summary_large_image",
+          "twitter:title": "Evaluating the fiscal and macroeconomic effects of universal tariffs for US",
+          "og:site_name": "PIIE",
+          "handheldfriendly": "true",
+          "og:locality": "PIIE Webcast, Washington, DC",
+          "og:title": "Evaluating the fiscal and macroeconomic effects of universal tariffs for US",
+          "og:updated_time": "2025-04-30T23:14:36-04:00",
+          "og:description": "Two new, separate analyses from the Tax Foundation and the Peterson Institute for International Economics explore the projected fiscal and economic outcomes of implementing univ",
+          "article:author": "Adam S. Posen,Mary E. Lovely,Maurice Obstfeld,Alan Cole,Erica York",
+          "article:publisher": "Adam S. Posen,Mary E. Lovely,Maurice Obstfeld,Alan Cole,Erica York",
+          "article:modified_time": "2025-04-30T23:14:36-04:00",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "twitter:description": "Two new, separate analyses from the Tax Foundation and the Peterson Institute for International Economics explore the projected fiscal and economic outcomes of implementing univ",
+          "mobileoptimized": "width",
+          "og:url": "https://www.piie.com/events/2025/evaluating-fiscal-and-macroeconomic-effects-universal-tariffs-us"
+        }
+      ],
+      "cse_image": [
         {
-          "name": "13 Charts on Q2’s Major Market Rebound"
-        },
+          "src": "https://www.piie.com/sites/default/files/2025-04/2025-04-30-tariff-debate-webpage.jpeg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "The Impact of Trump-Era Tariffs on Corporate ESG Activities | Blog ...",
+    "htmlTitle": "The <b>Impact of Trump</b>-<b>Era Tariffs</b> on Corporate ESG Activities | Blog ...",
+    "link": "https://asuene.com/us/blog/the-impact-of-trump-era-tariffs-on-corporate-esg-activities",
+    "displayLink": "asuene.com",
+    "snippet": "Apr 8, 2025 ... Aimed at promoting economic independence and countering trade deficits, these tariffs ... macroeconomic data, global case studies, and ...",
+    "htmlSnippet": "Apr 8, 2025 <b>...</b> Aimed at promoting economic independence and countering <b>trade</b> deficits, these <b>tariffs</b> ... <b>macroeconomic</b> data, global case studies, and&nbsp;...",
+    "formattedUrl": "https://asuene.com/.../the-impact-of-trump-era-tariffs-on-corporate-esg-acti...",
+    "htmlFormattedUrl": "https://asuene.com/.../the-impact-of-<b>trump-era</b>-<b>tariffs</b>-on-corporate-esg-acti...",
+    "pagemap": {
+      "cse_thumbnail": [
         {
-          "name": "These Stocks Led the Market’s Big Rebound in Q2"
-        },
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTexW_lI8gCtyJYXnTKWezTqaqq-l2sqgLufb1SlzQ9vyrIVAh3vt2XqvU&s",
+          "width": "309",
+          "height": "163"
+        }
+      ],
+      "thumbnail": [
         {
-          "name": "BlackRock’s Rick Rieder: Why the US Economy Is Going to Be Fine"
-        },
+          "src": "https://asuene.com/us/wp-content/themes/theme-asene-us/assets/img/en_thumb.png"
+        }
+      ],
+      "metatags": [
         {
-          "name": "Smart Investor: Market-Leading Dividend Stocks, Bull or Bear on the Outlook, Should You Buy REITs?"
-        },
+          "og:image": "https://asuene.com/us/wp-content/themes/theme-asene-us/assets/img/en_ogp.png",
+          "og:type": "article",
+          "thumbnail": "https://asuene.com/us/wp-content/themes/theme-asene-us/assets/img/en_thumb.png",
+          "twitter:card": "summary_large_image",
+          "twitter:title": "The Impact of Trump-Era Tariffs on Corporate ESG Activities | Blog | ASUENE | The enterprise climate cloud platform | Carbon Calculation Decarbonizated SaaS",
+          "og:site_name": "ASUENE",
+          "twitter:url": "https://asuene.com/us/blog/the-impact-of-trump-era-tariffs-on-corporate-esg-activities",
+          "og:title": "The Impact of Trump-Era Tariffs on Corporate ESG Activities | Blog | ASUENE | The enterprise climate cloud platform | Carbon Calculation Decarbonizated SaaS",
+          "msapplication-tileimage": "https://asuene.com/us/wp-content/uploads/sites/3/2024/11/3961fb94371e623bbd6c510ee0a5884f-270x270.png",
+          "og:description": "Your All-In-One Decarbonization Partner｜Enterprise software coupled with consultations with Greenhouse Gas (GHG) experts  to measure, reduce and verify your Scope 1-3 carbon emissions",
+          "twitter:image:src": "https://asuene.com/us/wp-content/uploads/sites/3/2024/10/d8b2510c1ffb403fd4fe1b53eb0486bd.jpg",
+          "twitter:site": "@asuene_inc_",
+          "viewport": "width=device-width, initial-scale=1",
+          "twitter:description": "Your All-In-One Decarbonization Partner｜Enterprise software coupled with consultations with Greenhouse Gas (GHG) experts  to measure, reduce and verify your Scope 1-3 carbon emissions",
+          "og:locale": "en_US",
+          "og:url": "https://asuene.com/us/blog/the-impact-of-trump-era-tariffs-on-corporate-esg-activities",
+          "format-detection": "telephone=no,address=no,email=no"
+        }
+      ],
+      "cse_image": [
         {
-          "name": "Bull or Bear? Here’s How the Outlook for Stocks Stacks Up"
-        },
+          "src": "https://asuene.com/us/wp-content/uploads/sites/3/2025/04/98314abc5c47047ffe24536a061084cb-708x374.png"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "The international economic implications of a second Trump ...",
+    "htmlTitle": "The international economic <b>implications</b> of a second <b>Trump</b> ...",
+    "link": "https://www.piie.com/publications/working-papers/2024/international-economic-implications-second-trump-presidency",
+    "displayLink": "www.piie.com",
+    "snippet": "Sep 26, 2024 ... We focus on immigration policy, trade, and erosion of the Federal Reserve Board's political independence. Each policy has differing ...",
+    "htmlSnippet": "Sep 26, 2024 <b>...</b> We focus on immigration policy, <b>trade</b>, and erosion of the Federal Reserve Board&#39;s political independence. Each policy has differing&nbsp;...",
+    "formattedUrl": "https://www.piie.com/.../international-economic-implications-second-trump...",
+    "htmlFormattedUrl": "https://www.piie.com/.../international-economic-<b>implications</b>-second-trump...",
+    "pagemap": {
+      "cse_thumbnail": [
         {
-          "name": "Which Economic Indicators Are Most Important to Pay Attention to During Periods of Volatility?"
-        },
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7kZcGuEa5O7U_xdg96HswmghncOr7p0PkYOZzZQ_Jw8Uz6bi17xcptV8&s",
+          "width": "301",
+          "height": "167"
+        }
+      ],
+      "metatags": [
         {
-          "name": "Smart Investor: Undervalued Dividend Raisers, the Israel/Iran Conflict and the Markets, Plus the Fed Outlook."
-        },
+          "og:image": "https://www.piie.com/sites/default/files/2024-09/RC2UXQ9ZNDID.JPG",
+          "og:type": "Working Papers",
+          "article:section": "Working Papers 24-20",
+          "article:published_time": "2024-09-26T05:00:00-04:00",
+          "twitter:card": "summary_large_image",
+          "twitter:title": "The international economic implications of a second Trump presidency",
+          "og:site_name": "PIIE",
+          "handheldfriendly": "true",
+          "og:title": "The international economic implications of a second Trump presidency",
+          "og:updated_time": "2024-09-26T04:43:34-04:00",
+          "og:description": "This paper explores policies promoted by former president and now candidate Donald Trump that would potentially affect the global economy. We focus on immigration policy, trade, and erosion of the Federal Reserve Board's political independence. Each policy has differing macroeconomic and sectoral impacts on the United States and other countries. We find, however, that all the policies examined cause a decline in US production and employment, especially in trade-exposed sectors such as manufacturing and agriculture, as well as higher US inflation.",
+          "article:author": "Warwick J. McKibbin,Megan Hogan,Marcus Noland",
+          "article:publisher": "Warwick J. McKibbin,Megan Hogan,Marcus Noland",
+          "twitter:image": "https://www.piie.com/sites/default/files/2024-09/RC2UXQ9ZNDID.JPG",
+          "article:modified_time": "2024-09-26T04:43:34-04:00",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "twitter:description": "This paper explores policies promoted by former president and now candidate Donald Trump that would potentially affect the global economy. We focus on immigration policy, trade, and erosion of the Federal Reserve Board's political independence. Each policy has differing macroeconomic and sectoral impacts on the United States and other countries. We find, however, that all the policies examined cause a decline in US production and employment, especially in trade-exposed sectors such as manufacturing and agriculture, as well as higher US inflation.",
+          "mobileoptimized": "width",
+          "og:url": "https://www.piie.com/publications/working-papers/2024/international-economic-implications-second-trump-presidency"
+        }
+      ],
+      "cse_image": [
         {
-          "name": "Paul Ashworth: ‘Forecasting Is Difficult at the Best of Times, and This Is Not the Best of Times’"
-        },
+          "src": "https://www.piie.com/sites/default/files/2024-09/RC2UXQ9ZNDID.JPG"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "What are tariffs, and why are they rising? | Brookings",
+    "htmlTitle": "What are <b>tariffs</b>, and why are they rising? | Brookings",
+    "link": "https://www.brookings.edu/articles/what-are-tariffs-and-why-are-they-rising/",
+    "displayLink": "www.brookings.edu",
+    "snippet": "Jul 1, 2024 ... The Biden administration kept Trump-era tariffs on China in place ... Trade Act of 1974, Section 201 allows the president to impose tariffs ...",
+    "htmlSnippet": "Jul 1, 2024 <b>...</b> The Biden administration kept <b>Trump</b>-<b>era tariffs</b> on China in place ... <b>Trade</b> Act of 1974, Section 201 allows the president to impose <b>tariffs</b>&nbsp;...",
+    "formattedUrl": "https://www.brookings.edu/articles/what-are-tariffs-and-why-are-they-rising/",
+    "htmlFormattedUrl": "https://www.brookings.edu/articles/what-are-<b>tariffs</b>-and-why-are-they-rising/",
+    "pagemap": {
+      "cse_thumbnail": [
         {
-          "name": "Healthcare Stocks Got Left Behind in the Market Rally. Are They a Buy?"
-        },
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEza69-w7nWBmY18mOh491XbHzZ_u0iXlpmgO3Xvy--ZHtIAfNtAnl670&s",
+          "width": "298",
+          "height": "169"
+        }
+      ],
+      "metatags": [
         {
-          "name": "June 2025 US Stock Market Outlook: Has the Storm Passed?"
-        },
+          "msapplication-tilecolor": "#ffffff",
+          "og:image": "https://www.brookings.edu/wp-content/uploads/2024/07/aerial-view-of-shipping-containers-at-dock.jpg?quality=75",
+          "msapplication-config": "https://www.brookings.edu/wp-content/themes/brookings/assets/images/favicons/browserconfig.xml",
+          "og:type": "article",
+          "og:image:width": "1000",
+          "twitter:card": "summary_large_image",
+          "theme-color": "#ffffff",
+          "og:site_name": "Brookings",
+          "og:title": "What are tariffs, and why are they rising? | Brookings",
+          "og:image:height": "570",
+          "twitter:label1": "Est. reading time",
+          "og:image:type": "image/jpeg",
+          "msapplication-tileimage": "https://www.brookings.edu/wp-content/themes/brookings/assets/images/favicons//mstile-150x150.png",
+          "og:description": "The Hutchins Center explains what tariffs are, how they work, and what's happened with them during the Trump and Biden administrations.",
+          "twitter:data1": "10 minutes",
+          "article:modified_time": "2025-04-18T19:55:39+00:00",
+          "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+          "og:locale": "en_US",
+          "og:url": "https://www.brookings.edu/articles/what-are-tariffs-and-why-are-they-rising/"
+        }
+      ],
+      "cse_image": [
         {
-          "name": "Has the Stock Market Reached Peak Optimism on Tariffs?"
-        },
-        {
-          "name": "Stocks Rise as US Court Rules Trump Tariffs Are Unlawful"
-        },
-        {
-          "name": "Stocks Fall as Trump Targets Europe and Apple With Steep Tariffs"
+          "src": "https://www.brookings.edu/wp-content/uploads/2024/07/aerial-view-of-shipping-containers-at-dock.jpg?quality=75"
         }
       ]
     }

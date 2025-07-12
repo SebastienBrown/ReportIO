@@ -18,39 +18,21 @@ client = openai.AzureOpenAI(
     api_version=AZURE_CHATOPENAI_API_VERSION
 )
 
-def read_content_from_json(file_path: str) -> List[str]:
+def read_content_from_results_data(results_data: Dict) -> List[str]:
     """
-    Read content from JSON file and extract all 'content' fields from 'results' list
-    
+    Extract all 'content' fields from the 'results' list in a results_data dictionary.
+
     Args:
-        file_path: Path to the JSON file
-        
+        results_data: The in-memory dictionary (not from a JSON file)
+
     Returns:
         List of content strings
     """
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        contents = []
-        
-        # Check if 'results' exists and is a list
-        if isinstance(data, dict) and 'results' in data and isinstance(data['results'], list):
-            for item in data['results']:
-                if isinstance(item, dict) and 'content' in item:
-                    contents.append(item['content'])
-
-        return contents
-    
-    except FileNotFoundError:
-        print(f"Error: File {file_path} not found")
-        return []
-    except json.JSONDecodeError:
-        print(f"Error: Invalid JSON in file {file_path}")
-        return []
-    except Exception as e:
-        print(f"Error reading file {file_path}: {str(e)}")
-        return []
+    return [
+        item['content']
+        for item in results_data.get('results', [])
+        if isinstance(item, dict) and 'content' in item
+    ]
 
 def gpt_call(prompt: str, system_message: Optional[str] = None) -> str:
     """
@@ -87,7 +69,7 @@ def gpt_call(prompt: str, system_message: Optional[str] = None) -> str:
         print(f"Messages structure: {messages}")
         return ""
 
-def summarize_and_process(json_file_path: str, initial_prompt: str) -> str:
+def summarize_and_process(results_data, initial_prompt: str) -> str:
     """
     Main function to read content, summarize it, and provide information requested in initial prompt
     
@@ -99,7 +81,7 @@ def summarize_and_process(json_file_path: str, initial_prompt: str) -> str:
         Final GPT response
     """
     # Step 1: Read content from JSON file
-    contents = read_content_from_json(json_file_path)
+    contents = read_content_from_results_data(results_data)
     
     if not contents:
         print("No content found in JSON file")
