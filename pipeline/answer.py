@@ -20,7 +20,7 @@ client = openai.AzureOpenAI(
 
 def read_content_from_json(file_path: str) -> List[str]:
     """
-    Read content from JSON file and extract all 'content' fields
+    Read content from JSON file and extract all 'content' fields from 'results' list
     
     Args:
         file_path: Path to the JSON file
@@ -33,15 +33,15 @@ def read_content_from_json(file_path: str) -> List[str]:
             data = json.load(f)
         
         contents = []
-        # Handle both single object and list of objects
-        if isinstance(data, list):
-            for item in data:
+        
+        # Check if 'results' exists and is a list
+        if isinstance(data, dict) and 'results' in data and isinstance(data['results'], list):
+            for item in data['results']:
                 if isinstance(item, dict) and 'content' in item:
                     contents.append(item['content'])
-        elif isinstance(data, dict) and 'content' in data:
-            contents.append(data['content'])
-        
+
         return contents
+    
     except FileNotFoundError:
         print(f"Error: File {file_path} not found")
         return []
@@ -111,8 +111,8 @@ def summarize_and_process(json_file_path: str, initial_prompt: str) -> str:
     combined_content = "\n\n".join(contents)
     
     summarize_prompt = f"""
-    Please provide a comprehensive summary of the following content. 
-    Focus on the key points, main themes, and important details:
+    You are a helpful assistant. Use the provided context to answer the question clearly and concisely.
+    If the answer is not found in the context, say so explicitly.
     
     {combined_content}
     """

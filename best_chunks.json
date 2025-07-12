@@ -1,50 +1,50 @@
 {
-  "query": "what is the latest on fine-tuning techniques for machine learning",
+  "query": "Tell me about recent trends in the stock market",
   "results": [
     {
-      "content": "This can be beneficial if the lower layers of the pre-trained model have already learned general features that are useful for your task. On the other hand, unfreezing allows the corresponding layers to adapt to the new data during fine-tuning. 4. Training Once you have adjusted the architecture and decided which layers to freeze or unfreeze, its time to train the modified model on your task-specific dataset.",
-      "source_url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
-      "chunk_id": 8,
-      "start_pos": 1243,
-      "end_pos": 1655,
-      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
-      "similarity_score": 0.6982389092445374
+      "content": "How To Handle Changing Stock Market Trends YOU MAY ALSO LIKE: Looking For The Best Stocks To Buy And Watch? Start With This 3-Step Routine See Which Stocks Were Just Added To  And Removed From  IBD Stock Lists How To Buy StocksBuying Checklist When To Sell StocksSelling Checklist",
+      "source_url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
+      "chunk_id": 7,
+      "start_pos": 1474,
+      "end_pos": 1755,
+      "document_id": "Stock Market Today: Stock Market News And Analysis",
+      "similarity_score": 0.551419734954834
     },
     {
-      "content": "Enterprise AIJune 18, 2025 AI Agents vs. RAG vs. Agentic AI, Explained for the C-Suite Agents vs RAG vs agentic AI: whats the difference, and why should the C-suite care? This guide simplifies the tech so you can make smarter decisions. Book a 30-minute demo Explore how our agentic AI can automate your workflows and boost profitability.",
-      "source_url": "https://www.multimodal.dev/post/understanding-fine-tuning-in-deep-learning",
-      "chunk_id": 30,
-      "start_pos": 5079,
-      "end_pos": 5418,
-      "document_id": "Understanding Fine Tuning in Deep Learning: A Guide",
-      "similarity_score": 0.6796268820762634
+      "content": "On...Read More View Prior Stock Market Today Updates Current Recommended Market Exposure Level STOCK MARKET TODAY With regular updates throughout each trading session, the Stock Market Today column highlights the latest stock market news and alerts you to any changes in market trend. Youll also get ongoing analysis of thebest stocks to buy and watch. Why is the stock market up today? Why is the market down? Whats the outlook for stock futures? What are thebest stocks to buyright now?",
+      "source_url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
+      "chunk_id": 3,
+      "start_pos": 961,
+      "end_pos": 1450,
+      "document_id": "Stock Market Today: Stock Market News And Analysis",
+      "similarity_score": 0.536927342414856
     },
     {
-      "content": "Deep learning is a subset of machine learning (ML), which offersvaluable insights and automation capabilitiesacross various industries. However, adapting these advanced models to meet specific business needs isnt straightforward. One way to handle this problem is to use a technique calledfine-tuning. It boosts the models performance in specialized tasks for certain business needs. What is Fine-Tuning?",
-      "source_url": "https://www.multimodal.dev/post/understanding-fine-tuning-in-deep-learning",
-      "chunk_id": 1,
-      "start_pos": 135,
-      "end_pos": 540,
-      "document_id": "Understanding Fine Tuning in Deep Learning: A Guide",
-      "similarity_score": 0.6755428910255432
+      "content": "By tracking the currentrecommended market exposure level, the Stock Market Today helps you stay on top of the latest stock market news while keeping any latest fluctuations in perspective to help you decide what action, if any, to take. Bookmark this page to make sure you stay on top of all the latest action and stock market news, and be sure tocheck The Big Pictureafter each market close for more detailed analysis and stocks to watch.",
+      "source_url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
+      "chunk_id": 6,
+      "start_pos": 1367,
+      "end_pos": 1807,
+      "document_id": "Stock Market Today: Stock Market News And Analysis",
+      "similarity_score": 0.5160108804702759
     },
     {
-      "content": "Fine-Tuning Techniques There is a whole range ofdifferent techniques used in fine-tuning, but we will focus on five in particular: transfer learning, feature extraction, regularization techniques, top-layer tuning, and learning rate adjustments. Transfer Learning Transfer learning is a technique in which a model developed for one task isreused as a starting point for another task.This approach benefits businesses by saving time and resources by not having to develop the model from scratch.",
-      "source_url": "https://www.multimodal.dev/post/understanding-fine-tuning-in-deep-learning",
-      "chunk_id": 14,
-      "start_pos": 2605,
-      "end_pos": 3100,
-      "document_id": "Understanding Fine Tuning in Deep Learning: A Guide",
-      "similarity_score": 0.6658197045326233
+      "content": "Is it time tosell your stocks? Stock Market Today helps you answer those questions before the market opens, throughout each trading session and after each days stock market close. Its a quick and easy way to stay on top of key stock market news and trends as they happen, and see movements in both large caps and small caps that are affecting your own portfolio.",
+      "source_url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
+      "chunk_id": 4,
+      "start_pos": 991,
+      "end_pos": 1354,
+      "document_id": "Stock Market Today: Stock Market News And Analysis",
+      "similarity_score": 0.49891793727874756
     },
     {
-      "content": "By following a systematic approach and understanding the nuances of fine-tuning, we can unlock the full potential of pre-trained models and tackle a wide range of real-world problems. Now that you have a comprehensive understanding of what fine-tuning is, why it is used, and how it can be done, you can start exploring this technique in your own machine learning projects.",
-      "source_url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
-      "chunk_id": 11,
-      "start_pos": 1685,
-      "end_pos": 2059,
-      "document_id": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
-      "similarity_score": 0.657228410243988
+      "content": "Youll find the latest prices and price changes for the Nasdaq, SP 500 and the Dow Jones Industrial Average, as well as for the Russell 2000. Track Stock Futures For The Dow Jones, SP 500 And Nasdaq Stock Market News And Analysis The analysis youll find in the Stock Market Today is based on over 130 years of market history and a detailed study of every top-performing stock since the 1880s.",
+      "source_url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
+      "chunk_id": 5,
+      "start_pos": 1131,
+      "end_pos": 1523,
+      "document_id": "Stock Market Today: Stock Market News And Analysis",
+      "similarity_score": 0.48185256123542786
     }
   ]
 }

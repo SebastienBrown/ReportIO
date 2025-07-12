@@ -1,496 +1,597 @@
 [
   {
     "kind": "customsearch#result",
-    "title": "My experience on starting with fine tuning LLMs with custom data : r ...",
-    "htmlTitle": "My experience on starting with <b>fine tuning</b> LLMs with custom data : r ...",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/14vnfh2/my_experience_on_starting_with_fine_tuning_llms/",
-    "displayLink": "www.reddit.com",
-    "snippet": "Jul 10, 2023 ... There are also internal chatbots to be used to train new people joining the company and several other use cases. So, I was thinking to share my ...",
-    "htmlSnippet": "Jul 10, 2023 <b>...</b> There are also internal chatbots to be used to train <b>new</b> people joining the company and several other use cases. So, I was thinking to share my&nbsp;...",
-    "formattedUrl": "https://www.reddit.com/.../my_experience_on_starting_with_fine_tuning_ll...",
-    "htmlFormattedUrl": "https://www.reddit.com/.../my_experience_on_starting_with_<b>fine_tuning</b>_ll...",
-    "pagemap": {
-      "metatags": [
-        {
-          "og:image": "https://share.redd.it/preview/post/14vnfh2",
-          "theme-color": "#000000",
-          "og:image:width": "1200",
-          "og:type": "website",
-          "og:image:alt": "An image containing a preview of the post",
-          "twitter:card": "summary_large_image",
-          "twitter:title": "r/LocalLLaMA on Reddit: My experience on starting with fine tuning LLMs with custom data",
-          "og:site_name": "Reddit",
-          "og:title": "r/LocalLLaMA on Reddit: My experience on starting with fine tuning LLMs with custom data",
-          "og:image:height": "630",
-          "msapplication-navbutton-color": "#000000",
-          "og:description": "Posted by u/Ion_GPT - 954 votes and 259 comments",
-          "twitter:image": "https://share.redd.it/preview/post/14vnfh2",
-          "apple-mobile-web-app-status-bar-style": "black",
-          "twitter:site": "@reddit",
-          "viewport": "width=device-width, initial-scale=1, viewport-fit=cover",
-          "apple-mobile-web-app-capable": "yes",
-          "og:ttl": "600",
-          "og:url": "https://www.reddit.com/r/LocalLLaMA/comments/14vnfh2/my_experience_on_starting_with_fine_tuning_llms/"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "What is Fine-Tuning? | IBM",
-    "htmlTitle": "What is <b>Fine</b>-<b>Tuning</b>? | IBM",
-    "link": "https://www.ibm.com/think/topics/fine-tuning",
-    "displayLink": "www.ibm.com",
-    "snippet": "Mar 15, 2024 ... Fine-tuning in machine learning is the process of adapting a pre-trained model for specific tasks or use cases.",
-    "htmlSnippet": "Mar 15, 2024 <b>...</b> <b>Fine</b>-<b>tuning</b> in <b>machine learning</b> is the <b>process of adapting a pre-trained model for specific tasks or use cases</b>.",
-    "formattedUrl": "https://www.ibm.com/think/topics/fine-tuning",
-    "htmlFormattedUrl": "https://www.ibm.com/think/topics/<b>fine-tuning</b>",
+    "title": "Weekly Stock Market Update | Edward Jones",
+    "htmlTitle": "Weekly <b>Stock Market</b> Update | Edward Jones",
+    "link": "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/stock-market-weekly-update",
+    "displayLink": "www.edwardjones.com",
+    "snippet": "The One Big Beautiful Bill Act was passed into law on July 4, extending provisions of the 2017 Tax Cuts and Jobs Act and introducing new tax breaks and spending ...",
+    "htmlSnippet": "The One Big Beautiful Bill Act was passed into law on July 4, extending provisions of the 2017 Tax Cuts and Jobs Act and introducing <b>new</b> tax breaks and spending&nbsp;...",
+    "formattedUrl": "https://www.edwardjones.com/.../market.../stock-market.../stock-market-we...",
+    "htmlFormattedUrl": "https://www.edwardjones.com/.../<b>market</b>.../<b>stock</b>-<b>market</b>.../<b>stock</b>-<b>market</b>-we...",
     "pagemap": {
       "cse_thumbnail": [
         {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojEAP1uQbvi_6awjjhHctX5_jeIdymiYirJAIrR_ocRtjFPnWtI_v5mPm&s",
-          "width": "275",
-          "height": "183"
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_xxZzu20qUcIHPgsamkERVd8YQu9pLqbJvc2iVQyTekMqn3IpnpWvz39w&s",
+          "width": "287",
+          "height": "176"
         }
       ],
       "metatags": [
         {
-          "template": "article",
-          "og:image": "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/4d/f0/d6d77e2d-c6e9-431c-b441-94b416b7577c.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
-          "ibm.com.search.appid": "thinkhub",
-          "ibm.search.facet.field_hierarchy_01": "taxonomy : Topics / AI and ML / Machine learning / Model training / Fine tuning",
-          "og:type": "website",
-          "ibm.search.facet.field_keyword_09": "https://prod-cloud-publish.aem.ibm.net/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/4d/f0/d6d77e2d-c6e9-431c-b441-94b416b7577c.component.crop-thumbnail-16-by-9-retina.ts=0.jpg/content/adobe-cms/us/en/think/topics/fine-tuning/jcr:content/root/leadspace_container/leadspace_article",
-          "ibm.search.facet.field_hierarchy_03": "taxonomy : Content Format / Article",
-          "countrycode": "us",
-          "ibm.search.facet.field_hierarchy_04": "taxonomy : Content Type / Explainer",
-          "og:title": "What is Fine-Tuning? | IBM",
-          "ibm.search.facet.field_text_01": "15 March 2024",
-          "dcterms.date": "2024-03-15T00:00:00.000",
-          "og:description": "Fine-tuning in machine learning is the process of adapting a pre-trained model for specific tasks or use cases through further training on a smaller dataset.",
-          "searchtitle": "What is Fine-Tuning?",
-          "ibm.search.facet.field_text_03": "Explainer",
-          "languagecode": "en",
-          "ibm.com.search.scopes": "thinkhub",
-          "viewport": "width=device-width, initial-scale=1",
-          "og:locale": "en-US",
-          "ibm.search.facet.field_keyword_01": "Fine tuning",
-          "og:url": "https://www.ibm.com/think/topics/fine-tuning",
-          "focusarea": "Cloud - Public Cloud Platform - All"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/4d/f0/d6d77e2d-c6e9-431c-b441-94b416b7577c.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Should a new grad spend time on learning RAG or Fine-tuning?",
-    "htmlTitle": "Should a <b>new</b> grad spend time on <b>learning</b> RAG or <b>Fine</b>-<b>tuning</b>?",
-    "link": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
-    "displayLink": "www.linkedin.com",
-    "snippet": "Nov 6, 2024 ... On the other hand, if you're interested in becoming a Gen-AI application developer, you'll need to dive deep into concepts like RAG (Retrieval- ...",
-    "htmlSnippet": "Nov 6, 2024 <b>...</b> On the other hand, if you&#39;re interested in becoming a Gen-AI application developer, you&#39;ll need to dive <b>deep</b> into concepts like RAG (Retrieval-&nbsp;...",
-    "formattedUrl": "https://www.linkedin.com/.../should-new-grad-spend-time-learning-rag-fine...",
-    "htmlFormattedUrl": "https://www.linkedin.com/.../should-new-grad-spend-time-<b>learning</b>-rag-<b>fine</b>...",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8VC5zRd0_dJ1JqTuSoA3ss6QZ05fKtNlCnGpeYcj4MEYwaEBUHZBExeZ&s",
-          "width": "300",
-          "height": "168"
-        }
-      ],
-      "metatags": [
-        {
-          "og:image": "https://media.licdn.com/dms/image/v2/D5612AQF9utYH0GA09Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730902019240?e=2147483647&v=beta&t=kaHlG2FHxMln9zNoAm6HCVg90Prq0ieE5G0ISgh2Hfw",
-          "twitter:card": "summary_large_image",
-          "clientsideingraphs": "1",
-          "al:android:package": "com.linkedin.android",
-          "twitter:label1": "Written by",
-          "twitter:label2": "Reading time",
-          "bingbot": "nocache",
-          "locale": "en_US",
-          "al:ios:url": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
-          "og:description": "Raj's response to a thread on Reddit - putting it out on LinkedIn for wider reach. Hoping that some new grad somewhere may have the same question ;-) Recently I came across a thread on Reddit - the post was put out by a new grad looking for advice on whether they should spend time on learning Retrie",
-          "al:ios:app_store_id": "288429040",
-          "twitter:image": "https://media.licdn.com/dms/image/v2/D5612AQF9utYH0GA09Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730902019240?e=2147483647&v=beta&t=kaHlG2FHxMln9zNoAm6HCVg90Prq0ieE5G0ISgh2Hfw",
-          "twitter:data1": "Rajeev Sakhuja",
-          "twitter:data2": "4 min read",
-          "twitter:site": "@LinkedInEditors",
-          "og:type": "article",
-          "twitter:title": "Should a new grad spend time on learning RAG or Fine-tuning?",
-          "al:ios:app_name": "LinkedIn",
-          "og:title": "Should a new grad spend time on learning RAG or Fine-tuning?",
-          "pagekey": "p_flagship2_pulse_read",
-          "al:android:url": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
+          "og:image": "https://www.edwardjones.com/sites/default/files/acquiadam/2022-07/iStock-1163330465.jpg",
+          "twitter:app:id:googleplay": "https://play.google.com/store/apps/details?id=app.edwardjones.mobile&hl=en",
+          "twitter:card": "summary",
+          "og:site_name": "Edward Jones",
+          "twitter:url": "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/stock-market-weekly-update",
+          "twitter:app:name:googleplay": "Edward Jones - Mobile",
+          "twitter:app:id:iphone": "https://apps.apple.com/us/app/edward-jones-iphone-app/id457043098",
+          "og:description": "A summary of last week's market highlights and economic news.",
+          "og:image:secure_url": "https://www.edwardjones.com/sites/default/files/acquiadam/2022-07/iStock-1163330465.jpg",
+          "twitter:dnt": "on",
+          "twitter:image": "https://www.edwardjones.com/sites/default/files/acquiadam/2022-07/iStock-1163330465.jpg",
+          "content-type-personalization": "Article",
+          "twitter:site": "@EdwardJones",
+          "og:type": "News",
+          "twitter:title": "Weekly market wrap",
+          "twitter:site:id": "@EdwardJones",
+          "og:image:url": "https://www.edwardjones.com/sites/default/files/acquiadam/2022-07/iStock-1163330465.jpg",
+          "handheldfriendly": "true",
+          "author": "Brian Therien",
+          "og:title": "Weekly market wrap",
+          "twitter:app:id:ipad": "https://apps.apple.com/us/app/edward-jones-iphone-app/id457043098",
+          "abstract": "A summary of last week's market highlights and economic news.",
+          "article:tag": "Investment Planning",
+          "referrer": "no-referrer-when-downgrade",
+          "twitter:app:name:ipad": "Edward Jones Mobile",
           "viewport": "width=device-width, initial-scale=1.0",
-          "twitter:description": "Raj's response to a thread on Reddit - putting it out on LinkedIn for wider reach. Hoping that some new grad somewhere may have the same question ;-) Recently I came across a thread on Reddit - the post was put out by a new grad looking for advice on whether they should spend time on learning Retrie",
-          "og:url": "https://www.linkedin.com/pulse/should-new-grad-spend-time-learning-rag-fine-tuning-rajeev-sakhuja-vgjwc",
-          "al:android:app_name": "LinkedIn"
+          "twitter:description": "A summary of last week's market highlights and economic news.",
+          "mobileoptimized": "width",
+          "og:url": "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/stock-market-weekly-update",
+          "twitter:app:name:iphone": "Edward Jones Mobile"
         }
       ],
       "cse_image": [
         {
-          "src": "https://media.licdn.com/dms/image/v2/D5612AQF9utYH0GA09Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1730902019240?e=2147483647&v=beta&t=kaHlG2FHxMln9zNoAm6HCVg90Prq0ieE5G0ISgh2Hfw"
+          "src": "https://www.edwardjones.com/sites/default/files/acquiadam/2022-07/iStock-1163330465.jpg"
+        }
+      ],
+      "listitem": [
+        {
+          "item": "Home",
+          "name": "Home",
+          "position": "1"
+        },
+        {
+          "item": "Market News and Insights",
+          "name": "Market News and Insights",
+          "position": "2"
+        },
+        {
+          "position": "3"
+        },
+        {
+          "item": "Home",
+          "name": "Home",
+          "position": "1"
         }
       ]
     }
   },
   {
     "kind": "customsearch#result",
-    "title": "Understanding Fine Tuning in Deep Learning: A Guide",
-    "htmlTitle": "Understanding <b>Fine Tuning</b> in <b>Deep Learning</b>: A <b>Guide</b>",
-    "link": "https://www.multimodal.dev/post/understanding-fine-tuning-in-deep-learning",
-    "displayLink": "www.multimodal.dev",
-    "snippet": "Sep 27, 2023 ... Fine-tuning consists of leveraging a model trained on a larger dataset called a pre-trained model and making precise adjustments during the ...",
-    "htmlSnippet": "Sep 27, 2023 <b>...</b> <b>Fine</b>-<b>tuning</b> consists of leveraging a model trained on a larger dataset called a pre-trained model and making precise adjustments during the&nbsp;...",
-    "formattedUrl": "https://www.multimodal.dev/.../understanding-fine-tuning-in-deep-learning",
-    "htmlFormattedUrl": "https://www.multimodal.dev/.../understanding-<b>fine-tuning</b>-in-deep-<b>learning</b>",
+    "title": "Google Trends",
+    "htmlTitle": "Google <b>Trends</b>",
+    "link": "https://trends.google.com/trends/",
+    "displayLink": "trends.google.com",
+    "snippet": "New to Trends? Browse these resources to learn what it can do and how to use ... What is Google Trends? Basics of Google Trends. Understanding the data.",
+    "htmlSnippet": "<b>New</b> to <b>Trends</b>? Browse these resources to learn what it can do and how to use ... <b>What is</b> Google <b>Trends</b>? Basics of Google <b>Trends</b>. Understanding the data.",
+    "formattedUrl": "https://trends.google.com/trends/",
+    "htmlFormattedUrl": "https://<b>trends</b>.google.com/<b>trends</b>/",
     "pagemap": {
       "cse_thumbnail": [
         {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSFNyVTOEM5cRKI3odzjOkU-Uyr5QmrB3BudPDSFIlYgtQe4CyM8gxIk&s",
-          "width": "275",
-          "height": "183"
-        }
-      ],
-      "metatags": [
-        {
-          "og:image": "https://cdn.prod.website-files.com/636e9a9a8d334e3450b08cc9/662b7759c47f6fe2ed643edd_Untitled%20(35).webp",
-          "twitter:title": "Understanding Fine Tuning in Deep Learning: A Guide",
-          "og:type": "website",
-          "twitter:card": "summary_large_image",
-          "viewport": "width=device-width, initial-scale=1",
-          "twitter:description": "Fine-tuning in deep learning can give your business a competitive advantage. Discover its benefits, challenges, and real-world applications.",
-          "og:title": "Understanding Fine Tuning in Deep Learning: A Guide",
-          "og:url": "https://www.multimodal.dev/understanding-fine-tuning-in-deep-learning",
-          "og:description": "Fine-tuning in deep learning can give your business a competitive advantage. Discover its benefits, challenges, and real-world applications.",
-          "twitter:image": "https://cdn.prod.website-files.com/636e9a9a8d334e3450b08cc9/662b7759c47f6fe2ed643edd_Untitled%20(35).webp"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://cdn.prod.website-files.com/636e9a9a8d334e3450b08cc9/662b7759c47f6fe2ed643edd_Untitled%20(35).webp"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Announcing new fine-tuning models and techniques in Azure AI ...",
-    "htmlTitle": "Announcing <b>new fine</b>-<b>tuning</b> models and <b>techniques</b> in Azure AI ...",
-    "link": "https://azure.microsoft.com/en-us/blog/announcing-new-fine-tuning-models-and-techniques-in-azure-ai-foundry/",
-    "displayLink": "azure.microsoft.com",
-    "snippet": "May 12, 2025 ... ... fine-tune and inference using your own GPU quota. Available in both Azure AI Foundry and as Azure Machine Learning components, you have ...",
-    "htmlSnippet": "May 12, 2025 <b>...</b> ... <b>fine</b>-<b>tune</b> and inference using your own GPU quota. Available in both Azure AI Foundry and as Azure <b>Machine Learning</b> components, you have&nbsp;...",
-    "formattedUrl": "https://azure.microsoft.com/.../announcing-new-fine-tuning-models-and-tec...",
-    "htmlFormattedUrl": "https://azure.microsoft.com/.../announcing-new-<b>fine-tuning</b>-models-and-<b>tec</b>...",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4hkY5D8-u9VFd2e7OJm-pe9DhKkkJG_hxPfrZoD0MG8tz8yKsznSddG4&s",
-          "width": "300",
-          "height": "168"
-        }
-      ],
-      "organization": [
-        {
-          "name": "Microsoft",
-          "logo": "https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png",
-          "url": "Microsoft"
-        }
-      ],
-      "metatags": [
-        {
-          "og:image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/05/use_Azure_1055915_Blog_250509.png",
-          "article:published_time": "2025-05-12T23:00:00+00:00",
-          "og:image:width": "1260",
-          "twitter:card": "summary_large_image",
-          "og:site_name": "Microsoft Azure Blog",
-          "awa‐asst": "40339",
-          "twitter:label1": "Written by",
-          "twitter:label2": "Est. reading time",
-          "og:image:type": "image/png",
-          "msapplication-tileimage": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2024/06/microsoft_logo-300x300.webp",
-          "awa-xproduct": "Azure AI,Azure AI Foundry,Azure OpenAI",
-          "og:description": "Learn how new Azure breakthroughs can significantly enhance AI reasoning abilities and precision in adapting to new domains.",
-          "twitter:creator": "@azure",
-          "article:publisher": "https://www.facebook.com/microsoftazure",
-          "twitter:data1": "Alicia Frame",
-          "twitter:data2": "5 minutes",
-          "twitter:site": "@azure",
-          "article:modified_time": "2025-05-12T23:43:35+00:00",
-          "awa-publisheddate": "20250512",
-          "awa-xaudience": "Business decision makers,Developers,IT decision makers,IT implementors",
-          "awa-xtype": "Announcements",
-          "og:type": "article",
-          "awa-market": "en-us",
-          "awa-pgauth": "Alicia Frame",
-          "author": "Alicia Frame",
-          "og:title": "Announcing new fine-tuning models and techniques in Azure AI Foundry | Microsoft Azure Blog",
-          "awa-pagetype": "Post",
-          "og:image:height": "708",
-          "awa-env": "Production",
-          "awa-xcategory": "AI + machine learning,Mobile",
-          "viewport": "width=device-width, initial-scale=1",
-          "og:locale": "en_US",
-          "og:url": "https://azure.microsoft.com/en-us/blog/announcing-new-fine-tuning-models-and-techniques-in-azure-ai-foundry/"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/05/use_Azure_1055915_Blog_250509.png"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Fine-tuning (deep learning) - Wikipedia",
-    "htmlTitle": "<b>Fine</b>-<b>tuning</b> (<b>deep learning</b>) - Wikipedia",
-    "link": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)",
-    "displayLink": "en.wikipedia.org",
-    "snippet": "In deep learning, fine-tuning is an approach to transfer learning in which the parameters of a pre-trained neural network model are trained on new data.",
-    "htmlSnippet": "In <b>deep learning</b>, <b>fine</b>-<b>tuning</b> is an approach to transfer learning in which the parameters of a pre-trained neural network model are trained on <b>new</b> data.",
-    "formattedUrl": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)",
-    "htmlFormattedUrl": "https://en.wikipedia.org/wiki/<b>Fine-tuning</b>_(deep_<b>learning</b>)",
-    "pagemap": {
-      "metatags": [
-        {
-          "referrer": "origin",
-          "theme-color": "#eaecf0",
-          "og:type": "website",
-          "viewport": "width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0",
-          "og:title": "Fine-tuning (deep learning) - Wikipedia",
-          "format-detection": "telephone=no"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Fine-tune models with Azure AI Foundry",
-    "htmlTitle": "<b>Fine</b>-<b>tune</b> models with Azure AI Foundry",
-    "link": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/fine-tuning-overview",
-    "displayLink": "learn.microsoft.com",
-    "snippet": "Jun 23, 2025 ... We offer three training techniques to optimize your models: ... Reinforcement Fine-Tuning (RFT): Uses reinforcement learning to ...",
-    "htmlSnippet": "Jun 23, 2025 <b>...</b> We offer three training <b>techniques</b> to optimize your models: ... Reinforcement <b>Fine</b>-<b>Tuning</b> (RFT): Uses <b>reinforcement learning</b> to&nbsp;...",
-    "formattedUrl": "https://learn.microsoft.com/en-us/azure/ai-foundry/.../fine-tuning-overview",
-    "htmlFormattedUrl": "https://learn.microsoft.com/en-us/azure/ai-foundry/.../<b>fine-tuning</b>-overview",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTamiYiZkfXbLeih3vADC8SZH3wbbrq_92KFEfjeYjdTxr8-Z0AtOhIt4cS&s",
-          "width": "310",
-          "height": "163"
-        }
-      ],
-      "organization": [
-        {
-          "url": "Learn"
-        }
-      ],
-      "metatags": [
-        {
-          "schema": "Conceptual",
-          "og:image": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
-          "twitter:card": "summary_large_image",
-          "ms.collection": "ce-skilling-ai-copilot, ce-skilling-fresh-tier0",
-          "page_type": "conceptual",
-          "ms.topic": "concept-article",
-          "ms.author": "sgilley",
-          "ms.custom": "build-2024",
-          "asset_id": "ai-foundry/concepts/fine-tuning-overview",
-          "locale": "en-us",
-          "document_id": "a5a59718-f5bc-6168-26be-bbd1d1cd7e26",
-          "og:description": "This article explains what fine-tuning is and under what circumstances you should consider doing it.",
-          "feedback_product_url": "https://feedback.azure.com/d365community/forum/79b1327d-d925-ec11-b6e6-000d3a4f06a4",
-          "recommendations": "true",
-          "ms.date": "2025-05-14T00:00:00Z",
-          "ms.service": "azure-ai-foundry",
-          "depot_name": "Learn.azure-ai",
-          "adobe-target": "true",
-          "word_count": "1383",
-          "twitter:site": "@MicrosoftLearn",
-          "updated_at": "2025-07-02T05:32:00Z",
-          "ms.reviewer": "keli19",
-          "scope": "Azure",
-          "original_content_git_url": "https://github.com/MicrosoftDocs/azure-ai-docs-pr/blob/live/articles/ai-foundry/concepts/fine-tuning-overview.md",
-          "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/133/azure",
-          "og:type": "website",
-          "og:image:alt": "Microsoft Learn",
-          "ms.update-cycle": "90-days",
-          "git_commit_id": "bf3467ea221ae4bff9dca7d98bbec584c22b4429",
-          "manager": "scottpolly",
-          "ms.suite": "office",
-          "author": "sdgilley",
-          "og:title": "Fine-tune models with Azure AI Foundry - Azure AI Foundry",
-          "color-scheme": "light dark",
-          "feedback_system": "Standard",
-          "recommendation_types": "Training",
-          "site_name": "Docs",
-          "learn_banner_products": "azure",
-          "viewport": "width=device-width, initial-scale=1.0",
-          "breadcrumb_path": "../../breadcrumb/azure-ai/toc.json",
-          "document_version_independent_id": "bfa4d3be-f31d-49f6-9eed-f9b0181e658c",
-          "platform_id": "7f7f356b-e4c5-26b8-2e5a-dedbc1847efc",
-          "permissioned-type": "public",
-          "og:url": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/fine-tuning-overview",
-          "feedback_help_link_type": "get-help-at-qna",
-          "uhfheaderid": "azure",
-          "toc_rel": "../toc.json",
-          "gitcommit": "https://github.com/MicrosoftDocs/azure-ai-docs-pr/blob/bf3467ea221ae4bff9dca7d98bbec584c22b4429/articles/ai-foundry/concepts/fine-tuning-overview.md"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://learn.microsoft.com/en-us/media/open-graph-image.png"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Fine-Tuning LLMs is a Huge Waste of Time | by Devansh | Jun, 2025 ...",
-    "htmlTitle": "<b>Fine</b>-<b>Tuning</b> LLMs is a Huge Waste of Time | by Devansh | Jun, 2025 ...",
-    "link": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282",
-    "displayLink": "machine-learning-made-simple.medium.com",
-    "snippet": "Jun 10, 2025 ... ... techniques inject new information without damaging the underlying ... Small Snippets about Tech, AI and Machine Learning over here · AI ...",
-    "htmlSnippet": "Jun 10, 2025 <b>...</b> ... <b>techniques</b> inject <b>new</b> information without damaging the underlying ... Small Snippets about Tech, AI and <b>Machine Learning</b> over here &middot; AI&nbsp;...",
-    "formattedUrl": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-h...",
-    "htmlFormattedUrl": "https://<b>machine</b>-<b>learning</b>-made-simple.medium.com/<b>fine-tuning</b>-llms-is-a-h...",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOw8qovdqbYB-fq8xemdN-Dgr7wsVL8e1LsR4MRNaBZGVvFlvrBkedeQ&s",
-          "width": "432",
-          "height": "116"
-        }
-      ],
-      "metatags": [
-        {
-          "apple-itunes-app": "app-id=828256236, app-argument=/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
-          "og:image": "https://miro.medium.com/v2/resize:fit:947/1*iP70ESIxmsFN7RCCEl283Q.png",
-          "twitter:app:url:iphone": "medium://p/bd0b98fcc282",
-          "theme-color": "#000000",
-          "article:published_time": "2025-06-10T07:08:01.798Z",
-          "twitter:card": "summary_large_image",
-          "og:site_name": "Medium",
-          "al:android:package": "com.medium.reader",
-          "twitter:label1": "Reading time",
-          "twitter:app:id:iphone": "828256236",
-          "title": "Fine-Tuning LLMs is a Huge Waste of Time | by Devansh | Jun, 2025 | Medium",
-          "al:ios:url": "medium://p/bd0b98fcc282",
-          "og:description": "People think they can use Fine-Tune for Knowledge Injection. People are Wrong",
-          "twitter:creator": "@Machine01776819",
-          "al:ios:app_store_id": "828256236",
-          "twitter:data1": "8 min read",
-          "twitter:site": "@Medium",
-          "og:type": "article",
-          "twitter:title": "Fine-Tuning LLMs is a Huge Waste of Time",
-          "al:ios:app_name": "Medium",
-          "author": "Devansh",
-          "og:title": "Fine-Tuning LLMs is a Huge Waste of Time",
-          "al:web:url": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282",
-          "article:author": "https://machine-learning-made-simple.medium.com",
-          "twitter:image:src": "https://miro.medium.com/v2/resize:fit:947/1*iP70ESIxmsFN7RCCEl283Q.png",
-          "al:android:url": "medium://p/bd0b98fcc282",
-          "referrer": "unsafe-url",
-          "fb:app_id": "542599432471018",
-          "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
-          "twitter:description": "People think they can use Fine-Tune for Knowledge Injection. People are Wrong",
-          "og:url": "https://machine-learning-made-simple.medium.com/fine-tuning-llms-is-a-huge-waste-of-time-bd0b98fcc282",
-          "twitter:app:name:iphone": "Medium",
-          "al:android:app_name": "Medium"
-        }
-      ],
-      "cse_image": [
-        {
-          "src": "https://miro.medium.com/v2/resize:fit:947/1*iP70ESIxmsFN7RCCEl283Q.png"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to ...",
-    "htmlTitle": "The Ultimate <b>Guide</b> to <b>Fine</b>-<b>Tuning</b> LLMs from Basics to ...",
-    "link": "https://arxiv.org/html/2408.13296v1",
-    "displayLink": "arxiv.org",
-    "snippet": "Aug 23, 2024 ... Managing dependencies and versions of deep learning frameworks and libraries to avoid conflicts and leverage the latest features. Report ...",
-    "htmlSnippet": "Aug 23, 2024 <b>...</b> Managing dependencies and versions of <b>deep learning</b> frameworks and libraries to avoid conflicts and leverage the <b>latest</b> features. Report&nbsp;...",
-    "formattedUrl": "https://arxiv.org/html/2408.13296v1",
-    "htmlFormattedUrl": "https://arxiv.org/html/2408.13296v1",
-    "pagemap": {
-      "metatags": [
-        {
-          "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no"
-        }
-      ]
-    }
-  },
-  {
-    "kind": "customsearch#result",
-    "title": "Fine-Tuning the Model: What, Why, and How | by Amanatullah ...",
-    "htmlTitle": "<b>Fine</b>-<b>Tuning</b> the Model: What, Why, and How | by Amanatullah ...",
-    "link": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
-    "displayLink": "medium.com",
-    "snippet": "Sep 21, 2023 ... What is Fine-Tuning? ... Fine-tuning in deep learning is a form of transfer learning. It involves taking a pre-trained model, which has been ...",
-    "htmlSnippet": "Sep 21, 2023 <b>...</b> What is <b>Fine</b>-<b>Tuning</b>? ... <b>Fine</b>-<b>tuning</b> in <b>deep learning</b> is a form of transfer learning. It involves taking a pre-trained model, which has been&nbsp;...",
-    "formattedUrl": "https://medium.com/.../fine-tuning-the-model-what-why-and-how-e7fa52b...",
-    "htmlFormattedUrl": "https://medium.com/.../<b>fine-tuning</b>-the-model-what-why-and-how-e7fa52b...",
-    "pagemap": {
-      "cse_thumbnail": [
-        {
-          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5KSIfXXP-3lgaxOquG7mwN2AyOAWRCJOO-VaOy1UzKH8X9SFkGSuBk0&s",
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3z_jRt6zp_fnomYpyIna-zAKQw_30uAqVFM_XS6aDedpszJwR6_LBAqmh&s",
           "width": "225",
           "height": "225"
         }
       ],
       "metatags": [
         {
-          "apple-itunes-app": "app-id=828256236, app-argument=/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf, affiliate-data=pt=698524&ct=smart_app_banner&mt=8",
-          "og:image": "https://miro.medium.com/v2/resize:fit:1200/1*F16TD8g6uCNiBrQLkQRGAw.png",
-          "twitter:app:url:iphone": "medium://p/e7fa52bc8ddf",
-          "theme-color": "#000000",
-          "article:published_time": "2023-09-21T13:23:05.769Z",
-          "twitter:card": "summary_large_image",
-          "og:site_name": "Medium",
-          "al:android:package": "com.medium.reader",
-          "twitter:label1": "Reading time",
-          "twitter:app:id:iphone": "828256236",
-          "title": "Fine-Tuning the Model: What, Why, and How | by Amanatullah | Medium",
-          "al:ios:url": "medium://p/e7fa52bc8ddf",
-          "og:description": "As technology continues to advance, machine learning models have become increasingly powerful in solving a wide range of tasks. Fine-tuning…",
-          "twitter:creator": "@MdAman40737435",
-          "al:ios:app_store_id": "828256236",
-          "twitter:data1": "5 min read",
-          "twitter:site": "@Medium",
-          "og:type": "article",
-          "twitter:title": "Fine-Tuning the Model: What, Why, and How",
-          "al:ios:app_name": "Medium",
-          "author": "Amanatullah",
-          "og:title": "Fine-Tuning the Model: What, Why, and How",
-          "al:web:url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
-          "article:author": "https://medium.com/@amanatulla1606",
-          "twitter:image:src": "https://miro.medium.com/v2/resize:fit:1200/1*F16TD8g6uCNiBrQLkQRGAw.png",
-          "al:android:url": "medium://p/e7fa52bc8ddf",
-          "referrer": "unsafe-url",
-          "fb:app_id": "542599432471018",
-          "viewport": "width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1",
-          "twitter:description": "As technology continues to advance, machine learning models have become increasingly powerful in solving a wide range of tasks. Fine-tuning…",
-          "og:url": "https://medium.com/@amanatulla1606/fine-tuning-the-model-what-why-and-how-e7fa52bc8ddf",
-          "twitter:app:name:iphone": "Medium",
-          "al:android:app_name": "Medium"
+          "application-name": "Trends",
+          "referrer": "origin",
+          "apple-mobile-web-app-status-bar-style": "black",
+          "msapplication-tap-highlight": "no",
+          "viewport": "width=device-width,initial-scale=1",
+          "apple-mobile-web-app-capable": "yes",
+          "apple-mobile-web-app-title": "Trends",
+          "mobile-web-app-capable": "yes"
         }
       ],
       "cse_image": [
         {
-          "src": "https://miro.medium.com/v2/resize:fit:1200/1*F16TD8g6uCNiBrQLkQRGAw.png"
+          "src": "https://storage.googleapis.com/gweb-yis-trends-prod/media/images/GettyImages-152698607_szAfCXo.2e16d0ba.fill-502x502.format-webp.webp"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "U.S. Stock Market Headlines | Breaking Stock Market News | Reuters",
+    "htmlTitle": "U.S. <b>Stock Market</b> Headlines | Breaking <b>Stock Market</b> News | Reuters",
+    "link": "https://www.reuters.com/markets/us/",
+    "displayLink": "www.reuters.com",
+    "snippet": "Find the latest stock market news from every corner of the globe at ... Market Talk: EU should grab US baseline tariff deal 'with both hands'. Market ...",
+    "htmlSnippet": "Find the <b>latest stock market</b> news from every corner of the globe at ... Market <b>Talk</b>: EU should grab US baseline tariff deal &#39;with both hands&#39;. Market&nbsp;...",
+    "formattedUrl": "https://www.reuters.com/markets/us/",
+    "htmlFormattedUrl": "https://www.reuters.com/<b>market</b>s/us/",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFXSacN3_7RIqkjLE8MbUcK-luR__e3bAA3TXY-82ktnsLpTVMDKoosH1&s",
+          "width": "311",
+          "height": "162"
+        }
+      ],
+      "metatags": [
+        {
+          "apple-itunes-app": "app-id=602660809",
+          "og:image": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp?d=299",
+          "og:type": "website",
+          "twitter:title": "U.S. Stock Market Headlines | Breaking Stock Market News | Reuters",
+          "ad:template": "landing",
+          "og:site_name": "Reuters",
+          "dcsext.dartzone": "/4735792/reuters.com/markets/us/home",
+          "ccbot": "nofollow",
+          "og:title": "U.S. Stock Market Headlines | Breaking Stock Market News | Reuters",
+          "fb:pages": "114050161948682",
+          "og:description": "Find the latest stock market news from every corner of the globe at Reuters.com, your online source for breaking international market and finance news",
+          "fb:app_id": "988502044532272",
+          "datemodified": "2025-07-11T21:57:03Z",
+          "viewport": "width=device-width, initial-scale=1",
+          "twitter:description": "Find the latest stock market news from every corner of the globe at Reuters.com, your online source for breaking international market and finance news",
+          "og:url": "https://www.reuters.com/markets/us/"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp?d=299"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Market Trend | Investor's Business Daily",
+    "htmlTitle": "<b>Market Trend</b> | Investor&#39;s Business Daily",
+    "link": "https://research.investors.com/markettrend.aspx",
+    "displayLink": "research.investors.com",
+    "snippet": "The Market Trend section keeps you trading in sync with the stock market by giving you IBD's exclusive market analysis, extra-large market charts, and ...",
+    "htmlSnippet": "The Market <b>Trend</b> section keeps you trading in sync with the <b>stock market</b> by giving you IBD&#39;s exclusive market analysis, extra-large market charts, and&nbsp;...",
+    "formattedUrl": "https://research.investors.com/markettrend.aspx",
+    "htmlFormattedUrl": "https://research.investors.com/<b>market</b>trend.aspx",
+    "pagemap": {
+      "metatags": [
+        {
+          "p:domain_verify": "fdf942e4ea215fafa65b5d9c35f29da9",
+          "og:image": "https://www1.ibdcd.com/images/IBDicon_309171.png",
+          "og:type": "article",
+          "og:site_name": "Investor's Business Daily",
+          "msvalidate.01": "A6A2E31D998968BEDD13CEA49F962D01",
+          "og:title": "Market Trend | Investor's Business Daily",
+          "y_key": "936909c3c1994b0d",
+          "msapplication-tileimage": "/images/favicons/cropped-ibd-icon-270x270.png",
+          "parsely-title": "Market Trend | Investor's Business Daily",
+          "facebook-domain-verification": "5b9671nhl8dz8sybvy5qu0tfztro1k",
+          "fb:app_id": "154916351273272",
+          "parsely-type": "post",
+          "viewport": "width=device-width, initial-scale=1",
+          "parsely-link": "https://research.investors.com/markettrend.aspx",
+          "parsely-image-url": "https://www1.ibdcd.com/images/IBDicon_309171.png",
+          "og:url": "https://research.investors.com/markettrend.aspx",
+          "twitter:account_id": "21328656"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www1.ibdcd.com/images/IBDicon_309171.png"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "How to Spot Market Trends",
+    "htmlTitle": "How to Spot <b>Market Trends</b>",
+    "link": "https://www.investopedia.com/articles/technical/03/060303.asp",
+    "displayLink": "www.investopedia.com",
+    "snippet": "Secular Trends. A secular trend, one that can last for one to three decades, holds within its parameters many primary trends, and, for the most ...",
+    "htmlSnippet": "Secular <b>Trends</b>. A secular <b>trend</b>, one that can <b>last</b> for one to three decades, holds within its parameters many primary <b>trends</b>, and, for the most&nbsp;...",
+    "formattedUrl": "https://www.investopedia.com/articles/technical/03/060303.asp",
+    "htmlFormattedUrl": "https://www.investopedia.com/articles/technical/03/060303.asp",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ifktne1OE4KKCX2GpITP2MUVyNI-Qijj5OpKf4AvXoh2TNCaiW5fmZI&s",
+          "width": "275",
+          "height": "183"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://www.investopedia.com/thmb/2Rd_IjlG_16HiVtFFPYfeRWYj4Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/What-Is-a-Stock-Exchange-56a0937a3df78cafdaa2d9be.jpg",
+          "twitter:card": "summary",
+          "msapplication-square70x70logo": "/static/4.38.0/icons/favicons/mstile-70x70.png",
+          "sailthru.tags": "trading,technical-analysis,technical-analysis-basic-education",
+          "og:site_name": "Investopedia",
+          "revenuegroup": "FINANCIALSERVICES",
+          "msapplication-wide310x150logo": "/static/4.38.0/icons/favicons/mstile-310x150.png",
+          "msapplication-tileimage": "/static/4.38.0/icons/favicons/mstile-144x144.png",
+          "og:description": "The success or failure of your long- and short-term investing depends on recognizing the direction of the market.",
+          "twitter:image": "https://www.investopedia.com/thmb/2Rd_IjlG_16HiVtFFPYfeRWYj4Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/What-Is-a-Stock-Exchange-56a0937a3df78cafdaa2d9be.jpg",
+          "twitter:site": "@Investopedia",
+          "msapplication-square310x310logo": "/static/4.38.0/icons/favicons/mstile-310x310.png",
+          "emailcontenttype": "STRUCTUREDCONTENT",
+          "parsely-section": "Trading",
+          "msapplication-tilecolor": "#F4F4F4",
+          "og:type": "article",
+          "twitter:title": "How to Spot Market Trends",
+          "emailvertical": "INVESTOPEDIA",
+          "og:title": "How to Spot Market Trends",
+          "msapplication-square150x150logo": "/static/4.38.0/icons/favicons/mstile-150x150.png",
+          "article:author": "https://www.facebook.com/Investopedia/",
+          "parsely-tags": "Investopedia,Trading,Technical Analysis,Technical Analysis Basic Education",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "twitter:description": "The success or failure of your long- and short-term investing depends on recognizing the direction of the market.",
+          "og:url": "https://www.investopedia.com/articles/technical/03/060303.asp",
+          "sailthru.author": "The Investopedia Team"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www.investopedia.com/thmb/2Rd_IjlG_16HiVtFFPYfeRWYj4Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/What-Is-a-Stock-Exchange-56a0937a3df78cafdaa2d9be.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Stock Market Today: Stock Market News And Analysis",
+    "htmlTitle": "<b>Stock Market</b> Today: <b>Stock Market</b> News And Analysis",
+    "link": "https://www.investors.com/news/stock-market-today-stock-market-news/",
+    "displayLink": "www.investors.com",
+    "snippet": "20 hours ago ... The Stock Market Today column highlights the latest stock market news and alerts you to any changes in market trend. You'll also get ongoing analysis of the ...",
+    "htmlSnippet": "20 hours ago <b>...</b> The <b>Stock Market</b> Today column highlights the <b>latest stock market</b> news and alerts you to any changes in market <b>trend</b>. You&#39;ll also get ongoing analysis of the&nbsp;...",
+    "formattedUrl": "https://www.investors.com/news/stock-market-today-stock-market-news/",
+    "htmlFormattedUrl": "https://www.investors.com/news/<b>stock</b>-<b>market</b>-today-<b>stock</b>-<b>market</b>-news/",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJIFPGGAXCR5jZOhuYebalR2HJXEvvrq-cFVAFgjN7WNrwaczZLvjK360t&s",
+          "width": "299",
+          "height": "168"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://www.investors.com/wp-content/uploads/2020/06/Stock-bearbullchart-02-adobe.jpg",
+          "apple-itunes-app": "app-id=1132274579",
+          "page.content.type": "Article",
+          "article:published_time": "2025-06-06T17:15:51+00:00",
+          "og:image:width": "945",
+          "twitter:card": "summary_large_image",
+          "og:site_name": "Investor's Business Daily",
+          "twitter:label1": "Written by",
+          "twitter:label2": "Est. reading time",
+          "parsely-author": "IBD STAFF",
+          "og:image:type": "image/jpeg",
+          "msapplication-tileimage": "https://www.investors.com/wp-content/uploads/2023/10/ibd-favicon-20231010.png",
+          "og:description": "Stock Market Today highlights the latest stock market news and analysis.",
+          "twitter:creator": "@IBDinvestors",
+          "parsely-metadata": "{\"post_id\": \"3238331\", \"allesseh_post_id\": \"IBDF-3238331\"}",
+          "article:publisher": "https://www.facebook.com/investorsbusinessdaily/",
+          "twitter:data1": "IBD STAFF",
+          "twitter:data2": "2 minutes",
+          "parsely-type": "post",
+          "twitter:site": "@IBDinvestors",
+          "article:modified_time": "2025-07-11T19:52:18+00:00",
+          "twitter:player:stream": "https://cdn.jwplayer.com/videos/kKCsJkFb-640.mp4",
+          "parsely-link": "https://www.investors.com/news/stock-market-today-stock-market-news/",
+          "parsely-image-url": "https://www.investors.com/wp-content/uploads/2020/06/Stock-bearbullchart-02-adobe-640x360.jpg",
+          "parsely-section": "News",
+          "tag": "All News And Stock Ideas|Industry Trends And Stock News",
+          "og:type": "article",
+          "twitter:title": "Stock Market Today: Stock Market News And Analysis",
+          "author": "IBD STAFF",
+          "og:title": "Stock Market Today: Stock Market News And Analysis",
+          "og:image:height": "533",
+          "parsely-title": "Stock Market Today: Stock Market News And Analysis",
+          "parsely-pub-date": "2025-06-06T17:15:51Z",
+          "parsely-tags": "all news and stock ideas,industry trends and stock news",
+          "uac-config": "{\"breakpoints\":{\"at4units\":0,\"at8units\":320,\"at12units\":1024}}",
+          "viewport": "width=device-width, initial-scale=1",
+          "twitter:description": "Stock Market Today highlights the latest stock market news and analysis. Updated throughout each session, it also include stock futures.",
+          "og:locale": "en_US",
+          "og:url": "https://www.investors.com/news/stock-market-today-stock-market-news/",
+          "google-play-app": "app-id=com.investors.business.daily"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www.investors.com/wp-content/uploads/2020/06/Stock-bearbullchart-02-adobe.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "MarketWatch: Stock Market News - Financial News - MarketWatch",
+    "htmlTitle": "MarketWatch: <b>Stock Market</b> News - Financial News - MarketWatch",
+    "link": "https://www.marketwatch.com/",
+    "displayLink": "www.marketwatch.com",
+    "snippet": "MarketWatch provides the latest stock market, financial and business news. Get stock market quotes, personal finance advice, company news and more.",
+    "htmlSnippet": "MarketWatch provides the <b>latest stock market</b>, financial and business news. Get <b>stock market</b> quotes, personal finance advice, company news and more.",
+    "formattedUrl": "https://www.marketwatch.com/",
+    "htmlFormattedUrl": "https://www.<b>market</b>watch.com/",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTC-HSD9m17zh3CmOxFqjg__bsUb5Q1_tUVUNKi_hunNQv7z9-D7gi-Fc&s",
+          "width": "310",
+          "height": "163"
+        }
+      ],
+      "metatags": [
+        {
+          "apple-itunes-app": "app-id=336693422",
+          "og:image": "https://mw3.wsj.net/mw5/content/logos/mw_logo_social.png",
+          "theme-color": "#2e2e2f",
+          "twitter:card": "summary_large_image",
+          "og:image:width": "1200",
+          "og:site_name": "MarketWatch",
+          "article.content_group": "marketwatch",
+          "page.site.product": "MW",
+          "twitter:image:height": "630",
+          "language": "EN-US",
+          "locale": "en_US",
+          "og:description": "MarketWatch provides the latest stock market, financial and business news. Get stock market quotes, personal finance advice, company news and more.",
+          "article:publisher": "https://www.facebook.com/marketwatch",
+          "twitter:image": "https://mw3.wsj.net/mw5/content/logos/mw_logo_social.png",
+          "next-head-count": "52",
+          "parsely-type": "post",
+          "twitter:site": "@marketwatch",
+          "twitter:image:width": "1200",
+          "news_keywords": "investing/securities, commodity/financial market news, economic news, retirement planning, personal finance, equity markets, corporate/industrial news, foreign exchange news, fund markets, politics/international relations",
+          "parsely-link": "https://www.marketwatch.com",
+          "parsely-section": "Home Page",
+          "twitter:title": "MarketWatch: Stock Market News - Financial News",
+          "twitter:site:id": "624413",
+          "twitter:domain": "marketwatch.com",
+          "og:title": "MarketWatch: Stock Market News - Financial News",
+          "og:image:height": "630",
+          "parsely-title": "Home Page - MarketWatch",
+          "url": "https://www.marketwatch.com",
+          "referrer": "no-referrer-when-downgrade",
+          "fb:app_id": "283204329838",
+          "parsely-tags": "PageType: Super Section, Industry: Investing/Securities, Subject: Commodity/Financial Market News, Subject: Economic News, Subject: Retirement Planning, Subject: Personal Finance, Subject: Equity Markets, Subject: Corporate/Industrial News, Subject: Foreign Exchange News, Subject: Fund Markets, Subject: Politics/International Relations, Related: latest-news, mw-page",
+          "viewport": "width=device-width, initial-scale=1.0",
+          "twitter:description": "MarketWatch provides the latest stock market, financial and business news. Get stock market quotes, personal finance advice, company news and more.",
+          "user.exp": "google_bot",
+          "user.type": "nonsubscriber",
+          "og:url": "https://www.marketwatch.com",
+          "page.site": "marketwatch"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://mw3.wsj.net/mw5/content/logos/mw_logo_social.png"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Recent balance sheet trends - Federal Reserve Board",
+    "htmlTitle": "Recent balance sheet trends - Federal Reserve Board",
+    "link": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
+    "displayLink": "www.federalreserve.gov",
+    "snippet": "Financial Market Utilities · Consumer Compliance · State Member Banks Supervised ... Here's how you know Expand More .gov icon. Official websites use .gov. A ...",
+    "htmlSnippet": "<b>Financial Market</b> Utilities &middot; Consumer Compliance &middot; State Member Banks Supervised ... Here&#39;s how you <b>know</b> Expand More .gov icon. Official websites use .gov. A&nbsp;...",
+    "formattedUrl": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
+    "htmlFormattedUrl": "https://www.federalreserve.gov/monetarypolicy/bst_<b>recenttrends</b>.htm",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJmZVW5osVWm_7Wd5T-AjuFQAibj9VFZnY8DSiRlY8VX99hnDPt1mbHd0&s",
+          "width": "310",
+          "height": "163"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg",
+          "og:type": "article",
+          "og:image:alt": "Board of Governors of the Federal Reserve System",
+          "twitter:card": "summary",
+          "twitter:title": "Recent balance sheet trends",
+          "twitter:image:alt": "Board of Governors of the Federal Reserve System",
+          "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0 maximum-scale=1.6, user-scalable=1",
+          "twitter:description": "The Federal Reserve Board of Governors in Washington DC.",
+          "og:title": "Recent balance sheet trends",
+          "og:url": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm",
+          "og:description": "The Federal Reserve Board of Governors in Washington DC.",
+          "twitter:image": "https://www.federalreserve.gov/images/social-media/social-default-image-twitter.jpg"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Ten Things to Know About Consolidation in Health Care Provider ...",
+    "htmlTitle": "Ten Things to <b>Know</b> About Consolidation in Health Care Provider ...",
+    "link": "https://www.kff.org/health-costs/issue-brief/ten-things-to-know-about-consolidation-in-health-care-provider-markets/",
+    "displayLink": "www.kff.org",
+    "snippet": "Apr 19, 2024 ... Physician markets may have become more concentrated in recent years due to the ongoing trends in consolidation described above. 3 ...",
+    "htmlSnippet": "Apr 19, 2024 <b>...</b> Physician <b>markets</b> may have become more concentrated in <b>recent</b> years due to the ongoing <b>trends</b> in consolidation described above. 3&nbsp;...",
+    "formattedUrl": "https://www.kff.org/.../ten-things-to-know-about-consolidation-in-health-ca...",
+    "htmlFormattedUrl": "https://www.kff.org/.../ten-things-to-know-about-consolidation-in-health-ca...",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-lKm3zUPm69Lz-ookgpydePcoqKccWGzo5AuyXE1ZEzWqzNmS7Ll7kB1p&s",
+          "width": "300",
+          "height": "168"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://www.kff.org/wp-content/uploads/2024/04/240419_Consolidation-in-Health-Care-Provider-Markets_FI.png",
+          "og:type": "article",
+          "og:image:width": "3840",
+          "twitter:card": "summary_large_image",
+          "og:site_name": "KFF",
+          "og:title": "Ten Things to Know About Consolidation in Health Care Provider Markets | KFF",
+          "og:image:height": "2160",
+          "twitter:label1": "Est. reading time",
+          "og:image:type": "image/png",
+          "msapplication-tileimage": "https://www.kff.org/wp-content/uploads/2023/04/3976_KFF_favicon_256x256_revised.png?w=256",
+          "og:description": "As policymakers and regulators pay more attention to consolidation in health care provider markets, this brief examines and summarizes the evidence about consolidation, including recent trends, the impact on prices and quality, and proposals to address consolidation and increase competition.",
+          "twitter:data1": "22 minutes",
+          "article:tag": "Access to Care",
+          "article_author": "Zachary Levinson",
+          "article:modified_time": "2025-05-19T18:21:35+00:00",
+          "viewport": "width=device-width, initial-scale=1",
+          "og:locale": "en_US",
+          "og:url": "https://www.kff.org/health-costs/issue-brief/ten-things-to-know-about-consolidation-in-health-care-provider-markets/"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://www.kff.org/wp-content/uploads/2024/04/240419_Consolidation-in-Health-Care-Provider-Markets_FI.png"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "customsearch#result",
+    "title": "Stock Market Trends | Morningstar",
+    "htmlTitle": "<b>Stock Market Trends</b> | Morningstar",
+    "link": "https://www.morningstar.com/topics/stock-market-trends",
+    "displayLink": "www.morningstar.com",
+    "snippet": "... New. Products for Investors. All Products and Services · Home. Topics. Stock Market Trends ... show their work, distinguish facts from opinions, and make sure ...",
+    "htmlSnippet": "... <b>New</b>. Products for Investors. All Products and Services &middot; Home. Topics. <b>Stock Market Trends</b> ... <b>show</b> their work, distinguish facts from opinions, and make sure&nbsp;...",
+    "formattedUrl": "https://www.morningstar.com/topics/stock-market-trends",
+    "htmlFormattedUrl": "https://www.morningstar.com/topics/<b>stock</b>-<b>market</b>-<b>trends</b>",
+    "pagemap": {
+      "cse_thumbnail": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgkhmm4wwBQbh7agsdEYAH98-K5OJKwES37KO5qEGXLUsxhZNGzKDXkcg&s",
+          "width": "310",
+          "height": "163"
+        }
+      ],
+      "imageobject": [
+        {
+          "contenturl": "https://www.morningstar.com/assets/img/morningstar-600px.bb30655.png",
+          "width": "600px",
+          "url": "https://www.morningstar.com/assets/img/morningstar-600px.bb30655.png"
+        }
+      ],
+      "organization": [
+        {
+          "name": "Morningstar, Inc.",
+          "publishingprinciples": "https://www.morningstar.com/editorial-policy",
+          "slogan": "Empowering Investor Success",
+          "url": "https://www.morningstar.com/",
+          "sameas": "https://www.facebook.com/MorningstarInc"
+        }
+      ],
+      "collectionpage": [
+        {
+          "name": "Stock Market Trends"
+        }
+      ],
+      "metatags": [
+        {
+          "og:image": "https://images.contentstack.io/v3/assets/blt4eb669caa7dc65b2/blta7dd42ebdd7b93b8/61899b34a3c7df383578294c/morningstar-og.png",
+          "twitter:card": "summary",
+          "og:site_name": "Morningstar, Inc.",
+          "twitter:site": "@MorningstarInc",
+          "viewport": "width=device-width, initial-scale=1",
+          "msvalidate.01": "3B92D15190FFAFB254D37CE182C0D3AE",
+          "version": "1.6.0"
+        }
+      ],
+      "cse_image": [
+        {
+          "src": "https://images.contentstack.io/v3/assets/blt4eb669caa7dc65b2/blta7dd42ebdd7b93b8/61899b34a3c7df383578294c/morningstar-og.png"
+        }
+      ],
+      "listitem": [
+        {
+          "name": "Weekly Market Update: Stocks Tread Water"
+        },
+        {
+          "name": "The 60/40 Portfolio: A 150-Year Markets Stress Test"
+        },
+        {
+          "name": "Q2 2025 in Review and Q3 2025 Market Outlook"
+        },
+        {
+          "name": "Q3 2025 Stock Market Outlook: After the Rally, What’s Still Undervalued?"
+        },
+        {
+          "name": "4 Key Market Factors to Track in Q3 2025"
+        },
+        {
+          "name": "Is the Stock Market Open Today?"
+        },
+        {
+          "name": "4 Key Insights From the 2025 Morningstar Investment Conference"
+        },
+        {
+          "name": "13 Charts on Q2’s Major Market Rebound"
+        },
+        {
+          "name": "These Stocks Led the Market’s Big Rebound in Q2"
+        },
+        {
+          "name": "BlackRock’s Rick Rieder: Why the US Economy Is Going to Be Fine"
+        },
+        {
+          "name": "Smart Investor: Market-Leading Dividend Stocks, Bull or Bear on the Outlook, Should You Buy REITs?"
+        },
+        {
+          "name": "Bull or Bear? Here’s How the Outlook for Stocks Stacks Up"
+        },
+        {
+          "name": "Which Economic Indicators Are Most Important to Pay Attention to During Periods of Volatility?"
+        },
+        {
+          "name": "Smart Investor: Undervalued Dividend Raisers, the Israel/Iran Conflict and the Markets, Plus the Fed Outlook."
+        },
+        {
+          "name": "Paul Ashworth: ‘Forecasting Is Difficult at the Best of Times, and This Is Not the Best of Times’"
+        },
+        {
+          "name": "Healthcare Stocks Got Left Behind in the Market Rally. Are They a Buy?"
+        },
+        {
+          "name": "June 2025 US Stock Market Outlook: Has the Storm Passed?"
+        },
+        {
+          "name": "Has the Stock Market Reached Peak Optimism on Tariffs?"
+        },
+        {
+          "name": "Stocks Rise as US Court Rules Trump Tariffs Are Unlawful"
+        },
+        {
+          "name": "Stocks Fall as Trump Targets Europe and Apple With Steep Tariffs"
         }
       ]
     }

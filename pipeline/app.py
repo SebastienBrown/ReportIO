@@ -1,13 +1,17 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from search import google_search
-from classifier.testOutput import classifier
 import os
 from dotenv import load_dotenv
 import json
 from similarity import rank_websites
 from scrapenew import WebScrapingService
 from chunkingnew import TextProcessingService
+from answer import summarize_and_process
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from classifier.testOutput import classifier
 
 load_dotenv(override=True)
 
@@ -26,9 +30,9 @@ def response():
     else:
         message = request.args.get('message', 'No message provided')
     
-    query="what is the latest on fine-tuning techniques for machine learning"
+    query="Tell me about recent trends in the stock market"
 
-    classifierOutput=[0,0]
+    #classifierOutput=[0,0]
     classifierOutput=classifier(query)
     print(classifierOutput)
 
@@ -37,28 +41,28 @@ def response():
     classifierOutput[0]=="RAG"
 
     if classifierOutput[0] =="GPT":
-        return
+       return
 
-    #results = google_search(query, API_KEY, CSE_ID)
+    results = google_search(query, API_KEY, CSE_ID)
 
     # Save to JSON file
     #with open("search_results.json", "w", encoding="utf-8") as f:
         #json.dump(results, f, indent=2, ensure_ascii=False)
 
-    #print(f"Saved {len(results)} results to search_results.json")
+    print(f"Saved {len(results)} results to search_results.json")
     
-    with open("search_results.json", "r", encoding="utf-8") as f:
-        results = json.load(f)
+    #with open("search_results.json", "r", encoding="utf-8") as f:
+        #results = json.load(f)
     
-    #sorted_websites=rank_websites(query,results)
-    #print(sorted_websites)
+    sorted_websites=rank_websites(query,results)
+    print(sorted_websites)
 
     # Save to JSON file
    #with open("sorted_search_results.json", "w", encoding="utf-8") as f:
         #json.dump(sorted_websites, f, indent=2, ensure_ascii=False)
-    """
-    with open("sorted_search_results.json", "r", encoding="utf-8") as f:
-        sorted_websites = json.load(f)
+    
+    #with open("sorted_search_results.json", "r", encoding="utf-8") as f:
+        #sorted_websites = json.load(f)
 
     service=WebScrapingService()
 
@@ -77,13 +81,13 @@ def response():
             'error_message': data.error_message
         })
     
-    print(scrapedData)"""
+    print(scrapedData)
 
     #with open("scrapedData.json", "w", encoding="utf-8") as f:
         #json.dump(scrapedData, f, indent=2, ensure_ascii=False)
-
-    with open("scrapedData.json", "r", encoding="utf-8") as f:
-        scrapedData = json.load(f)
+    
+    #with open("scrapedData.json", "r", encoding="utf-8") as f:
+        #scrapedData = json.load(f)
     
     # Initialize service
     service = TextProcessingService(chunk_size=500, overlap=50, max_workers=3)
@@ -107,8 +111,12 @@ def response():
 
     print("DONE")
 
-    
+    #with open("best_chunks.json", "r", encoding="utf-8") as f:
+        #bestChunks = json.load(f)
 
+    resultFinal = summarize_and_process("best_chunks.json", query)
+
+    print(resultFinal)
 
     return jsonify({
         #'reply': f'You said: {message}'
