@@ -1,31 +1,16 @@
-# scripts/vector_store.py
-import os
-from dotenv import load_dotenv
-from qdrant_client import QdrantClient
-from qdrant_client.http.models import VectorParams, Distance, PointStruct
+# scripts/pipelines/text_pipeline/vector_store.py
 
-from scripts.llm.embed import embed_llm 
+from qdrant_client.http.models import PointStruct
+from scripts.llm.embed import embed_llm
+from scripts.llm.qdrant_client import client, init_qdrant_collection
 
-load_dotenv()
+COLLECTION_NAME = "text_chunks"
+def init_vector_collection():
+    init_qdrant_collection(COLLECTION_NAME)
 
-QDRANT_URL = os.getenv("QDRANT_URL")
-QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
-COLLECTION_NAME = "reportio_chunks"
-
-client = QdrantClient(
-    url=QDRANT_URL,
-    api_key=QDRANT_API_KEY,
-)
-
-def init_qdrant_collection():
-    if not client.collection_exists(COLLECTION_NAME):
-        client.create_collection(
-            collection_name=COLLECTION_NAME,
-            vectors_config=VectorParams(size=1536, distance=Distance.COSINE)
-        )
 
 def embed_and_upsert_chunks(chunks: list[str]):
-    """Embeds and stores the given text chunks to Qdrant"""
+ 
     vectors = embed_llm.embed_documents(chunks)
     points = [
         PointStruct(id=i, vector=vectors[i], payload={"text": chunks[i]})
@@ -33,8 +18,11 @@ def embed_and_upsert_chunks(chunks: list[str]):
     ]
     client.upsert(collection_name=COLLECTION_NAME, points=points)
 
+
 def search_similar_chunks(query: str, top_k: int = 5) -> list[str]:
-    """Embeds a query and returns the top matching chunk texts"""
+    """
+    Embeds a query and returns the top matching chunk texts (no metadata).
+    """
     query_vector = embed_llm.embed_query(query)
     results = client.search(
         collection_name=COLLECTION_NAME,

@@ -1,10 +1,9 @@
-from scripts.seb.scraper import WebScrapingService
+from scripts.pipelines.video_pipeline.transcript_scraper import fetch_transcript_from_html
 
-url = "https://news.mit.edu/2025/taking-training-wheels-off-clean-energy-0402"
-service = WebScrapingService()
-result = service.scrape(url)
+video_id = "mvORZvd3QsM"
+segments = fetch_transcript_from_html(video_id)
 
-print(f"✅ Success: {result.success}")
-print(f"🔤 Word count: {result.word_count}")
-print(f"📝 Title: {result.title}")
-print(f"📄 Content Preview:\n{result.content[:500]}")
+print(f"\n[TEST] Retrieved {len(segments) if segments else 0} segments:")
+if segments:
+    for s in segments[:3]:
+        print(f"→ {s['start']}s: {s['text'][:60]}")

@@ -4,7 +4,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from scripts.pipelines.text_pipeline.snippet_scorer import score_snippets
-from scripts.pipelines.text_pipeline.vector_store import embed_and_upsert_chunks, search_similar_chunks, init_qdrant_collection
+from scripts.pipelines.text_pipeline.vector_store import embed_and_upsert_chunks, search_similar_chunks, init_vector_collection
 from scripts.pipelines.text_pipeline.generation import generate_answer_from_context, generate_gpt_answer
 
 
@@ -71,7 +71,7 @@ def run_orchestration_pipeline(query: str, num_results: int = 10, top_k: int = 5
         #Include chunking from Seb's code (good practice)
 
         logger("[DEBUG] Step 5: Embedding and upserting chunks to Qdrant...")
-        init_qdrant_collection()
+        init_vector_collection()
         embed_and_upsert_chunks(chunks)
         logger("[DEBUG] Step 5 done")
 

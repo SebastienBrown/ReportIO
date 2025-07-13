@@ -20,6 +20,7 @@ last_result = None
 def log(msg):
     print(msg)  # still prints to console
     log_lines.append(msg)
+    
 
 @app.route("/api/search", methods=["POST"])
 def search():

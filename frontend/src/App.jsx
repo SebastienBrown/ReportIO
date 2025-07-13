@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [query, setQuery] = useState("");
@@ -7,6 +7,11 @@ function App() {
   const [logs, setLogs] = useState([]);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [videoChunks, setVideoChunks] = useState([]);
+
+  useEffect(() => {
+    console.log("[DEBUG] videoChunks rendering:", videoChunks);
+  }, [videoChunks]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -14,37 +19,35 @@ function App() {
     setTopSnippets([]);
     setLogs([]);
     setError(null);
+    setVideoChunks([]);
     setLoading(true);
 
     try {
-      // Step 1: Trigger backend
       await fetch("http://127.0.0.1:5000/api/search", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),
       });
 
-      // Step 2: Start polling logs
       const pollInterval = setInterval(async () => {
         try {
           const res = await fetch("http://127.0.0.1:5000/api/logs");
           const data = await res.json();
           setLogs(data.logs || []);
 
-          // Check if final step is done
           if (data.logs?.some((line) => line.includes("✅"))) {
             clearInterval(pollInterval);
-
-            // Fetch final result after completion
-            const resFinal = await fetch("http://127.0.0.1:5000/api/logs");
-            const finalData = await resFinal.json();
 
             const resAnswer = await fetch(
               "http://127.0.0.1:5000/api/last_result"
             );
             const parsed = await resAnswer.json();
+
+            console.log("[DEBUG] last_result response:", parsed);
+
             setAnswer(parsed.llm_answer || "No answer returned.");
             setTopSnippets(parsed.top_snippets || []);
+            setVideoChunks(parsed.videos || []); // ✅ assign correctly
             setLoading(false);
           }
         } catch (pollErr) {
@@ -117,6 +120,41 @@ function App() {
                   <p className="text-gray-700 text-sm mt-1">
                     {snippet.snippet}
                   </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {videoChunks.length > 0 && (
+          <div className="mt-8">
+            <h2 className="font-semibold text-lg mb-4">Video Insights</h2>
+            <div className="space-y-6">
+              {videoChunks.map((chunk, i) => (
+                <div key={i} className="flex gap-4 bg-white p-4 rounded shadow">
+                  {/* Embedded video */}
+                  <div className="w-[320px] h-[180px] flex-shrink-0">
+                    <iframe
+                      width="320"
+                      height="180"
+                      src={`https://www.youtube.com/embed/${chunk.video_id}?start=${chunk.start}`}
+                      title={chunk.title}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+
+                  {/* Text side */}
+                  <div className="flex flex-col justify-center max-w-md">
+                    <p className="text-md font-semibold text-gray-800 mb-1">
+                      {chunk.title}
+                    </p>
+                    <p className="text-sm text-gray-500 mb-1">
+                      Key details at: ⏱️ {chunk.start}s
+                    </p>
+                    <p className="text-sm text-gray-700">{chunk.chunk}</p>
+                  </div>
                 </div>
               ))}
             </div>
