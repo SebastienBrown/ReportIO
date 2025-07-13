@@ -1,6 +1,6 @@
 # scripts/seb/wrappers.py
 
-from scripts.seb.search import google_search
+from scripts.pipelines.text_pipeline.seb.search import google_search
 import os
 from dotenv import load_dotenv
 
@@ -24,8 +24,8 @@ def search_web_articles_seb(query: str, num_results: int = 10) -> list[dict]:
 
 
 
-from scripts.seb.scraper import WebScrapingService
-from scripts.content_chunker import chunk_text_tokenwise
+from scripts.pipelines.text_pipeline.seb.scraper import WebScrapingService
+from scripts.pipelines.text_pipeline.content_chunker import chunk_text_tokenwise
 import json
 
 def load_and_chunk_content_seb(urls, max_tokens=500, overlap=50):

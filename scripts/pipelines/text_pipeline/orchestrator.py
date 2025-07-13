@@ -3,26 +3,25 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from scripts.snippet_scorer import score_snippets
-from scripts.vector_store import embed_and_upsert_chunks, search_similar_chunks, init_qdrant_collection
-from scripts.generation import generate_answer_from_context, generate_gpt_answer
-from scripts.query_classifier import classify_query
+from scripts.pipelines.text_pipeline.snippet_scorer import score_snippets
+from scripts.pipelines.text_pipeline.vector_store import embed_and_upsert_chunks, search_similar_chunks, init_qdrant_collection
+from scripts.pipelines.text_pipeline.generation import generate_answer_from_context, generate_gpt_answer
 
 
 USE_SEB_SEARCH = True
 
 if USE_SEB_SEARCH:
-    from scripts.seb.wrappers import search_web_articles_seb as search_web_articles
+    from scripts.pipelines.text_pipeline.seb.wrappers import search_web_articles_seb as search_web_articles
 else:
-    from scripts.search_module import search_web_articles
+    from scripts.pipelines.text_pipeline.search_module import search_web_articles
 
 
 USE_SEB_SCRAPER_AND_CHUNKER = False
 
 if USE_SEB_SCRAPER_AND_CHUNKER:
-    from scripts.seb.wrappers import load_and_chunk_content_seb as load_and_chunk_content
+    from scripts.pipelines.text_pipeline.seb.wrappers import load_and_chunk_content_seb as load_and_chunk_content
 else:
-    from scripts.content_loader import load_and_chunk_content
+    from scripts.pipelines.text_pipeline.content_loader import load_and_chunk_content
 
 
 

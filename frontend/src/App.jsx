@@ -63,7 +63,7 @@ function App() {
     <div className="min-h-screen bg-gray-50 p-6">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-2xl font-bold mb-4 text-center">
-          AI-Powered Paper Q&A
+          AI Powered Report Generator
         </h1>
 
         <form onSubmit={handleSubmit} className="flex gap-2 mb-6">

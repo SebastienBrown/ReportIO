@@ -7,7 +7,7 @@ import threading
 # Make sure we can import from scripts/
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from scripts.orchestrator import run_orchestration_pipeline
+from scripts.multimodal_orchestrator import run_multimodal_pipeline
 
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:5173"])
@@ -34,7 +34,7 @@ def search():
     # Run your orchestration in a background thread
     def run():
         global last_result
-        result = run_orchestration_pipeline(query, logger=log)
+        result = run_multimodal_pipeline(query, logger=log)
         last_result = result
         log("[✅] Final answer ready.")
 

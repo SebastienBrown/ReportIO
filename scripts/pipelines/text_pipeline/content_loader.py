@@ -1,7 +1,7 @@
 import asyncio
 from crawl4ai import AsyncWebCrawler
 from typing import List
-from scripts.content_chunker import chunk_text_tokenwise
+from scripts.pipelines.text_pipeline.content_chunker import chunk_text_tokenwise
 
 async def load_and_chunk_content_async(urls: List[str], max_tokens: int = 500, overlap: int = 50) -> List[str]:
     all_chunks = []
