@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
 
 function App() {
   const [query, setQuery] = useState("");
@@ -12,6 +13,12 @@ function App() {
   useEffect(() => {
     console.log("[DEBUG] videoChunks rendering:", videoChunks);
   }, [videoChunks]);
+
+  function formatSeconds(seconds) {
+    const min = Math.floor(seconds / 60);
+    const sec = seconds % 60;
+    return `${min}:${sec.toString().padStart(2, "0")}`;
+  }
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -99,7 +106,9 @@ function App() {
         {answer && (
           <div className="bg-white rounded shadow p-4 mb-6">
             <h2 className="font-semibold text-lg mb-2">Answer</h2>
-            <p className="text-gray-800 whitespace-pre-line">{answer}</p>
+            <div className="prose max-w-none text-gray-800">
+              <ReactMarkdown>{answer}</ReactMarkdown>
+            </div>
           </div>
         )}
 
@@ -130,30 +139,43 @@ function App() {
           <div className="mt-8">
             <h2 className="font-semibold text-lg mb-4">Video Insights</h2>
             <div className="space-y-6">
-              {videoChunks.map((chunk, i) => (
+              {videoChunks.map((video, i) => (
                 <div key={i} className="flex gap-4 bg-white p-4 rounded shadow">
                   {/* Embedded video */}
                   <div className="w-[320px] h-[180px] flex-shrink-0">
                     <iframe
                       width="320"
                       height="180"
-                      src={`https://www.youtube.com/embed/${chunk.video_id}?start=${chunk.start}`}
-                      title={chunk.title}
+                      src={`https://www.youtube.com/embed/${video.video_id}`}
+                      title={video.title}
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                     ></iframe>
                   </div>
 
-                  {/* Text side */}
+                  {/* Right side: title + summary + key moments */}
                   <div className="flex flex-col justify-center max-w-md">
                     <p className="text-md font-semibold text-gray-800 mb-1">
-                      {chunk.title}
+                      {video.title}
                     </p>
-                    <p className="text-sm text-gray-500 mb-1">
-                      Key details at: ⏱️ {chunk.start}s
+                    <p className="text-sm italic text-gray-600 mb-3">
+                      {video.summary}
                     </p>
-                    <p className="text-sm text-gray-700">{chunk.chunk}</p>
+                    <div className="space-y-2">
+                      {video.moments.map((moment, j) => (
+                        <div key={j} className="text-sm text-gray-700">
+                          <a
+                            href={moment.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:underline"
+                          >
+                            ⏱️ {formatSeconds(moment.start)} – {moment.summary}
+                          </a>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
               ))}

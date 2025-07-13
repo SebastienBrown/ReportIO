@@ -8,6 +8,8 @@ from scripts.pipelines.video_pipeline.vector_store import (
     embed_and_upsert_chunks,
     search_similar_chunks,
 )
+from scripts.pipelines.video_pipeline.generation import group_and_summarize_video_chunks
+
 
 def run_video_pipeline(query: str, top_k: int = 5, logger=print):
     logger("[DEBUG] Step 1: Searching YouTube videos...")
@@ -27,16 +29,21 @@ def run_video_pipeline(query: str, top_k: int = 5, logger=print):
     retrieved_chunks = search_similar_chunks(query, top_k=top_k)
     logger(f"[DEBUG] Step 5 done → Retrieved {len(retrieved_chunks)} chunks.")
 
-    logger("[DEBUG] Sample retrieved video chunk:")
     if retrieved_chunks:
             logger(repr(retrieved_chunks[0]))
     else:
             logger("None retrieved.")
 
+    
+    grouped_videos = group_and_summarize_video_chunks(retrieved_chunks)
+    logger(f"[DEBUG] Step 6 done → Grouped videos and summarized key moments")
+
+    logger("[DEBUG] Sample retrieved video chunk:")
+  
     return {
         "status": "ok",
         "video_results": search_results,
-        "retrieved_chunks": retrieved_chunks,
+        "retrieved_chunks": grouped_videos,
         # "llm_answer": llm_answer,
     }
 
