@@ -42,8 +42,8 @@ def load_and_chunk_content_seb(urls, max_tokens=500, overlap=50):
 
         except Exception as e:
             print(f"[ERROR] Failed to scrape {url}: {e}")
-    #debug_json = [{"chunk_id": i, "length": len(c), "preview": c[:100]} for i, c in enumerate(scraped_chunks)]
-    #print(json.dumps(debug_json, indent=2))
+    debug_json = [{"chunk_id": i, "length": len(c), "preview": c[:100]} for i, c in enumerate(scraped_chunks)]
+    print(json.dumps(debug_json, indent=2))
     return scraped_chunks
 
 
