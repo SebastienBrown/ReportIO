@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
+import { jsPDF } from "jspdf";
 
 function App() {
   const [query, setQuery] = useState("");
@@ -11,6 +12,200 @@ function App() {
   const [videoChunks, setVideoChunks] = useState([]);
   const [apiReady, setApiReady] = useState(false);
   const [players, setPlayers] = useState({});
+  const [email, setEmail] = useState("");
+  const [emailStatus, setEmailStatus] = useState(null);
+
+  
+const generatePDFBlob = (query, answer, topSnippets) => {
+  try {
+    const doc = new jsPDF();
+    let y = 20;
+    const pageHeight = doc.internal.pageSize.height;
+    const margin = 15;
+    const maxWidth = 180;
+    const lineHeight = 6;
+    
+    // Helper function to check if we need a new page
+    const checkNewPage = (linesNeeded = 1) => {
+      if (y + (linesNeeded * lineHeight) > pageHeight - 20) {
+        doc.addPage();
+        y = 20;
+      }
+    };
+    
+    // Title
+    doc.setFontSize(18);
+    doc.setFont(undefined, 'bold');
+    doc.text('Research Report', margin, y);
+    y += 12;
+    
+    // Date
+    doc.setFontSize(9);
+    doc.setFont(undefined, 'normal');
+    doc.setTextColor(100);
+    doc.text(`Generated: ${new Date().toLocaleString()}`, margin, y);
+    y += 15;
+    
+    // Reset color
+    doc.setTextColor(0);
+    
+    // Query Section
+    checkNewPage(3);
+    doc.setFontSize(14);
+    doc.setFont(undefined, 'bold');
+    doc.text('Query', margin, y);
+    y += 8;
+    
+    doc.setFontSize(11);
+    doc.setFont(undefined, 'normal');
+    const queryText = query || 'No query provided';
+    const queryLines = doc.splitTextToSize(queryText, maxWidth);
+    
+    checkNewPage(queryLines.length);
+    queryLines.forEach(line => {
+      doc.text(line, margin, y);
+      y += lineHeight;
+    });
+    y += 8;
+    
+    // Answer Section
+    if (answer) {
+      checkNewPage(3);
+      doc.setFontSize(14);
+      doc.setFont(undefined, 'bold');
+      doc.text('Answer', margin, y);
+      y += 8;
+      
+      doc.setFontSize(11);
+      doc.setFont(undefined, 'normal');
+      
+      // Clean the answer text (remove markdown formatting for PDF)
+      const cleanAnswer = answer
+        .replace(/\*\*(.*?)\*\*/g, '$1') // Remove bold markdown
+        .replace(/\*(.*?)\*/g, '$1')     // Remove italic markdown
+        .replace(/\[(.*?)\]\(.*?\)/g, '$1') // Convert links to just text
+        .replace(/#{1,6}\s/g, '')        // Remove headers
+        .trim();
+      
+      const answerLines = doc.splitTextToSize(cleanAnswer, maxWidth);
+      
+      answerLines.forEach(line => {
+        checkNewPage();
+        doc.text(line, margin, y);
+        y += lineHeight;
+      });
+      y += 12;
+    }
+    
+    // Sources Section
+    if (topSnippets && topSnippets.length > 0) {
+      checkNewPage(3);
+      doc.setFontSize(14);
+      doc.setFont(undefined, 'bold');
+      doc.text('Sources', margin, y);
+      y += 10;
+      
+      topSnippets.forEach((snippet, i) => {
+        // Source number
+        checkNewPage(2);
+        doc.setFontSize(12);
+        doc.setFont(undefined, 'bold');
+        doc.text(`${i + 1}.`, margin, y);
+        y += 7;
+        
+        // Source title
+        doc.setFontSize(10);
+        doc.setFont(undefined, 'bold');
+        const title = snippet.title || `Source ${i + 1}`;
+        const titleLines = doc.splitTextToSize(title, maxWidth - 5);
+        
+        titleLines.forEach(line => {
+          checkNewPage();
+          doc.text(line, margin + 5, y);
+          y += lineHeight;
+        });
+        
+        // Source content
+        if (snippet.snippet) {
+          doc.setFont(undefined, 'normal');
+          const contentLines = doc.splitTextToSize(snippet.snippet, maxWidth - 5);
+          
+          contentLines.forEach(line => {
+            checkNewPage();
+            doc.text(line, margin + 5, y);
+            y += lineHeight;
+          });
+        }
+        
+        // Source URL
+        if (snippet.url) {
+          doc.setTextColor(50);
+          doc.setFontSize(9);
+          const urlLines = doc.splitTextToSize(snippet.url, maxWidth - 5);
+          
+          urlLines.forEach(line => {
+            checkNewPage();
+            doc.text(line, margin + 5, y);
+            y += lineHeight;
+          });
+          doc.setTextColor(0);
+        }
+        
+        y += 8; // Space between sources
+      });
+    }
+    
+    return doc.output("blob");
+  } catch (error) {
+    console.error('Error generating PDF:', error);
+    // Fallback to simple PDF if enhanced version fails
+    const doc = new jsPDF();
+    doc.setFontSize(12);
+    doc.text('Error generating detailed report', 10, 20);
+    doc.text(`Query: ${query || 'N/A'}`, 10, 40);
+    doc.text('Please try again or contact support.', 10, 60);
+    return doc.output("blob");
+  }
+};
+
+
+  const blobToBase64 = (blob) =>
+    new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onloadend = () => resolve(reader.result); // includes base64 header
+      reader.onerror = reject;
+      reader.readAsDataURL(blob);
+    });
+
+
+    const handleEmailSend = async () => {
+      setEmailStatus(null);
+    
+      try {
+        const pdfBlob = generatePDFBlob(query, answer, topSnippets);
+        const pdfBase64 = await blobToBase64(pdfBlob); // includes the data URI prefix
+    
+        const res = await fetch("http://127.0.0.1:5000/api/send-pdf", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            email,
+            pdf_data: pdfBase64, // Flask expects this
+            subject: "Your PDF Export",
+          }),
+        });
+    
+        if (res.ok) {
+          setEmailStatus("Report sent successfully!");
+        } else {
+          setEmailStatus("Failed to send report.");
+        }
+      } catch (err) {
+        console.error("Error sending report:", err);
+        setEmailStatus("Error sending report.");
+      }
+    };
+
 
   useEffect(() => {
     const tag = document.createElement("script");
@@ -137,20 +332,46 @@ function App() {
         )}
 
         {answer && (
-          <div className="bg-white rounded shadow p-4 mb-6">
-            <h2 className="font-semibold text-lg mb-2">Answer</h2>
-            <div className="prose max-w-none text-gray-800 prose-a:text-blue-600 hover:prose-a:underline">
-            <ReactMarkdown
-              components={{
-                a: ({ node, ...props }) => (
-                  <a {...props} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline" />
-                ),
-              }}
-            >
-              {answer}
-            </ReactMarkdown>
+          <>
+            <div className="bg-white rounded shadow p-4 mb-6">
+              <h2 className="font-semibold text-lg mb-2">Answer</h2>
+              <div className="prose max-w-none text-gray-800 prose-a:text-blue-600 hover:prose-a:underline">
+                <ReactMarkdown
+                  components={{
+                    a: ({ node, ...props }) => (
+                      <a {...props} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline" />
+                    ),
+                  }}
+                >
+                  {answer}
+                </ReactMarkdown>
+              </div>
             </div>
-          </div>
+
+            <div className="bg-white rounded shadow p-4 mb-6">
+              <h2 className="font-semibold text-lg mb-2">Email this Report</h2>
+              <div className="flex gap-2">
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Enter your email"
+                  className="flex-1 p-2 border border-gray-300 rounded"
+                  aria-label="Recipient email"
+                />
+                <button
+                  onClick={handleEmailSend}
+                  className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+                  disabled={!email}
+                >
+                  Send Report
+                </button>
+              </div>
+              {emailStatus && (
+                <p className="text-sm mt-2 text-center text-gray-600">{emailStatus}</p>
+              )}
+            </div>
+          </>
         )}
 
         {topSnippets.length > 0 && (
