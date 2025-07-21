@@ -9,6 +9,39 @@ function App() {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
   const [videoChunks, setVideoChunks] = useState([]);
+  const [apiReady, setApiReady] = useState(false);
+  const [players, setPlayers] = useState({});
+
+  useEffect(() => {
+    const tag = document.createElement("script");
+    tag.src = "https://www.youtube.com/iframe_api";
+    document.body.appendChild(tag);
+  
+    window.onYouTubeIframeAPIReady = () => {
+      setApiReady(true);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!apiReady || videoChunks.length === 0) return;
+  
+    const newPlayers = {};
+    videoChunks.forEach((video, i) => {
+      newPlayers[i] = new window.YT.Player(`player-${i}`, {
+        height: "180",
+        width: "320",
+        videoId: video.video_id,
+        events: {
+          onReady: (event) => {
+            console.log(`Player ${i} ready`);
+          },
+        },
+      });
+    });
+    setPlayers(newPlayers);
+  }, [apiReady, videoChunks]);
+
+
 
   useEffect(() => {
     console.log("[DEBUG] videoChunks rendering:", videoChunks);
@@ -106,8 +139,16 @@ function App() {
         {answer && (
           <div className="bg-white rounded shadow p-4 mb-6">
             <h2 className="font-semibold text-lg mb-2">Answer</h2>
-            <div className="prose max-w-none text-gray-800">
-              <ReactMarkdown>{answer}</ReactMarkdown>
+            <div className="prose max-w-none text-gray-800 prose-a:text-blue-600 hover:prose-a:underline">
+            <ReactMarkdown
+              components={{
+                a: ({ node, ...props }) => (
+                  <a {...props} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline" />
+                ),
+              }}
+            >
+              {answer}
+            </ReactMarkdown>
             </div>
           </div>
         )}
@@ -143,16 +184,12 @@ function App() {
                 <div key={i} className="flex gap-4 bg-white p-4 rounded shadow">
                   {/* Embedded video */}
                   <div className="w-[320px] h-[180px] flex-shrink-0">
-                    <iframe
-                      width="320"
-                      height="180"
-                      src={`https://www.youtube.com/embed/${video.video_id}`}
-                      title={video.title}
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
+                  <div
+  id={`player-${i}`}
+  className="w-[320px] h-[180px] flex-shrink-0"
+/>
                   </div>
+                  
 
                   {/* Right side: title + summary + key moments */}
                   <div className="flex flex-col justify-center max-w-md">
@@ -163,18 +200,21 @@ function App() {
                       {video.summary}
                     </p>
                     <div className="space-y-2">
-                      {video.moments.map((moment, j) => (
-                        <div key={j} className="text-sm text-gray-700">
-                          <a
-                            href={moment.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:underline"
-                          >
-                            ⏱️ {formatSeconds(moment.start)} – {moment.summary}
-                          </a>
-                        </div>
-                      ))}
+                    {video.moments.map((moment, j) => (
+                      <div
+                        key={j}
+                        className="text-sm text-blue-600 hover:underline cursor-pointer"
+                        onClick={() => {
+                          const player = players[i];
+                          if (player && player.seekTo) {
+                            player.seekTo(moment.start, true);
+                            player.playVideo();
+                          }
+                        }}
+                      >
+                        ⏱️ {formatSeconds(moment.start)} – {moment.summary}
+                      </div>
+                    ))}
                     </div>
                   </div>
                 </div>
