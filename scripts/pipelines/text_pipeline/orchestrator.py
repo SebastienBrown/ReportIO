@@ -11,7 +11,7 @@ from scripts.pipelines.text_pipeline.generation import generate_answer_from_cont
 USE_SEB_SEARCH = True
 
 if USE_SEB_SEARCH:
-    from scripts.pipelines.text_pipeline.seb.wrappers import search_web_articles_seb as search_web_articles
+    from scripts.pipelines.text_pipeline.seb.wrappers import search_web_articles_google_API as search_web_articles
 else:
     from scripts.pipelines.text_pipeline.search_module import search_web_articles
 

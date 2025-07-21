@@ -4,10 +4,14 @@
 
 python -m scripts.pipelines.text_pipeline.orchestrator
 
-# Running backend.py
+# Running mutimodal orchastrator directly
 
 python -m scripts.multimodal_orchestrator.py
 
-# Running backend.py
+# Starting backend
 
 python -m backend.app
+
+# How to run visualizer Agent:
+
+python -m scripts.pipelines.data_visualization_pipeline.langgraph_dag

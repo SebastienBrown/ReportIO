@@ -9,7 +9,7 @@ load_dotenv(override=True)
 API_KEY = os.getenv("GOOGLE_API_KEY")
 CSE_ID = os.getenv("GOOGLE_CSE_ID")
 
-def search_web_articles_seb(query: str, num_results: int = 10) -> list[dict]:
+def search_web_articles_google_API(query: str, num_results: int = 10) -> list[dict]:
     raw_results = google_search(query, API_KEY, CSE_ID, num_results=num_results)
 
     return [
