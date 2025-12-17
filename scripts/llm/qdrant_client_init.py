@@ -7,6 +7,8 @@ load_dotenv()
 
 QDRANT_URL = os.getenv("QDRANT_URL")
 QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
+print("QDRANT_URL:", QDRANT_URL)
+print("QDRANT_API_KEY:", "SET" if QDRANT_API_KEY else "MISSING")
 
 client = QdrantClient(
     url=QDRANT_URL,

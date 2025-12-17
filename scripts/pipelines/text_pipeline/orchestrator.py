@@ -63,7 +63,7 @@ def run_orchestration_pipeline(query: str, num_results: int = 10, top_k: int = 5
         topicList=topicList[:1]
     
         for i, titleQuery in enumerate(topicList, start=1):
-            compositeQuery=f"{titleQuery} in the context of {query}"
+            compositeQuery=f"{titleQuery}: {query}"
             logger(f"[DEBUG] Step 1: Searching web articles for query={compositeQuery}")
             raw_articles = search_web_articles(compositeQuery, num_results=num_results)
             logger(f"[DEBUG] Step 1 done → Found {len(raw_articles)} articles")
@@ -94,7 +94,7 @@ def run_orchestration_pipeline(query: str, num_results: int = 10, top_k: int = 5
 
 
             logger("[DEBUG] Step 6: Searching Qdrant for similar chunks...")
-            retrieved_chunks = search_similar_chunks(query,COLLECTION_NAME, top_k=top_k)
+            retrieved_chunks = search_similar_chunks(compositeQuery,COLLECTION_NAME, top_k=top_k)
             logger(f"[DEBUG] Step 6 done → Retrieved {len(retrieved_chunks)} results")
 
             #logger(retrieved_chunks[0])

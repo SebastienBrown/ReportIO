@@ -2,11 +2,17 @@ from scripts.llm.chat import chat_llm
 from langchain.schema import SystemMessage, HumanMessage
 import re
 from typing import Dict
+from urllib.parse import urlparse
 
 
 def generate_answer_from_context(query: str, top_urls:list[str], retrieved_chunks: list[dict[str,str]]) -> str:
     """Uses LLM to generate an answer based on the retrieved context"""
     
+        # Print each URL
+    for chunk in retrieved_chunks:
+        if chunk.get("url"):
+            print("URL:", chunk["url"].strip())
+            print("\n")
 
     # Build context with citation markers: add [URL] inline after each chunk
     context_blocks = [
@@ -41,6 +47,11 @@ def generate_answer_from_context(query: str, top_urls:list[str], retrieved_chunk
 +   " • If multiple sources support the same point, cite them together by their full URLs (e.g., [https://example.com/1][https://example.com/2]).\n"
     "     • Compare differing viewpoints if available, and highlight gaps where applicable.\n\n"
     "Only use a citation as a source if it in the following list {urls_string}"
+    CITATION RULES (STRICT):
+    - You may ONLY cite URLs that appear EXACTLY in the allowed list.
+    - Do NOT modify URLs in any way.
+    - Do NOT add anchors (#...), query parameters (?...), or trailing slashes.
+    - If a fact cannot be cited using an EXACT URL from the list, do not include it.
     "3. **Summary**\n"
     "   - End the chapter with a short summary or takeaway paragraph (2–4 sentences).\n"
     "   - Reinforce the most important findings or reflections.\n\n"
@@ -79,19 +90,34 @@ def generate_answer_from_context(query: str, top_urls:list[str], retrieved_chunk
     numbered_context = response.content
     next_index = 1
 
+    def canonical_url(url: str) -> str:
+        """Strips anchors, query params, trailing slashes."""
+        parsed = urlparse(url)
+        return f"{parsed.scheme}://{parsed.netloc}{parsed.path}".rstrip("/")
+
+    # Build canonical URL map
+    canonical_final_urls = {canonical_url(u): u for u in final_top_urls}
+
     for url in final_top_urls:
-        if url not in url_map:
-            url_map[url] = next_index
+        canon = canonical_url(url)
+        if canon not in url_map:
+            url_map[canon] = next_index
             next_index += 1
 
-        # Replace [URL] with [number]
-        numbered_context = numbered_context.replace(f'[{url}]', f'[{url_map[url]}]')
-    
-    print("NUMBERED CONTEXT IS ",numbered_context)
-    
-    # Invert the url_map to get number -> url mapping
-    number_to_url = {v: k for k, v in url_map.items()}
+        # Replace all occurrences in the text, using canonical URL as key
+        # Any URL in numbered_context will be canonicalized first for matching
+        numbered_context = re.sub(
+            re.escape(url) + r'([#?][^\]\s]*)?',  # match anchors or query params
+            f'[{url_map[canon]}]',
+            numbered_context
+        )
 
+    print("NUMBERED CONTEXT IS ", numbered_context)
+    
+    # Invert url_map to number -> original URL mapping
+    number_to_url = {v: canonical_final_urls[k] for k, v in url_map.items()}
+
+    # Step B: convert numbers to markdown links safely
     def linkify_citations(text: str, number_to_url: dict[int, str]) -> str:
         """
         Replaces [1], [2], etc. with markdown hyperlinks like [1](https://example.com)
@@ -99,22 +125,16 @@ def generate_answer_from_context(query: str, top_urls:list[str], retrieved_chunk
         def replace_number(match):
             num = int(match.group(1))
             if num in number_to_url:
-                return f"[\\[{num}\\]]({number_to_url[num]})"
+                return f"[{num}]({number_to_url[num]})"
             return match.group(0)
 
         return re.sub(r'\[(\d+)\]', replace_number, text)
 
-
     linked_text = linkify_citations(numbered_context, number_to_url)
-    print("LINKED TEXT IS ",linked_text)
+    print("LINKED TEXT IS ", linked_text)
 
-    #numbered_text = replace_citation_numbers_with_links(numbered_context, url_map)
-
-   # print("numbered text is ",numbered_text,"\n\n\n")
-
-    ######################
-    
     return linked_text
+
 
 def generate_gpt_answer(query: str) -> str:
     """Generates a direct GPT response without RAG context."""

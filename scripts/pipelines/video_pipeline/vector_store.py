@@ -2,7 +2,7 @@
 
 from qdrant_client.http.models import PointStruct
 from scripts.llm.embed import embed_llm
-from scripts.llm.qdrant_client import client, init_qdrant_collection
+from scripts.llm.qdrant_client_init import client, init_qdrant_collection
 
 COLLECTION_NAME = "video_chunks"
 

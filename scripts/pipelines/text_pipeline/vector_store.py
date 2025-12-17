@@ -2,12 +2,13 @@
 
 from qdrant_client.http.models import PointStruct
 from scripts.llm.embed import embed_llm
-from scripts.llm.qdrant_client import client, init_qdrant_collection
+from scripts.llm.qdrant_client_init import client, init_qdrant_collection
 import time
 import uuid
 
 def init_vector_collection(COLLECTION_NAME):
     init_qdrant_collection(COLLECTION_NAME)
+    
 
 
 def embed_and_upsert_chunks(chunks: list[dict],COLLECTION_NAME:uuid.UUID, batch_size: int = 40, delay: float = 1.5):
