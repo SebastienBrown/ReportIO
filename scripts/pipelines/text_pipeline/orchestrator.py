@@ -61,6 +61,7 @@ def run_orchestration_pipeline(query: str, num_results: int = 10, top_k: int = 5
         logger(f"[DEBUG] Step 0.5 done → Topic list is {topicList}")
 
         topicList=topicList[:1]
+        #topicList=topicList[:3]
     
         for i, titleQuery in enumerate(topicList, start=1):
             compositeQuery=f"{titleQuery}: {query}"

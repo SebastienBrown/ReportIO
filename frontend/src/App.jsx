@@ -12,13 +12,17 @@ function App() {
   const [videoChunks, setVideoChunks] = useState([]);
   const [apiReady, setApiReady] = useState(false);
   const [players, setPlayers] = useState({});
-  
+
+  // Selection states
+  const [selectedSnippets, setSelectedSnippets] = useState(new Set());
+  const [selectedVideos, setSelectedVideos] = useState(new Set());
+
   // Modal states
   const [showEmailModal, setShowEmailModal] = useState(false);
   const [showFeedbackModal, setShowFeedbackModal] = useState(false);
   const [email, setEmail] = useState("");
   const [feedbackText, setFeedbackText] = useState("");
-  
+
   // Toast notification state
   const [toast, setToast] = useState(null);
 
@@ -27,7 +31,7 @@ function App() {
     setTimeout(() => setToast(null), 4000);
   };
 
-  const generatePDFBlob = (query, answer, topSnippets) => {
+  const generatePDFBlob = (query, answer, topSnippets, videoChunks) => {
     try {
       const doc = new jsPDF();
       let y = 20;
@@ -35,48 +39,48 @@ function App() {
       const margin = 15;
       const maxWidth = 180;
       const lineHeight = 6;
-      
+
       const checkNewPage = (linesNeeded = 1) => {
         if (y + (linesNeeded * lineHeight) > pageHeight - 20) {
           doc.addPage();
           y = 20;
         }
       };
-      
+
       // Title
       doc.setFontSize(18);
       doc.setFont(undefined, 'bold');
       doc.text('Research Report', margin, y);
       y += 12;
-      
+
       // Date
       doc.setFontSize(9);
       doc.setFont(undefined, 'normal');
       doc.setTextColor(100);
       doc.text(`Generated: ${new Date().toLocaleString()}`, margin, y);
       y += 15;
-      
+
       doc.setTextColor(0);
-      
+
       // Query Section
       checkNewPage(3);
       doc.setFontSize(14);
       doc.setFont(undefined, 'bold');
       doc.text('Query', margin, y);
       y += 8;
-      
+
       doc.setFontSize(11);
       doc.setFont(undefined, 'normal');
       const queryText = query || 'No query provided';
       const queryLines = doc.splitTextToSize(queryText, maxWidth);
-      
+
       checkNewPage(queryLines.length);
       queryLines.forEach(line => {
         doc.text(line, margin, y);
         y += lineHeight;
       });
       y += 8;
-      
+
       // Answer Section
       if (answer) {
         checkNewPage(3);
@@ -84,19 +88,19 @@ function App() {
         doc.setFont(undefined, 'bold');
         doc.text('Answer', margin, y);
         y += 8;
-        
+
         doc.setFontSize(11);
         doc.setFont(undefined, 'normal');
-        
+
         const cleanAnswer = answer
           .replace(/\*\*(.*?)\*\*/g, '$1')
           .replace(/\*(.*?)\*/g, '$1')
           .replace(/\[(.*?)\]\(.*?\)/g, '$1')
           .replace(/#{1,6}\s/g, '')
           .trim();
-        
+
         const answerLines = doc.splitTextToSize(cleanAnswer, maxWidth);
-        
+
         answerLines.forEach(line => {
           checkNewPage();
           doc.text(line, margin, y);
@@ -104,7 +108,7 @@ function App() {
         });
         y += 12;
       }
-      
+
       // Sources Section
       if (topSnippets && topSnippets.length > 0) {
         checkNewPage(3);
@@ -112,41 +116,41 @@ function App() {
         doc.setFont(undefined, 'bold');
         doc.text('Sources', margin, y);
         y += 10;
-        
+
         topSnippets.forEach((snippet, i) => {
           checkNewPage(2);
           doc.setFontSize(12);
           doc.setFont(undefined, 'bold');
           doc.text(`${i + 1}.`, margin, y);
           y += 7;
-          
+
           doc.setFontSize(10);
           doc.setFont(undefined, 'bold');
           const title = snippet.title || `Source ${i + 1}`;
           const titleLines = doc.splitTextToSize(title, maxWidth - 5);
-          
+
           titleLines.forEach(line => {
             checkNewPage();
             doc.text(line, margin + 5, y);
             y += lineHeight;
           });
-          
+
           if (snippet.snippet) {
             doc.setFont(undefined, 'normal');
             const contentLines = doc.splitTextToSize(snippet.snippet, maxWidth - 5);
-            
+
             contentLines.forEach(line => {
               checkNewPage();
               doc.text(line, margin + 5, y);
               y += lineHeight;
             });
           }
-          
+
           if (snippet.url) {
             doc.setTextColor(50);
             doc.setFontSize(9);
             const urlLines = doc.splitTextToSize(snippet.url, maxWidth - 5);
-            
+
             urlLines.forEach(line => {
               checkNewPage();
               doc.text(line, margin + 5, y);
@@ -154,11 +158,97 @@ function App() {
             });
             doc.setTextColor(0);
           }
-          
+
           y += 8;
         });
       }
-      
+
+      // Video Insights Section
+      if (videoChunks && videoChunks.length > 0) {
+        checkNewPage(3);
+        doc.setFontSize(14);
+        doc.setFont(undefined, 'bold');
+        doc.text('Video Insights', margin, y);
+        y += 10;
+
+        videoChunks.forEach((video, i) => {
+          checkNewPage(2);
+          doc.setFontSize(12);
+          doc.setFont(undefined, 'bold');
+          doc.text(`${i + 1}.`, margin, y);
+          y += 7;
+
+          // Video title
+          doc.setFontSize(10);
+          doc.setFont(undefined, 'bold');
+          const title = video.title || `Video ${i + 1}`;
+          const titleLines = doc.splitTextToSize(title, maxWidth - 5);
+
+          titleLines.forEach(line => {
+            checkNewPage();
+            doc.text(line, margin + 5, y);
+            y += lineHeight;
+          });
+
+          // Video summary
+          if (video.summary) {
+            doc.setFont(undefined, 'italic');
+            const summaryLines = doc.splitTextToSize(video.summary, maxWidth - 5);
+
+            summaryLines.forEach(line => {
+              checkNewPage();
+              doc.text(line, margin + 5, y);
+              y += lineHeight;
+            });
+            y += 2;
+          }
+
+          // Video URL
+          if (video.video_id) {
+            const videoUrl = `https://www.youtube.com/watch?v=${video.video_id}`;
+            doc.setTextColor(50);
+            doc.setFont(undefined, 'normal');
+            doc.setFontSize(9);
+            const urlLines = doc.splitTextToSize(videoUrl, maxWidth - 5);
+
+            urlLines.forEach(line => {
+              checkNewPage();
+              doc.text(line, margin + 5, y);
+              y += lineHeight;
+            });
+            doc.setTextColor(0);
+            y += 2;
+          }
+
+          // Key moments
+          if (video.moments && video.moments.length > 0) {
+            doc.setFontSize(9);
+            doc.setFont(undefined, 'bold');
+            checkNewPage();
+            doc.text('Key Moments:', margin + 5, y);
+            y += 6;
+
+            video.moments.forEach((moment) => {
+              const min = Math.floor(moment.start / 60);
+              const sec = moment.start % 60;
+              const timestamp = `${min}:${sec.toString().padStart(2, '0')}`;
+
+              doc.setFont(undefined, 'normal');
+              const momentText = `  • ${timestamp} - ${moment.summary}`;
+              const momentLines = doc.splitTextToSize(momentText, maxWidth - 5);
+
+              momentLines.forEach(line => {
+                checkNewPage();
+                doc.text(line, margin + 5, y);
+                y += lineHeight;
+              });
+            });
+          }
+
+          y += 8;
+        });
+      }
+
       return doc.output("blob");
     } catch (error) {
       console.error('Error generating PDF:', error);
@@ -186,7 +276,11 @@ function App() {
     }
 
     try {
-      const pdfBlob = generatePDFBlob(query, answer, topSnippets);
+      // Filter the data based on user selection
+      const finalSnippets = topSnippets.filter((_, i) => selectedSnippets.has(i));
+      const finalVideos = videoChunks.filter((_, i) => selectedVideos.has(i));
+
+      const pdfBlob = generatePDFBlob(query, answer, finalSnippets, finalVideos);
       const pdfBase64 = await blobToBase64(pdfBlob);
 
       const res = await fetch("http://127.0.0.1:5000/api/send-pdf", {
@@ -221,7 +315,7 @@ function App() {
     try {
       const mailtoLink = `mailto:sebastienbrown1@gmail.com?subject=AI Report Generator Feedback&body=${encodeURIComponent(feedbackText)}`;
       window.location.href = mailtoLink;
-      
+
       showToast("Opening your email client...", "success");
       setShowFeedbackModal(false);
       setFeedbackText("");
@@ -280,6 +374,10 @@ function App() {
     setVideoChunks([]);
     setLoading(true);
 
+    // Reset selection state
+    setSelectedSnippets(new Set());
+    setSelectedVideos(new Set());
+
     try {
       await fetch("http://127.0.0.1:5000/api/search", {
         method: "POST",
@@ -302,6 +400,11 @@ function App() {
             setAnswer(parsed.llm_answer || "No answer returned.");
             setTopSnippets(parsed.top_snippets || []);
             setVideoChunks(parsed.videos || []);
+
+            // Auto-select all by default
+            setSelectedSnippets(new Set((parsed.top_snippets || []).map((_, i) => i)));
+            setSelectedVideos(new Set((parsed.videos || []).map((_, i) => i)));
+
             setLoading(false);
             showToast("Search completed!", "success");
           }
@@ -319,16 +422,29 @@ function App() {
     }
   };
 
+  const toggleSnippet = (index) => {
+    const next = new Set(selectedSnippets);
+    if (next.has(index)) next.delete(index);
+    else next.add(index);
+    setSelectedSnippets(next);
+  };
+
+  const toggleVideo = (index) => {
+    const next = new Set(selectedVideos);
+    if (next.has(index)) next.delete(index);
+    else next.add(index);
+    setSelectedVideos(next);
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
       {/* Toast Notification */}
       {toast && (
         <div className="fixed top-4 right-4 z-50 animate-slideIn">
-          <div className={`px-6 py-3 rounded-lg shadow-lg flex items-center gap-3 ${
-            toast.type === "success" 
-              ? "bg-emerald-500 text-white" 
-              : "bg-red-500 text-white"
-          }`}>
+          <div className={`px-6 py-3 rounded-lg shadow-lg flex items-center gap-3 ${toast.type === "success"
+            ? "bg-emerald-500 text-white"
+            : "bg-red-500 text-white"
+            }`}>
             <span className="text-lg">
               {toast.type === "success" ? "✓" : "⚠"}
             </span>
@@ -347,10 +463,10 @@ function App() {
               </svg>
             </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              ReportIO - An AI Research Assistant
+              AI Research Assistant
             </h1>
           </div>
-          
+
           <div className="flex gap-3">
             <button
               onClick={() => setShowEmailModal(true)}
@@ -362,7 +478,7 @@ function App() {
               </svg>
               Email Report
             </button>
-            
+
             <button
               onClick={() => setShowFeedbackModal(true)}
               className="px-4 py-2 bg-white border-2 border-slate-200 text-slate-700 rounded-lg font-medium hover:border-slate-300 hover:bg-slate-50 transition-all flex items-center gap-2"
@@ -487,8 +603,8 @@ function App() {
             </div>
             <div className="space-y-4">
               {topSnippets.map((snippet, i) => (
-                <div 
-                  key={i} 
+                <div
+                  key={i}
                   className="bg-white p-6 rounded-xl shadow-md border border-slate-200 hover:shadow-lg hover:border-blue-300 transition-all group"
                 >
                   <div className="flex items-start gap-4">
@@ -528,8 +644,8 @@ function App() {
             </div>
             <div className="space-y-6">
               {videoChunks.map((video, i) => (
-                <div 
-                  key={i} 
+                <div
+                  key={i}
                   className="bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden hover:shadow-xl transition-all"
                 >
                   <div className="flex flex-col lg:flex-row gap-6 p-6">
@@ -548,7 +664,7 @@ function App() {
                       <p className="text-sm italic text-slate-600 mb-4 leading-relaxed">
                         {video.summary}
                       </p>
-                      
+
                       {/* Key Moments */}
                       {video.moments && video.moments.length > 0 && (
                         <div>
@@ -611,13 +727,13 @@ function App() {
       {/* Email Modal */}
       {showEmailModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4 animate-fadeIn">
-          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full transform animate-scaleIn">
-            <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-4 rounded-t-2xl flex items-center justify-between">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full transform animate-scaleIn max-h-[90vh] flex flex-col">
+            <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-4 rounded-t-2xl flex items-center justify-between shrink-0">
               <h3 className="text-xl font-bold text-white flex items-center gap-2">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                Email Report
+                Review & Send Report
               </h3>
               <button
                 onClick={() => {
@@ -631,39 +747,111 @@ function App() {
                 </svg>
               </button>
             </div>
-            
-            <div className="p-6">
-              <label className="block text-sm font-semibold text-slate-700 mb-2">
-                Email Address
-              </label>
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="your@email.com"
-                className="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-100 transition-all"
-                autoFocus
-              />
-              <p className="text-sm text-slate-500 mt-2">
-                We'll send a PDF report with your research results to this email address.
-              </p>
+
+            <div className="p-6 overflow-y-auto custom-scrollbar">
+              {/* Email Input */}
+              <div className="mb-6">
+                <label className="block text-sm font-semibold text-slate-700 mb-2">
+                  Email Address
+                </label>
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="your@email.com"
+                  className="w-full px-4 py-3 border-2 border-slate-200 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-100 transition-all"
+                  autoFocus
+                />
+              </div>
+
+              {/* Review Sections */}
+              <div className="space-y-6">
+                {/* Sources Checklist */}
+                {topSnippets && topSnippets.length > 0 && (
+                  <div>
+                    <h4 className="border-b pb-2 mb-3 text-sm font-bold text-slate-500 uppercase tracking-widest flex items-center justify-between">
+                      <span>Included Sources</span>
+                      <span className="text-xs bg-slate-100 px-2 py-1 rounded text-slate-500">
+                        {selectedSnippets.size} / {topSnippets.length}
+                      </span>
+                    </h4>
+                    <div className="space-y-2">
+                      {topSnippets.map((snippet, i) => (
+                        <label
+                          key={i}
+                          className={`flex items-start gap-3 p-3 rounded-lg border-2 cursor-pointer transition-all ${selectedSnippets.has(i)
+                              ? 'border-blue-200 bg-blue-50'
+                              : 'border-slate-100 bg-slate-50 opacity-60'
+                            }`}
+                        >
+                          <input
+                            type="checkbox"
+                            checked={selectedSnippets.has(i)}
+                            onChange={() => toggleSnippet(i)}
+                            className="mt-1 w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500"
+                          />
+                          <div className="flex-1">
+                            <div className="font-semibold text-sm text-slate-800 line-clamp-1">{snippet.title}</div>
+                            <div className="text-xs text-slate-500 mt-1 line-clamp-2">{snippet.snippet}</div>
+                          </div>
+                        </label>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Videos Checklist */}
+                {videoChunks && videoChunks.length > 0 && (
+                  <div>
+                    <h4 className="border-b pb-2 mb-3 text-sm font-bold text-slate-500 uppercase tracking-widest flex items-center justify-between">
+                      <span>Included Video Insights</span>
+                      <span className="text-xs bg-slate-100 px-2 py-1 rounded text-slate-500">
+                        {selectedVideos.size} / {videoChunks.length}
+                      </span>
+                    </h4>
+                    <div className="space-y-2">
+                      {videoChunks.map((video, i) => (
+                        <label
+                          key={i}
+                          className={`flex items-start gap-3 p-3 rounded-lg border-2 cursor-pointer transition-all ${selectedVideos.has(i)
+                              ? 'border-rose-200 bg-rose-50'
+                              : 'border-slate-100 bg-slate-50 opacity-60'
+                            }`}
+                        >
+                          <input
+                            type="checkbox"
+                            checked={selectedVideos.has(i)}
+                            onChange={() => toggleVideo(i)}
+                            className="mt-1 w-4 h-4 text-rose-600 rounded border-slate-300 focus:ring-rose-500"
+                          />
+                          <div className="flex-1">
+                            <div className="font-semibold text-sm text-slate-800 line-clamp-1">{video.title}</div>
+                            <div className="text-xs text-slate-500 mt-1 line-clamp-2">{video.summary}</div>
+                          </div>
+                        </label>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
 
-            <div className="px-6 pb-6 flex gap-3">
+            <div className="p-6 border-t border-slate-100 bg-slate-50 rounded-b-2xl flex gap-3 shrink-0">
               <button
                 onClick={() => {
                   setShowEmailModal(false);
                   setEmail("");
                 }}
-                className="flex-1 px-4 py-3 border-2 border-slate-200 text-slate-700 rounded-lg font-medium hover:bg-slate-50 transition-all"
+                className="flex-1 px-4 py-3 border-2 border-slate-200 text-slate-700 rounded-lg font-medium hover:bg-slate-100 transition-all"
               >
                 Cancel
               </button>
               <button
                 onClick={handleEmailSend}
-                className="flex-1 px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg font-medium shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all"
+                disabled={!email}
+                className="flex-[2] px-4 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg font-medium shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
               >
-                Send Report
+                Send Verified Report
               </button>
             </div>
           </div>
@@ -693,7 +881,7 @@ function App() {
                 </svg>
               </button>
             </div>
-            
+
             <div className="p-6">
               <label className="block text-sm font-semibold text-slate-700 mb-2">
                 Your Feedback

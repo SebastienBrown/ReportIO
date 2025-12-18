@@ -3,7 +3,6 @@ from langchain.schema import SystemMessage, HumanMessage
 import re
 from typing import Dict
 from urllib.parse import urlparse
-import re
 
 
 def generate_answer_from_context(query: str, top_urls:list[str], retrieved_chunks: list[dict[str,str]]) -> str:
@@ -108,7 +107,9 @@ def generate_answer_from_context(query: str, top_urls:list[str], retrieved_chunk
 
     "Example citation style:"
     "Green hydrogen is produced via electrolysis using renewable power [1]."
-    "This is how all sources should be cited in the final output."""
+    "This is how all sources should be cited in the final output.
+    
+    Emsure all markdown formatting is correct before returning."""
 
 
     user_prompt = f"Context:\n{context}\n\nQuestion: {query}"
