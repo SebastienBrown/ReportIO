@@ -120,3 +120,4 @@ youtube-transcript-api==1.1.1
 yt-dlp==2025.6.30
 zipp==3.23.0
 zstandard==0.23.0
+fpdf2==2.8.5

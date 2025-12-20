@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { jsPDF } from "jspdf";
 
 function App() {
   const [query, setQuery] = useState("");
@@ -31,243 +30,6 @@ function App() {
     setTimeout(() => setToast(null), 4000);
   };
 
-  const generatePDFBlob = (query, answer, topSnippets, videoChunks) => {
-    try {
-      const doc = new jsPDF();
-      let y = 20;
-      const pageHeight = doc.internal.pageSize.height;
-      const margin = 15;
-      const maxWidth = 180;
-      const lineHeight = 6;
-
-      const checkNewPage = (linesNeeded = 1) => {
-        if (y + (linesNeeded * lineHeight) > pageHeight - 20) {
-          doc.addPage();
-          y = 20;
-        }
-      };
-
-      // Title
-      doc.setFontSize(18);
-      doc.setFont(undefined, 'bold');
-      doc.text('Research Report', margin, y);
-      y += 12;
-
-      // Date
-      doc.setFontSize(9);
-      doc.setFont(undefined, 'normal');
-      doc.setTextColor(100);
-      doc.text(`Generated: ${new Date().toLocaleString()}`, margin, y);
-      y += 15;
-
-      doc.setTextColor(0);
-
-      // Query Section
-      checkNewPage(3);
-      doc.setFontSize(14);
-      doc.setFont(undefined, 'bold');
-      doc.text('Query', margin, y);
-      y += 8;
-
-      doc.setFontSize(11);
-      doc.setFont(undefined, 'normal');
-      const queryText = query || 'No query provided';
-      const queryLines = doc.splitTextToSize(queryText, maxWidth);
-
-      checkNewPage(queryLines.length);
-      queryLines.forEach(line => {
-        doc.text(line, margin, y);
-        y += lineHeight;
-      });
-      y += 8;
-
-      // Answer Section
-      if (answer) {
-        checkNewPage(3);
-        doc.setFontSize(14);
-        doc.setFont(undefined, 'bold');
-        doc.text('Answer', margin, y);
-        y += 8;
-
-        doc.setFontSize(11);
-        doc.setFont(undefined, 'normal');
-
-        const cleanAnswer = answer
-          .replace(/\*\*(.*?)\*\*/g, '$1')
-          .replace(/\*(.*?)\*/g, '$1')
-          .replace(/\[(.*?)\]\(.*?\)/g, '$1')
-          .replace(/#{1,6}\s/g, '')
-          .trim();
-
-        const answerLines = doc.splitTextToSize(cleanAnswer, maxWidth);
-
-        answerLines.forEach(line => {
-          checkNewPage();
-          doc.text(line, margin, y);
-          y += lineHeight;
-        });
-        y += 12;
-      }
-
-      // Sources Section
-      if (topSnippets && topSnippets.length > 0) {
-        checkNewPage(3);
-        doc.setFontSize(14);
-        doc.setFont(undefined, 'bold');
-        doc.text('Sources', margin, y);
-        y += 10;
-
-        topSnippets.forEach((snippet, i) => {
-          checkNewPage(2);
-          doc.setFontSize(12);
-          doc.setFont(undefined, 'bold');
-          doc.text(`${i + 1}.`, margin, y);
-          y += 7;
-
-          doc.setFontSize(10);
-          doc.setFont(undefined, 'bold');
-          const title = snippet.title || `Source ${i + 1}`;
-          const titleLines = doc.splitTextToSize(title, maxWidth - 5);
-
-          titleLines.forEach(line => {
-            checkNewPage();
-            doc.text(line, margin + 5, y);
-            y += lineHeight;
-          });
-
-          if (snippet.snippet) {
-            doc.setFont(undefined, 'normal');
-            const contentLines = doc.splitTextToSize(snippet.snippet, maxWidth - 5);
-
-            contentLines.forEach(line => {
-              checkNewPage();
-              doc.text(line, margin + 5, y);
-              y += lineHeight;
-            });
-          }
-
-          if (snippet.url) {
-            doc.setTextColor(50);
-            doc.setFontSize(9);
-            const urlLines = doc.splitTextToSize(snippet.url, maxWidth - 5);
-
-            urlLines.forEach(line => {
-              checkNewPage();
-              doc.text(line, margin + 5, y);
-              y += lineHeight;
-            });
-            doc.setTextColor(0);
-          }
-
-          y += 8;
-        });
-      }
-
-      // Video Insights Section
-      if (videoChunks && videoChunks.length > 0) {
-        checkNewPage(3);
-        doc.setFontSize(14);
-        doc.setFont(undefined, 'bold');
-        doc.text('Video Insights', margin, y);
-        y += 10;
-
-        videoChunks.forEach((video, i) => {
-          checkNewPage(2);
-          doc.setFontSize(12);
-          doc.setFont(undefined, 'bold');
-          doc.text(`${i + 1}.`, margin, y);
-          y += 7;
-
-          // Video title
-          doc.setFontSize(10);
-          doc.setFont(undefined, 'bold');
-          const title = video.title || `Video ${i + 1}`;
-          const titleLines = doc.splitTextToSize(title, maxWidth - 5);
-
-          titleLines.forEach(line => {
-            checkNewPage();
-            doc.text(line, margin + 5, y);
-            y += lineHeight;
-          });
-
-          // Video summary
-          if (video.summary) {
-            doc.setFont(undefined, 'italic');
-            const summaryLines = doc.splitTextToSize(video.summary, maxWidth - 5);
-
-            summaryLines.forEach(line => {
-              checkNewPage();
-              doc.text(line, margin + 5, y);
-              y += lineHeight;
-            });
-            y += 2;
-          }
-
-          // Video URL
-          if (video.video_id) {
-            const videoUrl = `https://www.youtube.com/watch?v=${video.video_id}`;
-            doc.setTextColor(50);
-            doc.setFont(undefined, 'normal');
-            doc.setFontSize(9);
-            const urlLines = doc.splitTextToSize(videoUrl, maxWidth - 5);
-
-            urlLines.forEach(line => {
-              checkNewPage();
-              doc.text(line, margin + 5, y);
-              y += lineHeight;
-            });
-            doc.setTextColor(0);
-            y += 2;
-          }
-
-          // Key moments
-          if (video.moments && video.moments.length > 0) {
-            doc.setFontSize(9);
-            doc.setFont(undefined, 'bold');
-            checkNewPage();
-            doc.text('Key Moments:', margin + 5, y);
-            y += 6;
-
-            video.moments.forEach((moment) => {
-              const min = Math.floor(moment.start / 60);
-              const sec = moment.start % 60;
-              const timestamp = `${min}:${sec.toString().padStart(2, '0')}`;
-
-              doc.setFont(undefined, 'normal');
-              const momentText = `  • ${timestamp} - ${moment.summary}`;
-              const momentLines = doc.splitTextToSize(momentText, maxWidth - 5);
-
-              momentLines.forEach(line => {
-                checkNewPage();
-                doc.text(line, margin + 5, y);
-                y += lineHeight;
-              });
-            });
-          }
-
-          y += 8;
-        });
-      }
-
-      return doc.output("blob");
-    } catch (error) {
-      console.error('Error generating PDF:', error);
-      const doc = new jsPDF();
-      doc.setFontSize(12);
-      doc.text('Error generating detailed report', 10, 20);
-      doc.text(`Query: ${query || 'N/A'}`, 10, 40);
-      doc.text('Please try again or contact support.', 10, 60);
-      return doc.output("blob");
-    }
-  };
-
-  const blobToBase64 = (blob) =>
-    new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.onloadend = () => resolve(reader.result);
-      reader.onerror = reject;
-      reader.readAsDataURL(blob);
-    });
 
   const handleEmailSend = async () => {
     if (!email) {
@@ -280,15 +42,15 @@ function App() {
       const finalSnippets = topSnippets.filter((_, i) => selectedSnippets.has(i));
       const finalVideos = videoChunks.filter((_, i) => selectedVideos.has(i));
 
-      const pdfBlob = generatePDFBlob(query, answer, finalSnippets, finalVideos);
-      const pdfBase64 = await blobToBase64(pdfBlob);
-
       const res = await fetch("http://127.0.0.1:5000/api/send-pdf", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           email,
-          pdf_data: pdfBase64,
+          query,
+          answer,
+          snippets: finalSnippets,
+          videos: finalVideos,
           subject: "Your Research Report",
         }),
       });
@@ -780,8 +542,8 @@ function App() {
                         <label
                           key={i}
                           className={`flex items-start gap-3 p-3 rounded-lg border-2 cursor-pointer transition-all ${selectedSnippets.has(i)
-                              ? 'border-blue-200 bg-blue-50'
-                              : 'border-slate-100 bg-slate-50 opacity-60'
+                            ? 'border-blue-200 bg-blue-50'
+                            : 'border-slate-100 bg-slate-50 opacity-60'
                             }`}
                         >
                           <input
@@ -814,8 +576,8 @@ function App() {
                         <label
                           key={i}
                           className={`flex items-start gap-3 p-3 rounded-lg border-2 cursor-pointer transition-all ${selectedVideos.has(i)
-                              ? 'border-rose-200 bg-rose-50'
-                              : 'border-slate-100 bg-slate-50 opacity-60'
+                            ? 'border-rose-200 bg-rose-50'
+                            : 'border-slate-100 bg-slate-50 opacity-60'
                             }`}
                         >
                           <input

@@ -22,6 +22,7 @@ import requests
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from scripts.multimodal_orchestrator import run_multimodal_pipeline
+from pdf_utils import generate_pdf_from_data
 
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:5173"])
@@ -83,25 +84,36 @@ def send_pdf():
         print("in call")
         data = request.get_json()
         recipient_email = data.get('email')
-        pdf_data = data.get('pdf_data')  # Base64 encoded PDF
-        print("pdf data is ",pdf_data)
         subject = data.get('subject', 'Your PDF Export')
-        print("subject is ",subject)
         
-        if not recipient_email or not pdf_data:
-            return jsonify({'error': 'Email and PDF data are required'}), 400
+        pdf_data = data.get('pdf_data')  # Base64 encoded PDF (legacy/optional)
+        
+        if pdf_data:
+            # Decode base64 PDF data
+            pdf_bytes = base64.b64decode(pdf_data.split(',')[1]) if ',' in pdf_data else base64.b64decode(pdf_data)
+        else:
+            # Generate PDF from raw data
+            query = data.get('query')
+            answer = data.get('answer')
+            snippets = data.get('snippets', [])
+            videos = data.get('videos', [])
             
-        # Decode base64 PDF data
-        pdf_bytes = base64.b64decode(pdf_data.split(',')[1])  # Remove data:application/pdf;base64, prefix
+            if not query or not answer:
+                return jsonify({'error': 'Query and answer are required if pdf_data is not provided'}), 400
+            
+            pdf_bytes = generate_pdf_from_data(query, answer, snippets, videos)
         
+        if not recipient_email or not pdf_bytes:
+            return jsonify({'error': 'Email and PDF content are required'}), 400
+            
         # Send email with PDF attachment
         success = send_email_with_pdf(recipient_email, pdf_bytes, subject)
         
         if success:
-            print("pdf sent succesfully")
+            logger.info("PDF sent successfully")
             return jsonify({'message': 'PDF sent successfully!'})
         else:
-            print("pdf not send succesfully")
+            logger.error("Failed to send email")
             return jsonify({'error': 'Failed to send email'}), 500
             
     except Exception as e:
