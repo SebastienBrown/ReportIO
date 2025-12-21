@@ -25,6 +25,8 @@ if USE_SEB_SCRAPER_AND_CHUNKER:
     from scripts.pipelines.text_pipeline.seb.wrappers import load_and_chunk_content_seb as load_and_chunk_content
 else:
     from scripts.pipelines.text_pipeline.content_loader import load_and_chunk_content
+    
+STRIP_CRAWLED_TITLES = True # Toggle to remove [Title] from [Title](url) in crawled content
 
 
 
@@ -83,7 +85,7 @@ def run_orchestration_pipeline(query: str, num_results: int = 10, top_k: int = 5
 
             COLLECTION_NAME=str(uuid.uuid4())
             logger("[DEBUG] Step 4: Chunking content from URLs...")
-            chunks = load_and_chunk_content(top_urls,compositeQuery,COLLECTION_NAME)
+            chunks = load_and_chunk_content(top_urls,compositeQuery,COLLECTION_NAME, strip_titles=STRIP_CRAWLED_TITLES)
             logger(f"[DEBUG] Step 4 done → {len(chunks)} chunks loaded")
 
 

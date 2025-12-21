@@ -18,6 +18,36 @@ def embed_and_upsert_chunks(chunks: list[dict],COLLECTION_NAME:uuid.UUID, batch_
     """
 
     all_vectors = []
+    
+    # Calculate and print total token estimate before embedding
+    try:
+        import tiktoken
+        from collections import defaultdict
+        enc = tiktoken.get_encoding("cl100k_base") # standard for ada-002
+        
+        url_stats = defaultdict(lambda: {"tokens": 0, "chunks": 0})
+        total_tokens = 0
+        
+        for c in chunks:
+            tokens = len(enc.encode(c["text"]))
+            url = c.get("url", "Unknown Source")
+            url_stats[url]["tokens"] += tokens
+            url_stats[url]["chunks"] += 1
+            total_tokens += tokens
+
+        print(f"\n[DEBUG] PRE-EMBEDDING DIAGNOSTICS (Breakdown by Source):")
+        for url, stats in url_stats.items():
+            print(f"  - {url[:80]}{'...' if len(url) > 80 else ''}")
+            print(f"    -> {stats['chunks']} chunks | {stats['tokens']} tokens")
+            
+        print(f"\n[DEBUG] TOTAL SUMMARY:")
+        print(f"  - Total Chunks: {len(chunks)}")
+        print(f"  - Est. Total Tokens: {total_tokens}")
+        print(f"  - Est. Cost (ada-002): ${ (total_tokens / 1_000_000) * 0.10:.6f}") # Approx cost
+        print(f"  - TPM Demand: {total_tokens} tokens will be sent in { (len(chunks) + batch_size - 1) // batch_size } batches\n")
+    except Exception as te:
+        print(f"[DEBUG] Could not calculate token estimate: {te}")
+
     for i in range(0, len(chunks), batch_size):
         batch = chunks[i:i + batch_size]
         texts = [chunk["text"] for chunk in batch]
